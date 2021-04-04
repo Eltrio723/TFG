@@ -3,7 +3,27 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - lb_bird
+  - lb_groundTarget
+  - IndicacionesArray
+  - Indicacion
+  - TriggerSpawnArray
+  - Trigger
+  - lb_perchTarget
+  - SpawnMesa
+  - CanvasPantalla
+  - IndicacionPosition
+  - projectile
+  - FxTemporaire
+  - Controller
+  - AscensorPrincipal
+  - ImagenPantalla
+  - FuenteSonido
+  - NuevoAscensor
+  - ObjetoAsociacion
+  - TriggerManager
+  - Pointer
   layers:
   - Default
   - TransparentFX

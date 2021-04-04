@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: d551ea2ef3aff6f4eb244bd1eedb6e25
+timeCreated: 1455881278
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CargoPlane_Body
+    100004: CargoPlane_CargoDoor
+    100006: CargoPlane_FrontLandingGear
+    100008: CargoPlane_FrontWheels
+    100010: CargoPlane_FrontWheels 1
+    100012: Rear_LandingGear_00
+    100014: Rear_LandingGear_01
+    100016: Rear_LandingGear_02
+    100018: Rear_LandingGear_03
+    100020: Rear_LandingGear_04
+    100022: Rear_LandingGear_05
+    100024: Rear_LandingGear_06
+    100026: Rear_LandingGear_07
+    100028: Rear_Wheels_00
+    100030: Rear_Wheels_01
+    100032: Rear_Wheels_02
+    100034: Rear_Wheels_03
+    100036: Rear_Wheels_04
+    100038: Rear_Wheels_05
+    100040: Rear_Wheels_06
+    100042: Rear_Wheels_07
+    100044: Rear_Wheels_08
+    100046: Rear_Wheels_09
+    100048: Rear_Wheels_10
+    100050: Rear_Wheels_11
+    100052: Rear_Wheels_12
+    100054: Rear_Wheels_13
+    100056: Rear_Wheels_14
+    100058: Rear_Wheels_15
+    400000: //RootNode
+    400002: CargoPlane_Body
+    400004: CargoPlane_CargoDoor
+    400006: CargoPlane_FrontLandingGear
+    400008: CargoPlane_FrontWheels
+    400010: CargoPlane_FrontWheels 1
+    400012: Rear_LandingGear_00
+    400014: Rear_LandingGear_01
+    400016: Rear_LandingGear_02
+    400018: Rear_LandingGear_03
+    400020: Rear_LandingGear_04
+    400022: Rear_LandingGear_05
+    400024: Rear_LandingGear_06
+    400026: Rear_LandingGear_07
+    400028: Rear_Wheels_00
+    400030: Rear_Wheels_01
+    400032: Rear_Wheels_02
+    400034: Rear_Wheels_03
+    400036: Rear_Wheels_04
+    400038: Rear_Wheels_05
+    400040: Rear_Wheels_06
+    400042: Rear_Wheels_07
+    400044: Rear_Wheels_08
+    400046: Rear_Wheels_09
+    400048: Rear_Wheels_10
+    400050: Rear_Wheels_11
+    400052: Rear_Wheels_12
+    400054: Rear_Wheels_13
+    400056: Rear_Wheels_14
+    400058: Rear_Wheels_15
+    2300000: CargoPlane_Body
+    2300002: CargoPlane_CargoDoor
+    2300004: CargoPlane_FrontLandingGear
+    2300006: CargoPlane_FrontWheels
+    2300008: CargoPlane_FrontWheels 1
+    2300010: Rear_LandingGear_00
+    2300012: Rear_LandingGear_01
+    2300014: Rear_LandingGear_02
+    2300016: Rear_LandingGear_03
+    2300018: Rear_LandingGear_04
+    2300020: Rear_LandingGear_05
+    2300022: Rear_LandingGear_06
+    2300024: Rear_LandingGear_07
+    2300026: Rear_Wheels_00
+    2300028: Rear_Wheels_01
+    2300030: Rear_Wheels_02
+    2300032: Rear_Wheels_03
+    2300034: Rear_Wheels_04
+    2300036: Rear_Wheels_05
+    2300038: Rear_Wheels_06
+    2300040: Rear_Wheels_07
+    2300042: Rear_Wheels_08
+    2300044: Rear_Wheels_09
+    2300046: Rear_Wheels_10
+    2300048: Rear_Wheels_11
+    2300050: Rear_Wheels_12
+    2300052: Rear_Wheels_13
+    2300054: Rear_Wheels_14
+    2300056: Rear_Wheels_15
+    3300000: CargoPlane_Body
+    3300002: CargoPlane_CargoDoor
+    3300004: CargoPlane_FrontLandingGear
+    3300006: CargoPlane_FrontWheels
+    3300008: CargoPlane_FrontWheels 1
+    3300010: Rear_LandingGear_00
+    3300012: Rear_LandingGear_01
+    3300014: Rear_LandingGear_02
+    3300016: Rear_LandingGear_03
+    3300018: Rear_LandingGear_04
+    3300020: Rear_LandingGear_05
+    3300022: Rear_LandingGear_06
+    3300024: Rear_LandingGear_07
+    3300026: Rear_Wheels_00
+    3300028: Rear_Wheels_01
+    3300030: Rear_Wheels_02
+    3300032: Rear_Wheels_03
+    3300034: Rear_Wheels_04
+    3300036: Rear_Wheels_05
+    3300038: Rear_Wheels_06
+    3300040: Rear_Wheels_07
+    3300042: Rear_Wheels_08
+    3300044: Rear_Wheels_09
+    3300046: Rear_Wheels_10
+    3300048: Rear_Wheels_11
+    3300050: Rear_Wheels_12
+    3300052: Rear_Wheels_13
+    3300054: Rear_Wheels_14
+    3300056: Rear_Wheels_15
+    4300000: CargoPlane_FrontLandingGear
+    4300002: Rear_Wheels_03
+    4300004: Rear_LandingGear_02
+    4300006: CargoPlane_CargoDoor
+    4300008: CargoPlane_FrontWheels
+    4300010: CargoPlane_FrontWheels
+    4300012: Rear_Wheels_04
+    4300014: Rear_LandingGear_06
+    4300016: Rear_Wheels_09
+    4300018: Rear_LandingGear_03
+    4300020: Rear_Wheels_13
+    4300022: Rear_Wheels_02
+    4300024: Rear_LandingGear_00
+    4300026: Rear_Wheels_05
+    4300028: Rear_Wheels_08
+    4300030: Rear_LandingGear_07
+    4300032: Rear_Wheels_00
+    4300034: Rear_Wheels_01
+    4300036: Rear_LandingGear_05
+    4300038: Rear_Wheels_07
+    4300040: Rear_Wheels_06
+    4300042: Rear_Wheels_10
+    4300044: Rear_Wheels_11
+    4300046: Rear_Wheels_12
+    4300048: Rear_LandingGear_01
+    4300050: Rear_Wheels_14
+    4300052: Rear_LandingGear_04
+    4300054: Rear_Wheels_15
+    4300056: CargoPlane_Body
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
