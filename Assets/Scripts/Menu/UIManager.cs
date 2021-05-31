@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
-    public GameObject pointer;
+    //public GameObject pointer;
 
     private GameManager gm;
     private GameObject mp;
@@ -39,7 +39,7 @@ public class UIManager : MonoBehaviour
     public void CargarBotonesPruebas(List<int> ids)
     {
         transform.GetChild(1).gameObject.SetActive(true);
-        pointer.SetActive(true);
+        //pointer.SetActive(true);
         GameObject panel = GameObject.Find("PanelBotonesPruebas");
         panel.transform.GetChild(ids[0]-1).gameObject.SetActive(true);
         panel.transform.GetChild(ids[1]-1).gameObject.SetActive(true);
@@ -47,7 +47,7 @@ public class UIManager : MonoBehaviour
 
     private void DesactivarSeleccion()
     {
-        pointer.SetActive(false);
+        //pointer.SetActive(false);
         GameObject panel = GameObject.Find("PanelBotonesPruebas");
         for (int i = 0; i < panel.transform.childCount; i++)
         {

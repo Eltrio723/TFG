@@ -10,26 +10,28 @@ public class ButtonControl : MonoBehaviour
 
     private GameManager gm;
     private GameObject mp;
+    private ButtonManager bm;
 
-    private bool presionado;
+    //private bool presionado;
 
     void Start()
     {
         gm = FindObjectOfType<GameManager>();
         mp = GameObject.Find("ManagerPruebas");
-        presionado = false;
+        bm = FindObjectOfType<ButtonManager>();
     }
 
     public void PresionarBoton()
     {
-        if (presionado)
+        
+        if (!bm.PuedePulsar())
         {
             return;
         }
+        bm.BotonPulsado();
 
-        StartCoroutine("VolverAPresionar");
 
-        
+        Debug.Log("Botón pulsado");
 
         switch (option)
         {
@@ -131,12 +133,6 @@ public class ButtonControl : MonoBehaviour
         }
     }
 
-    IEnumerator VolverAPresionar()
-    {
-        presionado = true;
-        yield return new WaitForSeconds(1);
-        presionado = false;
-    }
 
 
     void TerminarPrueba()
