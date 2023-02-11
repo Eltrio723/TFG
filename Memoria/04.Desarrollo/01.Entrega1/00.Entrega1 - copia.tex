@@ -1,0 +1,208 @@
+\section{Entrega 1}
+
+\subsection{Objetivo}
+
+El objetivo de esta entrega es tener un entorno de realidad virtual con el que el jugador pueda interactuar usando avatares que representen sus manos. El usuario deberá poder coger, soltar y lanzar objetos, así como intercambiar un objeto ya sujeto. El jugador debe tener visión libre de 360º, pero no es necesario que pueda moverse.
+
+
+\subsection{Iteración 1}
+
+Se busca crear un entorno funcional que sea capaz de ejecutarse de manera correcta en el dispositivo de VR de desarrollo (HTC Vive).
+
+Se comienza creando un nuevo proyecto en Unity 2019.2.16f1. Una vez el proyecto se ha generado correctamente, es necesario importar los paquetes y bibliotecas necesarias para el proyecto:
+
+
+\begin{itemize}
+	\item{SteamVR Unity Plugin: El objetivo de este plugin es manejar la interacción entre Unity y SteamVR. SteamVR es una API que incluye soporte para varios dispositivos de RV y proporciona varias funcionalidades como la gestión de los botones en los mandos y la representación de estos en el mundo virtual.}
+
+	\item{VRTK Prefabs: Es una colección de patrones para la computación espacial en realidad virtual.}
+	
+	\item{Zinnia: Se trata de un conjunto de patrones de diseño con el objetivo de resolver problemas comunes en la RV.}
+
+\end{itemize}
+
+El primer paquete en ser integrado es SteamVR Unity Plugin, para ello hay que acudir a su repositorio en GitHub (\url{https://github.com/ValveSoftware/steamvr\_unity\_plugin}) y descargar la versión más reciente (2.6.0b1). Una vez descargado el paquete, se importa a Unity mediante el menú dedicado a ello (figura \ref{fig:SteamVRimport}). La integración se realiza correctamente, por lo que se pasa a la siguiente biblioteca.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.5\textwidth]{04.Desarrollo/01.Entrega1/00.Figuras/01.steam_vr_import.png}
+    \caption{Importación del paquete SteamVR Unity Plugin 2.6.0b1.}
+    \label{fig:SteamVRimport}
+\end{figure}
+
+
+Para importar VRTK Prefabs (1.1.11) basta con seguir la documentación disponible en su repositorio de GitHub (\url{https://github.com/ExtendRealityLtd/VRTK.Prefabs}). Solo es necesario modificar el archivo manifest.json del proyecto como se indica en la figura \ref{fig:vrtkPackage}. Este archivo se encarga de gestionar las dependencias de paquetes.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.7\textwidth]{04.Desarrollo/01.Entrega1/00.Figuras/02.vrtk_package.png}
+    \caption{Líneas a añadir en manifest.json, siendo X.Y.Z la versión deseada.}
+    \label{fig:vrtkPackage}
+\end{figure}
+
+Integrar Zinnia (1.16.0) en el proyecto se realiza de la misma forma que VRTK Prefabs, modificando el archivo manifest.json según las instrucciones de su repositorio (https://github.com/ExtendRealityLtd/Zinnia.Unity).
+
+En esta prueba se han utilizado las versiones más recientes de cada uno de los paquetes, pero tras integrar VRTK Prefabs comienzan a aparecer errores de compatibilidad con SteamVR (figura \ref{fig:erroresVrtk}) y resulta imposible continuar.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=1\textwidth]{04.Desarrollo/01.Entrega1/00.Figuras/03.errores_vrtk.png}
+    \caption{Errores al importar VRTK Prefabs.}
+    \label{fig:erroresVrtk}
+\end{figure}
+
+Tras varias pruebas de integración, se han encontrado las versiones de cada paquete que no interfieren entre ellos. Por tanto, en el desarrollo de este proyecto no se van a utilizar las versiones más recientes hasta la fecha de cada uno (mostradas anteriormente), si no que se van a utilizar las siguientes versiones:
+
+
+\begin{itemize}
+	\item{SteamVR Unity Plugin 2.2.0}
+
+	\item{VRTK Prefabs 1.1.5}
+	
+	\item{Zinnia 1.8.0}
+
+\end{itemize}
+
+Por último, es necesario generar los datos sobre las entradas de SteamVR, para ello se abre la ventana SteamVR Input (figura \ref{fig:inputCompile}) y se pulsa el botón Save and generate.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.8\textwidth]{04.Desarrollo/01.Entrega1/00.Figuras/04.input_compile.png}
+    \caption{Ventana SteamVR Input.}
+    \label{fig:inputCompile}
+\end{figure}
+
+Una vez todos los paquetes se han importado de manera correcta, se crea una escena en el proyecto de Unity y en ella se añade un prefab proporcionado por el plugin de SteamVR que contiene todo lo necesario para funcionar con el dispositivo de desarrollo.
+
+
+
+\subsection{Iteración 2}
+
+Es necesario incorporar un avatar que represente las manos del jugador, así como añadir las posibles interacciones que este pueda realizar: coger, soltar, lanzar y cambiar de mano.
+
+El plugin de SteamVR ya proporciona un avatar para las manos del jugador, así como para los mandos (figura \ref{fig:manos}), por lo que de momento se utilizarán esos recursos. 
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.7\textwidth]{04.Desarrollo/01.Entrega1/00.Figuras/05.manos.png}
+    \caption{Avatar por defecto de SteamVR.}
+    \label{fig:manos}
+\end{figure}
+
+
+La mayoría de las interacciones estarán gestionadas por VRTK, por lo que a continuación se va a crear la estructura que enlaza el objeto del jugador de SteamVR con los sistemas de VRTK. Esto permite una mayor diversidad de interacciones y compatibilidad con otros dispositivos de realidad virtual que no están soportados por SteamVR mediante la capa de abstracción de VRTK.
+
+El primer paso es hacer que VRTK gestione el movimiento de la cámara y los mandos, para ello al objeto ‘Player’ de la escena se le añade y enlaza el script de VRTK ‘Linked Alias Association Collection’ (figura \ref{fig:linkedAliasAssociationCollection}). Este script es el encargado de recoger los datos de los mandos y el visor de RV y pasárselos a VRTK.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.6\textwidth]{04.Desarrollo/01.Entrega1/00.Figuras/06.linked_alias_collection.png}
+    \caption{Script ‘Linked Alias Association Collection’ enlazado con los objetos que representan las manos y la cabeza.}
+    \label{fig:linkedAliasAssociationCollection}
+\end{figure}
+
+A continuación, se crea un sencillo script (figura \ref{fig:scriptVelocities}) cuyo objetivo es obtener la velocidad de un mando de SteamVR y devolverla en un formato adecuado para VRTK. Este script se añade a los objetos que representan las manos del jugador y se enlazan con el script de la sección anterior.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.6\textwidth]{04.Desarrollo/01.Entrega1/00.Figuras/07.script_velocities.png}
+    \caption{Script para obtener las velocidades de un objeto de SteamVR.}
+    \label{fig:scriptVelocities}
+\end{figure}
+
+Por último, se crea un objeto que sea capaz de recoger y utilizar los datos que el objeto ‘Player’ está enviando. Para ello se utiliza un prefab de VRTK: TrackedAlias. Este objeto puede recibir información de varios ‘Player’ provenientes de distintos paquetes de RV, en este caso, de SteamVR. Véase figura \ref{fig:trackedAlias}.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.6\textwidth]{04.Desarrollo/01.Entrega1/00.Figuras/08.tracked_alias.png}
+    \caption{TrackedAlias enlazado con el objeto Player.}
+    \label{fig:trackedAlias}
+\end{figure}
+
+
+El segundo paso consiste en hacer que las acciones del jugados en los mandos (pulsaciones de botones) sean trasladadas a VRTK, para ello se utiliza el gestor de acciones nativo de Unity junto con un nuevo script (figura \ref{fig:scriptInput}) que recoge una acción de SteamVR y activa o desactiva una acción de Unity.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.6\textwidth]{04.Desarrollo/01.Entrega1/00.Figuras/09.steam_input_map.png}
+    \caption{Script para el manejo de acciones.}
+    \label{fig:scriptInput}
+\end{figure}
+
+Este nuevo script debe estar asociado a un objeto del juego, por lo que hay que crear dos GameObject vacíos que contendrán los manejadores con el script (figura \ref{fig:handlers}), los cuales gestionarán las acciones generadas por cada uno de los dos mandos.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.8\textwidth]{04.Desarrollo/01.Entrega1/00.Figuras/10.handlers.png}
+    \caption{Manejadores para la acción de agarrar, activada por el gatillo del mando.}
+    \label{fig:handlers}
+\end{figure}
+
+El último paso es añadir el objeto que proporciona VRTK para gestionar las interacciones de los mandos cuando utilizan las acciones manejadas en el paso anterior. Para ello se utiliza el prefab ‘Interactor’ y se anida dentro del objeto TrackedAlias, en concreto dentro de los alias de cada mando. Véase figura \ref{fig:interactorAnidado}.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.5\textwidth]{04.Desarrollo/01.Entrega1/00.Figuras/11.interactor_anidado.png}
+    \caption{Interactors anidados en el objeto TrackedAlias.}
+    \label{fig:interactorAnidado}
+\end{figure}
+
+Este ‘Interactor’ tiene un script llamado ‘Interactor Facade’ con un parámetro que permite definir cual será la acción de agarrar un objeto. Así que se utiliza el manejador creado anteriormente (figura \ref{fig:interactor}). 
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.8\textwidth]{04.Desarrollo/01.Entrega1/00.Figuras/12.interactor.png}
+    \caption{Interactor Facade con el manejador de acción definido anteriormente.}
+    \label{fig:interactor}
+\end{figure}
+
+Finalmente es necesario añadir algún objeto con el que el jugador pueda interactuar. Para ello basta con crear un objeto 3D en la escena y añadirle los siguientes componentes (figura \ref{fig:interactable}):
+
+
+
+\begin{itemize}
+	\item{RigidBody: permite que el objeto actúe regido por las físicas del juego.}
+
+	\item{Interactable: Script que permite que un objeto sea interactivo en RV.}
+	
+	\item{Velocity Estimator: Puede estimar la velocidad de un objeto cuando el jugador lo suelta.}
+	
+	\item{Throwable: Hace que el jugador pueda lanzar el objeto.}
+	
+	\item{Steam VR Skeleton Poser: Permite definir la pose que adoptará la mano del jugador al interactuar con el objeto.}
+
+\end{itemize}
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.9\textwidth]{04.Desarrollo/01.Entrega1/00.Figuras/13.bola.png}
+    \caption{Objeto interactivo con los componentes necesarios para la RV.}
+    \label{fig:interactable}
+\end{figure}
+
+Con estos pasos terminados, el proyecto cuenta ya con un entorno en realidad virtual con todas las funcionalidades de SteamVR y VRTK. En este entorno el jugador puede coger objetos con sus manos, soltarlos, lanzarlos o cambiarlos de mano fácilmente (figura \ref{fig:esferaCogida}).
+
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.9\textwidth]{04.Desarrollo/01.Entrega1/00.Figuras/14.manos_2.png}
+    \caption{Avatar cogiendo una esfera interactiva.}
+    \label{fig:esferaCogida}
+\end{figure}
+
+
+
+
+\subsection{Conclusiones de la entrega}
+
+
+
+
+
+
+
+
+
+\todo[inline, size=\tiny]{Conclusiones generales de la entrega 1}
+
+

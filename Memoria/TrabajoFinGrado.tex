@@ -1,0 +1,127 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Documento LaTeX 											%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Título:	Plantilla de TFG/TFM
+% Autor:  Ignacio Moreno Doblas
+% Fecha:  2014-02-01, actualizado 2019-11-11
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Modo:					PDFLaTeX.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Preámbulo del documento.
+%-----------------------------------------------------------------%
+% Clase de documento: libro
+\documentclass[12pt,a4paper]{book} % article, report, book.
+
+% Preámbulo: paquetes, comandos, entornos, estilos y título de página.
+\input{01.Estructura/01.Configuracion/01.Paquetes.tex}
+\input{01.Estructura/01.Configuracion/02.Comandos.tex}
+\input{01.Estructura/01.Configuracion/03.Entornos.tex}
+\input{01.Estructura/01.Configuracion/04.EstiloPagina.tex}
+
+% Document body.
+%-------------------------------------------------------------------%
+\begin{document}
+
+% Formato de documento hasta el capítulo 1 (sin incluirlo)
+\frontmatter
+
+
+% ToDo List.
+\input{00.Auxiliar/03.ToDo/01.ToDoList.tex}
+
+% Los tres ficheros siguientes simulan el formato de las páginas
+% iniciales que también puedes descargar en word de la web de la ETSITT.
+%
+% Portada.
+\input{01.Estructura/02.Portada/01.Portada.tex}
+
+% Resumen del TFG en español
+\input{01.Estructura/03.Resumenes/01.ResumenTfgEsp.tex}
+
+% Resumen del TFG en inglés
+\input{01.Estructura/03.Resumenes/02.ResumenTfgEng.tex}
+
+% Autorización alumno.
+\input{01.Estructura/04.Autorizaciones/01.AutorizacionAlumno.tex}
+
+% Autorización tutores.
+\input{01.Estructura/04.Autorizaciones/02.AutorizacionTutores.tex}
+
+% Los dos siguientes archivos son opcionales
+% Coméntalos si no los quieres usar
+
+% Dedicatoria.
+\input{01.Estructura/05.Dedicatorias/01.Dedicatoria.tex}
+
+% Agradecimientos.
+\input{01.Estructura/05.Dedicatorias/02.Agradecimientos.tex}
+
+% Acrónimos
+\input{01.Estructura/06.Contenido/01.Acronimos.tex}
+
+% Tabla de contenidos, figuras y tablas.
+\input{01.Estructura/06.Contenido/02.TablaContenidos.tex}
+\input{01.Estructura/06.Contenido/03.TablaFiguras.tex}
+%\input{01.Estructura/06.Contenido/04.TablaTablas.tex}
+
+% Formato de documento durante los capítulos.
+\mainmatter
+
+% Prólogo. Opcional
+\input{01.Estructura/07.Prologo/01.Prologo.tex}
+
+% Parte I. Introducción
+\part{Introducción}
+
+% Capítulo 01. Introducción y objetivo
+\input{02.Introduccion/01.Introduccion.tex}
+
+\part{Estudio del problema}
+
+% Estado del arte.
+\input{03.EstudioProblema/01.EstadoArte/01.EstadoArte.tex}
+
+% Análisis inicial.
+\input{03.EstudioProblema/02.AnalisisInicial/01.AnalisisInicial.tex}
+
+% Tecnología a usar.
+\input{03.EstudioProblema/03.TecnologiaAUsar/01.TecnologiaAUsar.tex}
+
+% Metodología a utilizar.
+\input{03.EstudioProblema/04.MetodologiaAUsar/01.MetodologiaAUsar.tex}
+
+% Plan de entregas.
+\input{03.EstudioProblema/05.PlanEntregas/01.PlanEntregas.tex}
+
+\part{Desarrollo}
+\input{04.Desarrollo/00.Desarrollo.tex}
+
+\part{Conclusiones}
+\input{05.Conclusiones/01.Conclusiones.tex}
+
+\part{Bibliografía}
+\input{06.Bibliografia/01.Bibliografia.tex}
+
+% Anexos
+\part{Apéndices}
+
+\appendix
+
+\input{07.Apendices/01.GDD.tex}
+
+%\input{D2.AppendixB.tex}
+
+%\input{D3.AppendixC.tex}
+
+% Formato de documento en la parte final.
+\backmatter
+%Hace que los capítulos y títulos nivel inferior no aparezcan numerados (lo que es ideal para conclusiones o notas finales).
+
+% Bibliografía
+%\input{E1.Bibliografia.tex}
+
+% Índice alfabético%
+\input{07.Apendices/02.Indice.tex}
+
+\end{document}

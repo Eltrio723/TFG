@@ -1,0 +1,61 @@
+%%% Tipos de portada %%%
+%	1. \maketitle
+%	2. titlepage
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+%	1. \maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%
+%\maketitle
+\thispagestyle{empty}
+
+%	2. titlepage
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+ 
+ 
+\newlength{\centeroffset}
+\setlength{\centeroffset}{-0.5\oddsidemargin}
+\addtolength{\centeroffset}{0.5\evensidemargin}
+\thispagestyle{empty}
+
+\noindent\hspace*{\centeroffset}\begin{minipage}{\textwidth}
+
+\centering
+\includegraphics[width=0.9\textwidth]{01.Estructura/02.Portada/00.Figuras/01.logo_ugr.jpg}\\[1.4cm]
+
+\textsc{ \Large TRABAJO FIN DE GRADO\\[0.2cm]}
+\textsc{ INGENIERÍA INFORMÁTICA}\\[1cm]
+% Upper part of the page
+% 
+% Title
+{\Huge\bfseries \tfgtitlename\\
+}
+\noindent\rule[-1ex]{\textwidth}{3pt}\\[3.5ex]
+{\large\bfseries \tfgsubtitlename}
+\end{minipage}
+
+\vspace{2cm}
+\noindent\hspace*{\centeroffset}\begin{minipage}{\textwidth}
+\centering
+
+
+
+\textbf{Autor}\\ \tfgauthorname \\[2.5ex]
+\textbf{Directores}\\
+{\tfgtutornameA\\
+\tfgtutornameB}\\[1cm]
+\includegraphics[width=0.3\textwidth]{01.Estructura/02.Portada/00.Figuras/02.etsiit_logo.png}\\[0.1cm]
+\textsc{Escuela Técnica Superior de Ingenierías Informática y de Telecomunicación}\\
+\textsc{---}\\
+Granada, \tfgmes{} de \tfganno
+\end{minipage}
+
+%\addtolength{\textwidth}{\centeroffset}
+%\vspace{\stretch{2}}
+\end{titlepage}
+
+
+
+
+
+

@@ -69,3 +69,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Pp]royecto/[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Pp]royecto/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+
+#Memoria LaTeX
+
+/Memoria/00.Auxiliar/02.Build/*
+/Memoria/00.Auxiliar/01.Output/*
