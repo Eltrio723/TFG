@@ -8,6 +8,23 @@
 %	Modo:					PDFLaTeX.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% IMPORTANTE. PARA MANTENER LA ESTRUCTURA DE CARPETAS DEL PROYECTO
+% Configurar TeXstudio -> Órdenes
+% PdfLaTex -> pdflatex.exe -synctex=1 -interaction=nonstopmode --output-directory=00.Auxiliar/01.Output --aux-directory=00.Auxiliar/02.Build %.tex
+% BibTex -> bibtex.exe 00.Auxiliar/02.Build/% -include-directory=00.Auxiliar/02.Build
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
 % Preámbulo del documento.
 %-----------------------------------------------------------------%
 % Clase de documento: libro
@@ -55,7 +72,7 @@
 \input{01.Estructura/05.Dedicatorias/01.Dedicatoria.tex}
 
 % Agradecimientos.
-\input{01.Estructura/05.Dedicatorias/02.Agradecimientos.tex}
+%\input{01.Estructura/05.Dedicatorias/02.Agradecimientos.tex}
 
 % Acrónimos
 \input{01.Estructura/06.Contenido/01.Acronimos.tex}
@@ -95,6 +112,7 @@
 \input{03.EstudioProblema/05.PlanEntregas/01.PlanEntregas.tex}
 
 \part{Desarrollo}
+\label{sec:desarrollo}
 \input{04.Desarrollo/00.Desarrollo.tex}
 
 \part{Conclusiones}
