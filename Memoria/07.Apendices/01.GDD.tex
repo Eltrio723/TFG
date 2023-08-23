@@ -15,9 +15,11 @@
 \chapterbegin{Game Desing Document}
 \label{sec:apendice:GDD}
 
-\todo[inline, size=\tiny]{Hacer el GDD}
+
 
 \minitoc
+
+Esta es una versión reducida y adaptada a este trabajo de un GDD. Un documento de este tipo a nivel comercial abarca un mayor ámbito y se sale del objetivo de este proyecto.
 
 \section{Información general}
 
@@ -105,101 +107,109 @@ Para evitar alargar este documento y repetir información, las mecánicas princi
 
 %Esta sección describe los elementos de juego , sus atributos y sus reglas de interacción . Todos los elementos que se crean o forman parte del juego deben ser detallados y descritos en esta sección. Un personaje del juego, su aspecto visual, sus características, los efectos de sonido, su personalidad pueden ser descrito en esta sección, así como temas, fondos y todo aquello que formará parte del Universo Virtual donde se desarrolla el videojuego. Añadir un concepto de arte de cada uno.
 
-\subsection{Elementos de juego: Categorías}
-Crear elementos de juego categorías. Esto puede ayudar a organizar mejor el diseño y para establecer una base sólida para la reutilización . Algunos ejemplos de elementos de juego categorías son: protagonista, enemigo , jefe, arma , mundo, escenario o la música. Por cada uno añadir su concepto de arte, su descripción, características, un poco de su historia y de su personalidad, así como habilidades o naturaleza que lo identifican, ya sean personaje o entorno del universo del juego. Añadir un concepto de arte de cada uno.
+%\subsection{Elementos de juego: Categorías}
+\subsection{Elementos de juego}
+Los elementos que aparecen en este juego pueden dividirse en las categorías de: Escenario, que engloba a todos los objetos pertenecientes al decorado cuya única función es ambientar (focos, grada, escenario). Los interactuables, son aquellos con los que el jugador interacciona directamente, especialmente para progresar en el flujo del juego (botones para elegir prueba, pantalla del escenario y toda la interfaz). Finalmente, los objetos de prueba, son aquellos elementos que aparecen y desaparecen para cada prueba concreta, sirven como elemento principal de la prueba a resolver (tocadiscos, avión, imágenes de memoria).
+%Crear elementos de juego categorías. Esto puede ayudar a organizar mejor el diseño y para establecer una base sólida para la reutilización . Algunos ejemplos de elementos de juego categorías son: protagonista, enemigo , jefe, arma , mundo, escenario o la música. Por cada uno añadir su concepto de arte, su descripción, características, un poco de su historia y de su personalidad, así como habilidades o naturaleza que lo identifican, ya sean personaje o entorno del universo del juego. Añadir un concepto de arte de cada uno.
 
-\subsection{Elementos de juego: Núcleo principal}
-Describir los elementos básicos del juego mediante la descripción de sus atributos y su comportamiento. Señale qué elementos pueden ser manipulados directamente por el jugador. Destacar habilidades y características. Algunos ejemplos de elementos de juego principales son : Mario quien pertenece al elemento de la categoría " personaje del jugador " o la tortuga verde que pertenecen a la categoría de elemento de juego "enemigo ". Añadir un concepto de arte de cada uno.
+%\subsection{Elementos de juego: Núcleo principal}
+%Describir los elementos básicos del juego mediante la descripción de sus atributos y su comportamiento. Señale qué elementos pueden ser manipulados directamente por el jugador. Destacar habilidades y características. Algunos ejemplos de elementos de juego principales son : Mario quien pertenece al elemento de la categoría " personaje del jugador " o la tortuga verde que pertenecen a la categoría de elemento de juego "enemigo ". Añadir un concepto de arte de cada uno.
 
 \subsection{Reglas}
-Describir la acción válida que el jugador puede hacer y cómo el juego debe responder a estas acciones. Añadir ejemplos de cada una.
+El jugador podrá moverse en una zona limitada, pulsar botones, coger y soltar objetos de prueba y utilizar la pantalla del escenario.
 
-\subsubsection{Reglas de interacción}
-Describa la interacción válida entre los elementos de juego y el resultado de la interacción. Cómo se interactúa entre el jugador y las acciones a realizar en el universo virtual. Añadir ejemplos de cada una.
+%\subsubsection{Reglas de interacción}
+%Describa la interacción válida entre los elementos de juego y el resultado de la interacción. Cómo se interactúa entre el jugador y las acciones a realizar en el universo virtual. Añadir ejemplos de cada una.
 
 \subsubsection{Inteligencia artificial}
-Describa aquí cómo los elementos del juego deben reaccionar en diferentes circunstancias en el juego para ofrecer realismo. Añadir ejemplos de cada una. Podemos también hablar de los personajes no jugables (PNJs).
+Este juego no dispone de ningún tipo de inteligencia artificial.
+%Describa aquí cómo los elementos del juego deben reaccionar en diferentes circunstancias en el juego para ofrecer realismo. Añadir ejemplos de cada una. Podemos también hablar de los personajes no jugables (PNJs).
 
 \subsection{Elementos de juego: Mundo}
-Describir los elementos que están fuera del centro de juego. Algunos ejemplos de los elementos del mundo del juego son : mapa del mundo o de los distintos pasajes donde se desarrolla el juego. Indicar sus características. Añadir un concepto de arte cada uno.
+Las principales zonas del mundo del juego son el centro del escenario donde pasará la mayor parte del tiempo el jugador; la mesa de juegos, que es una zona que se eleva del suelo para ofrecer una mesa llena con los elemento necesarios para que usuario realice una prueba; y la zona de baile, una zona situada junto al escenario principal en la que se llevan a cabo las pruebas de movimiento.
+%Describir los elementos que están fuera del centro de juego. Algunos ejemplos de los elementos del mundo del juego son : mapa del mundo o de los distintos pasajes donde se desarrolla el juego. Indicar sus características. Añadir un concepto de arte cada uno.
 
 \subsection{Elementos de registro y progreso}
-Describir los elementos que registran la progresión del jugador. Algunos ejemplos de elementos de registro de juegos pueden ser: puntuación , guardar o logro. Citar ejemplos. Puede ser importante también incluir aspectos sobre la progresión de la dificultad en el juego.
+Este juego no guarda el progreso, pero podrían crearse perfiles donde ver la evolución de resultados del jugador.
+%Describir los elementos que registran la progresión del jugador. Algunos ejemplos de elementos de registro de juegos pueden ser: puntuación , guardar o logro. Citar ejemplos. Puede ser importante también incluir aspectos sobre la progresión de la dificultad en el juego.
 
-\subsection{Elementos de jugabilidad y experiencia del jugador}
-Describir brevemente utilizando las atributos y propiedades de la jugabilidad elementos que marcarán cómo será la experiencia del jugador. Citar ejemplos.
+%\subsection{Elementos de jugabilidad y experiencia del jugador}
+%Describir brevemente utilizando las atributos y propiedades de la jugabilidad elementos que marcarán cómo será la experiencia del jugador. Citar ejemplos.
 
-\subsection{Otros elementos}
-Describa cualquier otro elemento que no puede ser clasificado en cualquiera de las otras clasificaciones de elementos.
+%\subsection{Otros elementos}
+%Describa cualquier otro elemento que no puede ser clasificado en cualquiera de las otras clasificaciones de elementos.
 
-\subsection{Lista de recursos activos}
-Esta sección contiene la lista de todos los activos de juego que se deben crear para terminar el juego.
+%\subsection{Lista de recursos activos}
+%Esta sección contiene la lista de todos los activos de juego que se deben crear para terminar el juego.
 
 
 \section{Dinámica}
-Esta sección describe el flujo del juego. Historia, niveles , capítulos , rompecabezas, retos , las interfaces (hardware y software). Esta sección está directamente relacionada con la sección de la mecánica desde la dinámica se construyen a partir de los elementos en la mecánica.
+El juego comienza con el jugador apareciendo en el centro de un plató de televisión. A través de una pantalla gigante se le introduce al juego y se le pone en situación. A continuación, desde esa misma pantalla gigante con la que puede interactuar a modo de interfaz, se le presentará con dos tipos de pruebas diferentes. El jugador elegirá señalando la opción deseada y dará comienzo el cambio de escenario. Dependiendo del tipo de prueba, el jugador puede ser transportado a una nueva zona o mantenerse en la misma, y se le presentará ascendiendo desde el suelo una mesa con los elementos de la prueba. 
 
-\subsection{Mundo de juego. Universo virtual}
-Descripción del universo virtual o mundo donde se desarrolla la acción del juego.
+Tras realizar la prueba, el jugador recibe su recompensa y se procede a restablecer el escenario a su forma original. Finalmente, en la pantalla vuelve a presentarse la elección para una nueva prueba. Este proceso se repite hasta haber completado el número de pruebas deseado.
+%Esta sección describe el flujo del juego. Historia, niveles , capítulos , rompecabezas, retos , las interfaces (hardware y software). Esta sección está directamente relacionada con la sección de la mecánica desde la dinámica se construyen a partir de los elementos en la mecánica.
 
-\subsubsection{Detalles del juego en temática}
-Describir el entorno del universo virtual, su ambientación . Dejar los detalles de cómo el mundo del juego debe ser , el sonido y la sensación. Añadir concepto.
+%\subsection{Mundo de juego. Universo virtual}
+%Descripción del universo virtual o mundo donde se desarrolla la acción del juego.
 
-\subsubsection{Descripción de misiones, niveles o capítulos}
-Describa cómo el jugador puede avanzar a través del mundo virtual si es lineal o puede elegir a dónde ir, si es capaz de saltar niveles o si existen restricciones para entrar en algunas zonas. Añadir “mapa del mundo del juego”.
+%\subsubsection{Detalles del juego en temática}
+%Describir el entorno del universo virtual, su ambientación . Dejar los detalles de cómo el mundo del juego debe ser , el sonido y la sensación. Añadir concepto.
 
-\subsubsection{Historia detallada}
+%\subsubsection{Descripción de misiones, niveles o capítulos}
+%Describa cómo el jugador puede avanzar a través del mundo virtual si es lineal o puede elegir a dónde ir, si es capaz de saltar niveles o si existen restricciones para entrar en algunas zonas. Añadir “mapa del mundo del juego”.
 
-
-\subsection{Misiones / Niveles / Capítulos específicos}
-\subsubsection{Objetivos}
-\subsubsection{Recompensas}
-\subsubsection{Desafíos}
-\subsubsection{Otros elementos de misiones / Contenidos / Capítulos}
-\subsubsection{Flujo de las misiones / Contenidos / Capítulos}
-\subsubsection{Zonas especiales}
-\subsubsection{Experiencia del jugador}
-
-\subsection{Interfaz del juego}
-\subsection{Controles de la interfaz}
-\subsection{Aprendizaje del juego}
-\subsection{Equilibrio juego}
+%\subsubsection{Historia detallada}
 
 
+%\subsection{Misiones / Niveles / Capítulos específicos}
+%\subsubsection{Objetivos}
+%\subsubsection{Recompensas}
+%\subsubsection{Desafíos}
+%\subsubsection{Otros elementos de misiones / Contenidos / Capítulos}
+%\subsubsection{Flujo de las misiones / Contenidos / Capítulos}
+%\subsubsection{Zonas especiales}
+%\subsubsection{Experiencia del jugador}
 
-\section{Estética y arte}
-\subsection{Elementos básicos del juego}
-\subsection{Elementos del mundo}
-\subsection{Elementos de registro de progreso}
-\subsection{Otros elementos visuales}
-\subsection{Mundo del juego}
-\subsection{Misiones / Niveles / Capítulos}
-\subsection{Áreas especiales}
-\subsection{Interfaz del juego}
-
-
-\section{Experiencia}
-\subsection{Jugabilidad intrínseca}
-\subsection{Jugabilidad mecánica}
-\subsection{Jugabilidad interactiva}
-\subsection{Jugabilidad artística}
-\subsection{Jugabilidad intrapersonal}
-\subsection{Jugabilidad interpersonal}
-
-\section{Marketing y publicidad}
-\subsection{Póster o portada / contraportada del juego}
-\subsection{Anuncios}
-\subsection{PEGI}
+%\subsection{Interfaz del juego}
+%\subsection{Controles de la interfaz}
+%\subsection{Aprendizaje del juego}
+%\subsection{Equilibrio juego}
 
 
-\section{Limitaciones y supuestos}
-\subsection{Limitaciones técnicas}
-\subsection{Restricciones comerciales}
+
+%\section{Estética y arte}
+%\subsection{Elementos básicos del juego}
+%\subsection{Elementos del mundo}
+%\subsection{Elementos de registro de progreso}
+%\subsection{Otros elementos visuales}
+%\subsection{Mundo del juego}
+%\subsection{Misiones / Niveles / Capítulos}
+%\subsection{Áreas especiales}
+%\subsection{Interfaz del juego}
 
 
-\section{Información del documento}
-\subsection{Definición, acrónimos y abreviaturas}
-\subsection{Referencias}
-\subsection{Ficheros adjuntos}
+%\section{Experiencia}
+%\subsection{Jugabilidad intrínseca}
+%\subsection{Jugabilidad mecánica}
+%\subsection{Jugabilidad interactiva}
+%\subsection{Jugabilidad artística}
+%\subsection{Jugabilidad intrapersonal}
+%\subsection{Jugabilidad interpersonal}
+
+%\section{Marketing y publicidad}
+%\subsection{Póster o portada / contraportada del juego}
+%\subsection{Anuncios}
+%\subsection{PEGI}
+
+
+%\section{Limitaciones y supuestos}
+%\subsection{Limitaciones técnicas}
+%\subsection{Restricciones comerciales}
+
+
+%\section{Información del documento}
+%\subsection{Definición, acrónimos y abreviaturas}
+%\subsection{Referencias}
+%\subsection{Ficheros adjuntos}
 
 \chapterend
