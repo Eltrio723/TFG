@@ -1,6 +1,9 @@
-﻿using System.Collections;
+﻿using Oculus.Interaction;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using static GameManager;
 
 public class UIManager : MonoBehaviour
 {
@@ -8,11 +11,44 @@ public class UIManager : MonoBehaviour
 
     private GameManager gm;
     private GameObject mp;
+    private GameObject menuPantalla;
+    private GameObject menuPantallaSiguiente;
+    private Button _btnComenzar;
+    private Button _btnTurismo;
+    private Button _btnCancion;
+    private Button _btnAsociacion;
+    private Button _btnPosiciones;
+    private Button _btnSituaciones;
+    private Button _btnBaile;
+    private Button _btnSonidos;
+    private Button _btnLocalizacionSonidos;
+    private GameObject _txtBienvenida;
+    private GameObject _txtElige;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         gm = FindObjectOfType<GameManager>();
         mp = GameObject.Find("ManagerPruebas");
+        menuPantalla = GameObject.Find("MenuPantalla");
+        menuPantallaSiguiente = GameObject.Find("MenuPantallaSiguiente");
+        _btnComenzar = GameObject.Find("btnComenzar").GetComponent<Button>();
+        _btnTurismo = GameObject.Find("btnTurismo").GetComponent<Button>();
+        _btnCancion = GameObject.Find("btnCancion").GetComponent<Button>();
+        _btnAsociacion = GameObject.Find("btnAsociacion").GetComponent<Button>();
+        _btnPosiciones = GameObject.Find("btnPosiciones").GetComponent<Button>();
+        _btnSituaciones = GameObject.Find("btnSituaciones").GetComponent<Button>();
+        _btnBaile = GameObject.Find("btnBaile").GetComponent<Button>();
+        _btnSonidos = GameObject.Find("btnSonidos").GetComponent<Button>();
+        _btnLocalizacionSonidos = GameObject.Find("btnLocalizacionSonidos").GetComponent<Button>();
+        _txtBienvenida = GameObject.Find("txt_bienvenida");
+        _txtElige = GameObject.Find("txt_elige");
+        _txtElige.SetActive(false);
+        menuPantallaSiguiente.SetActive(false);
+        DesactivarSeleccion();
+
     }
 
 
@@ -29,114 +65,121 @@ public class UIManager : MonoBehaviour
             mp = GameObject.Find("ManagerPruebas");
         }
 
-        transform.GetChild(0).gameObject.SetActive(false);
-        transform.GetChild(1).gameObject.SetActive(true);
+        //transform.GetChild(0).gameObject.SetActive(false);
+        //transform.GetChild(1).gameObject.SetActive(true);
+        _btnComenzar.gameObject.SetActive(false);
 
         gm.Comenzar();
+    }
+
+    public void btnSaltar()
+    {
+        gm.pruebaActual.TerminarPrueba();
     }
 
 
     public void CargarBotonesPruebas(List<int> ids)
     {
-        transform.GetChild(1).gameObject.SetActive(true);
-        //pointer.SetActive(true);
-        GameObject panel = GameObject.Find("PanelBotonesPruebas");
-        panel.transform.GetChild(ids[0]-1).gameObject.SetActive(true);
-        panel.transform.GetChild(ids[1]-1).gameObject.SetActive(true);
+
+        _txtBienvenida.SetActive(false);
+        _txtElige.SetActive(true);
+        menuPantalla.SetActive(true);
+        menuPantallaSiguiente.SetActive(false);
+        for (int i = 0; i < ids.Count; i++)
+        {
+            switch (ids[i])
+            {
+                case (int)Pruebas.Turismo:
+                    _btnTurismo.gameObject.SetActive(true);
+                    break;
+                case (int)Pruebas.Cancion:
+                    _btnCancion.gameObject.SetActive(true);
+                    break;
+                case (int)Pruebas.Asociacion:
+                    _btnAsociacion.gameObject.SetActive(true);
+                    break;
+                case (int)Pruebas.Posiciones:
+                    _btnPosiciones.gameObject.SetActive(true);
+                    break;
+                case (int)Pruebas.Situaciones:
+                    _btnSituaciones.gameObject.SetActive(true);
+                    break;
+                case (int)Pruebas.Baile:
+                    _btnBaile.gameObject.SetActive(true);
+                    break;
+                case (int)Pruebas.Sonidos:
+                    _btnSonidos.gameObject.SetActive(true);
+                    break;
+                case (int)Pruebas.LocalizacionSonidos:
+                    _btnLocalizacionSonidos.gameObject.SetActive(true);
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        
+
     }
 
     private void DesactivarSeleccion()
     {
-        //pointer.SetActive(false);
-        GameObject panel = GameObject.Find("PanelBotonesPruebas");
-        for (int i = 0; i < panel.transform.childCount; i++)
+        _btnTurismo.gameObject.SetActive(false);
+        _btnCancion.gameObject.SetActive(false);
+        _btnAsociacion.gameObject.SetActive(false);
+        _btnPosiciones.gameObject.SetActive(false);
+        _btnSituaciones.gameObject.SetActive(false);
+        _btnBaile.gameObject.SetActive(false);
+        _btnSonidos.gameObject.SetActive(false);
+        _btnLocalizacionSonidos.gameObject.SetActive(false);
+    }
+
+
+    public void btnPrueba(int pruebaElegida)
+    {
+        DesactivarSeleccion();
+        menuPantalla.SetActive(false);
+        menuPantallaSiguiente.SetActive(true);
+        _txtElige.SetActive(false);
+
+        var prueba = new Prueba();
+
+        switch (pruebaElegida)
         {
-            panel.transform.GetChild(i).gameObject.SetActive(false);
+            case (int)Pruebas.Turismo:
+                prueba = mp.GetComponent<pruebaTurismo>();
+                break;
+            case (int)Pruebas.Cancion:
+                prueba = mp.GetComponent<pruebaCancion>();
+                break;
+            case (int)Pruebas.Asociacion:
+                prueba = mp.GetComponent<pruebaAsociacion>();
+                break;
+            case (int)Pruebas.Posiciones:
+                prueba = mp.GetComponent<pruebaPosiciones>();
+                break;
+            case (int)Pruebas.Situaciones:
+                prueba = mp.GetComponent<pruebaSituaciones>();
+                break;
+            case (int)Pruebas.Baile:
+                prueba = mp.GetComponent<pruebaBaile>();
+                break;
+            case (int)Pruebas.Sonidos:
+                prueba = mp.GetComponent<pruebaSonidos>();
+                break;
+            case (int)Pruebas.LocalizacionSonidos:
+                prueba = mp.GetComponent<pruebaLocalizacionSonidos>();
+                break;
+            default:
+                break;
         }
-        transform.GetChild(1).gameObject.SetActive(false);
+
+        gm.idPrueba = pruebaElegida;
+        gm.pruebaActual = prueba;
+
+        prueba.enabled = true;
+        prueba.CargarPrueba();
+        
     }
-
-
-    public void btnTurismo()
-    {
-        pruebaTurismo p1 = mp.GetComponent<pruebaTurismo>();
-        p1.enabled = true;
-        p1.CargarPrueba();
-        gm.idPrueba = 1;
-        DesactivarSeleccion();
-        Debug.Log("Iniciada prueba de turismo.");
-    }
-
-    public void btnSituaciones()
-    {
-        pruebaSituaciones p2 = mp.GetComponent<pruebaSituaciones>();
-        p2.enabled = true;
-        p2.CargarPrueba();
-        gm.idPrueba = 2;
-        DesactivarSeleccion();
-        Debug.Log("Iniciada prueba de situaciones.");
-    }
-
-    public void btnCancion()
-    {
-        pruebaCancion p3 = mp.GetComponent<pruebaCancion>();
-        p3.enabled = true;
-        p3.CargarPrueba();
-        gm.idPrueba = 3;
-        DesactivarSeleccion();
-        Debug.Log("Iniciada prueba de adivina la canción.");
-    }
-
-    public void btnBaile()
-    {
-        pruebaBaile p4 = mp.GetComponent<pruebaBaile>();
-        p4.enabled = true;
-        p4.CargarPrueba();
-        gm.idPrueba = 4;
-        DesactivarSeleccion();
-        Debug.Log("Iniciada prueba de baile.");
-    }
-
-    public void btnAsociacion()
-    {
-        pruebaAsociacion p5 = mp.GetComponent<pruebaAsociacion>();
-        p5.enabled = true;
-        p5.CargarPrueba();
-        gm.idPrueba = 5;
-        DesactivarSeleccion();
-        Debug.Log("Iniciada prueba de asocición.");
-    }
-
-    public void btnSonidos()
-    {
-        pruebaSonidos p6 = mp.GetComponent<pruebaSonidos>();
-        p6.enabled = true;
-        p6.CargarPrueba();
-        gm.idPrueba = 6;
-        DesactivarSeleccion();
-        Debug.Log("Iniciada prueba de sonidos.");
-    }
-
-    public void btnPosiciones()
-    {
-        pruebaPosiciones p7 = mp.GetComponent<pruebaPosiciones>();
-        p7.enabled = true;
-        p7.CargarPrueba();
-        gm.idPrueba = 7;
-        DesactivarSeleccion();
-        Debug.Log("Iniciada prueba de posiciones.");
-    }
-
-    public void btnLocalizacionSonidos()
-    {
-        pruebaLocalizacionSonidos p8 = mp.GetComponent<pruebaLocalizacionSonidos>();
-        p8.enabled = true;
-        p8.CargarPrueba();
-        gm.idPrueba = 8;
-        DesactivarSeleccion();
-        Debug.Log("Iniciada prueba de localización de sonidos.");
-    }
-
-
 
 }

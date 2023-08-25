@@ -24,6 +24,8 @@ TagManager:
   - ObjetoAsociacion
   - TriggerManager
   - Pointer
+  - SamplesInfoPanel
+  - MenuPantalla
   layers:
   - Default
   - TransparentFX

@@ -4,15 +4,32 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    private UIManager _UIManager;
+
     static private int numPruebas = 8;
 
     public int idPrueba;
+
+    public Prueba pruebaActual;
+
+    public enum Pruebas
+    {
+        Turismo = 1,
+        Cancion = 2,
+        Asociacion = 3,
+        Posiciones = 4,
+        Situaciones = 5,
+        Baile = 6,
+        Sonidos = 7,
+        LocalizacionSonidos = 8
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         GameObject.FindGameObjectWithTag("AscensorPrincipal").GetComponent<scriptAscensor>().Subir();
         idPrueba = 0;
+        _UIManager = FindFirstObjectByType<UIManager>();
     }
 
     // Update is called once per frame
@@ -37,6 +54,8 @@ public class GameManager : MonoBehaviour
 
     public void ActivarSeleccion()
     {
+
+
         List<int> ids = new List<int>();
 
         ids.Add(Random.Range(1, numPruebas + 1));
@@ -48,7 +67,7 @@ public class GameManager : MonoBehaviour
 
         ids.Add(nuevoId);
 
-        FindObjectOfType<UIManager>().CargarBotonesPruebas(ids);
+        _UIManager.CargarBotonesPruebas(ids);
     }
 
 }

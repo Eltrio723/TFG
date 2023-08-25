@@ -14,6 +14,7 @@ public class Prueba : MonoBehaviour
     protected int botonCorrecto;
     protected List<GameObject> listaObjetos;
     protected Vector3 posicionSonido;
+    protected TriggerManager triggerManager;
 
     private scriptAscensor ascensorPrincipal;
     private scriptAscensor nuevoAscensor;
@@ -30,6 +31,8 @@ public class Prueba : MonoBehaviour
         //activo = false;
         terminar = false;
         listo = false;
+        triggerManager = GameObject.FindGameObjectWithTag("TriggerManager").GetComponent<TriggerManager>();
+
     }
 
     void Update()
@@ -49,10 +52,19 @@ public class Prueba : MonoBehaviour
             if(!listo && nuevoAscensor.IsArriba() && !terminar)
             {
                 listo = true;
-                CargarImagenPantalla(imagen);
-                CargarSonido(sonido);
-                TriggerManager triggerManager = GameObject.FindGameObjectWithTag("TriggerManager").GetComponent<TriggerManager>();
-                triggerManager.CargarNivel(pathTriggers);
+                if (imagen is not null)
+                {
+                    CargarImagenPantalla(imagen);
+                }
+                if (sonido is not null)
+                {
+                    CargarSonido(sonido);
+                }
+                if (pathTriggers is not null && pathTriggers != "")
+                {
+                    triggerManager.CargarNivel(pathTriggers);
+                }
+                
                 
                 //CargarObjetos(listaObjetos);
             }
