@@ -6641,6 +6641,7 @@ GameObject:
   - component: {fileID: 686451697}
   - component: {fileID: 686451696}
   - component: {fileID: 686451695}
+  - component: {fileID: 686451700}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -6660,6 +6661,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3627c43a942b8e42b0d1ce7793b3f5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ascensorPrincipal: {fileID: 4487518385417479402, guid: 5ba9799c0b3ed3443835239d553ca357, type: 3}
+  ascensorTurismo: {fileID: 6787196159259764037, guid: 2406d8133e7c19c4db6433c09c10b731, type: 3}
+  ascensorCancion: {fileID: 1936221312025993334, guid: 214e4c3fe72759e4bb95733f4d1e0b8b, type: 3}
+  ascensorAsociacion: {fileID: 6916122613286100433, guid: 2a97c8ead279b244c9e5f72100045a73, type: 3}
+  ascensorPosiciones: {fileID: 4487518385417479402, guid: 5ba9799c0b3ed3443835239d553ca357, type: 3}
+  ascensorSituaciones: {fileID: 4487518385417479402, guid: 5ba9799c0b3ed3443835239d553ca357, type: 3}
+  ascensorBaile: {fileID: 4487518385417479402, guid: 5ba9799c0b3ed3443835239d553ca357, type: 3}
+  ascensorSonidos: {fileID: 6916122613286100433, guid: fb749a8abb737704b9eafe5f7e6fa66f, type: 3}
+  ascensorLocalizacionSonidos: {fileID: 4487518385417479402, guid: 5ba9799c0b3ed3443835239d553ca357, type: 3}
 --- !u!114 &686451696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6672,6 +6682,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4b3b5df4bbe4a944be4445eaa43864c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PrefabPruebaTurismo: {fileID: 3221764555105619899, guid: 81e5023db377e8d429c7cf32d748b884, type: 3}
+  PrefabPruebaCancion: {fileID: 4013038040764017293, guid: 9e747c49549404548b1c230c5ac8d03b, type: 3}
+  PrefabPruebaAsociacion: {fileID: 2276119925030465107, guid: 78ad89fd06b7d7849a0f65aa47d0904e, type: 3}
+  PrefabPruebaPosiciones: {fileID: 1301273950607999150, guid: db3e75055b0132b4e8ca0734c40c6d31, type: 3}
+  PrefabPruebaSituaciones: {fileID: 7949544138096436634, guid: 47697a3de709bb44d9da01eae904298f, type: 3}
+  PrefabPruebaBaile: {fileID: 1946409630540778229, guid: 4934dae71cf0bf54d9bfd36c09814b49, type: 3}
+  PrefabPruebaSonidos: {fileID: 9008785063194070178, guid: 75a81b155e585fe45b2c76132a177c03, type: 3}
+  PrefabPruebaLocalizacionSonidos: {fileID: 118232241377532428, guid: 0effedb3e48d1ba42862edb351ca1f32, type: 3}
 --- !u!114 &686451697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6712,6 +6730,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &686451700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686451694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb2af2d9bc59624eaec3b10b0bd0f91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerSpawnArray: {fileID: 7914439627513821694, guid: f1b457a30a67d9249ae4621cff8843ba, type: 3}
+  indicacionesArray: {fileID: 4591690310437497515, guid: 71c31c350731f6a44b6c06b9cd921859, type: 3}
+  correct: 0
+  aciertos: 0
 --- !u!1 &694834850
 GameObject:
   m_ObjectHideFlags: 0
@@ -11304,6 +11338,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f73d0d91c4c6d0146b65c888b8118a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pathImagen: 
+  pathSonido: 
+  pathTriggers: 
+  tipo: 0
 --- !u!114 &1237979989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11316,6 +11354,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f00b4243d1c6ff74daf63701c4f0f0c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pathImagen: 
+  pathSonido: 
+  pathTriggers: 
+  tipo: 0
 --- !u!114 &1237979990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11328,6 +11370,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eae6a7b411b204a49b332457e30f0849, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pathImagen: 
+  pathSonido: 
+  pathTriggers: 
+  tipo: 0
 --- !u!114 &1237979991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11340,6 +11386,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77c2f65136ff2874cbbd251ba5e8b76f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pathImagen: 
+  pathSonido: 
+  pathTriggers: 
+  tipo: 0
 --- !u!114 &1237979992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11352,6 +11402,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 391c9ddd31f018d49b1169fa9473b64f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pathImagen: 
+  pathSonido: 
+  pathTriggers: 
+  tipo: 0
 --- !u!114 &1237979993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11364,6 +11418,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab639ba092d6ea43a25496750fe0462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pathImagen: 
+  pathSonido: 
+  pathTriggers: 
+  tipo: 0
 --- !u!114 &1237979994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11376,6 +11434,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83fbb563b03779040806b0fca745ef75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pathImagen: 
+  pathSonido: 
+  pathTriggers: 
+  tipo: 0
 --- !u!114 &1237979995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11388,6 +11450,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23b9bf03a8f7ddf4d86682fba3466c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pathImagen: 
+  pathSonido: 
+  pathTriggers: 
+  tipo: 0
 --- !u!4 &1237979996
 Transform:
   m_ObjectHideFlags: 0
@@ -11415,6 +11481,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4b3b5df4bbe4a944be4445eaa43864c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PrefabPruebaTurismo: {fileID: 0}
+  PrefabPruebaCancion: {fileID: 0}
+  PrefabPruebaAsociacion: {fileID: 0}
+  PrefabPruebaPosiciones: {fileID: 0}
+  PrefabPruebaSituaciones: {fileID: 0}
+  PrefabPruebaBaile: {fileID: 0}
+  PrefabPruebaSonidos: {fileID: 0}
+  PrefabPruebaLocalizacionSonidos: {fileID: 0}
 --- !u!1 &1251305393
 GameObject:
   m_ObjectHideFlags: 0
@@ -16803,6 +16877,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3627c43a942b8e42b0d1ce7793b3f5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ascensorPrincipal: {fileID: 0}
+  ascensorTurismo: {fileID: 0}
+  ascensorCancion: {fileID: 0}
+  ascensorAsociacion: {fileID: 0}
+  ascensorPosiciones: {fileID: 0}
+  ascensorSituaciones: {fileID: 0}
+  ascensorBaile: {fileID: 0}
+  ascensorSonidos: {fileID: 0}
+  ascensorLocalizacionSonidos: {fileID: 0}
 --- !u!1 &1885218248
 GameObject:
   m_ObjectHideFlags: 0

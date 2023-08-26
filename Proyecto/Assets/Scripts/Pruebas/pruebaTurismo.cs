@@ -10,7 +10,6 @@ public class pruebaTurismo : Prueba
         //CargarPrueba();
     }
 
-    
 
 
 
@@ -35,6 +34,28 @@ public class pruebaTurismo : Prueba
 
         
         MoverAscensores();
+    }
+
+    public override void PrepararDatos()
+    {
+        tipo = TipoPrueba.Turismo;
+
+
+        switch (Random.Range(0, 3))
+        {
+            case 0:
+                pathImagen = "Imagenes/img_eiffel";
+                break;
+            case 1:
+                pathImagen = "Imagenes/img_coliseo";
+                break;
+            case 2:
+                pathImagen = "Imagenes/img_libertad";
+                break;
+            default:
+                break;
+        }
+
     }
 
 }

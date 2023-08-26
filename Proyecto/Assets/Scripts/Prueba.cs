@@ -10,7 +10,7 @@ public class Prueba : MonoBehaviour
     protected GameObject ascensor;
     protected GameObject imagen;
     protected GameObject sonido;
-    protected string pathTriggers;
+    //protected string pathTriggers;
     protected int botonCorrecto;
     protected List<GameObject> listaObjetos;
     protected Vector3 posicionSonido;
@@ -26,14 +26,14 @@ public class Prueba : MonoBehaviour
     protected bool localizarSonido;
 
     
-    void Start()
-    {
-        //activo = false;
-        terminar = false;
-        listo = false;
-        triggerManager = GameObject.FindGameObjectWithTag("TriggerManager").GetComponent<TriggerManager>();
+    //void Start()
+    //{
+    //    //activo = false;
+    //    terminar = false;
+    //    listo = false;
+    //    triggerManager = GameObject.FindGameObjectWithTag("TriggerManager").GetComponent<TriggerManager>();
 
-    }
+    //}
 
     void Update()
     {
@@ -117,6 +117,9 @@ public class Prueba : MonoBehaviour
         
     }
 
+        
+    
+
     public void MoverAscensores()
     {
 
@@ -176,7 +179,7 @@ public class Prueba : MonoBehaviour
             img.transform.localScale = new Vector3(1, 1, 1);
             img.tag = "ImagenPantalla";
         }
-        
+
     }
 
     public void CargarSonido(GameObject sonido)
@@ -202,7 +205,7 @@ public class Prueba : MonoBehaviour
 
 
             GameObject snd = Instantiate(sonido, (posicionSonido != null ? posicionSonido : Vector3.zero), Quaternion.identity);
-            
+
             snd.tag = "FuenteSonido";
         }
 
@@ -213,7 +216,7 @@ public class Prueba : MonoBehaviour
         }
 
 
-        
+
     }
 
     public void CargarObjetos(List<GameObject> objetos)
@@ -235,5 +238,58 @@ public class Prueba : MonoBehaviour
         TerminarPrueba();
         
     }
+
+
+
+
+
+
+    /////////////////////////////////////////////////////
+
+
+    protected PruebasManager _pruebasManager;
+
+    public string pathImagen;
+    public string pathSonido;
+    public string pathTriggers;
+
+    public TipoPrueba tipo;
+
+    void Start()
+    {
+        //terminar = false;
+        //listo = false;
+        //triggerManager = GameObject.FindGameObjectWithTag("TriggerManager").GetComponent<TriggerManager>();
+
+        _pruebasManager = FindFirstObjectByType<PruebasManager>();
+        tipo = 0;
+
+    }
+
+
+    public virtual void PrepararDatos()
+    {
+
+    }
+
+
+    //public virtual void PrepararEscenario() 
+    //{
+    //    //Dependiendo de la prueba se cargan las imagenes, sonidos, ascensores o lo que sea
+    //    // Cada subclase define lo suyo
+    //    _PruebasManager.PrepararImagen("");
+    //}
+
+    //public virtual void PrepararElementos()
+    //{
+
+    //}
+
+
+
+
+
+
+
 
 }

@@ -31,6 +31,7 @@ public class TriggerManager : MonoBehaviour
 
     public int aciertos;
 
+    private Level _nivelActual;
 
 
     public void CargarNivel(string path)
@@ -43,19 +44,25 @@ public class TriggerManager : MonoBehaviour
 
 
 
-        Level level = JsonUtility.FromJson<Level>(json);
+        _nivelActual = JsonUtility.FromJson<Level>(json);
 
 
 
         triggerSpawnArray = GameObject.FindGameObjectWithTag("TriggerSpawnArray");
         indicacionesArray = GameObject.FindGameObjectWithTag("IndicacionesArray");
 
-        for (int i = 0; i < level.parts.Count; i++)
+        
+
+
+    }
+
+
+    public void ComenzarNivel()
+    {
+        for (int i = 0; i < _nivelActual.parts.Count; i++)
         {
-            StartCoroutine(LoadLevel(level.parts[i].triggerPositions, level.parts[i].time));
+            StartCoroutine(LoadLevel(_nivelActual.parts[i].triggerPositions, _nivelActual.parts[i].time));
         }
-
-
     }
 
 

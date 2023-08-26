@@ -312,9 +312,12 @@ public class UIManager : MonoBehaviour
 
     public void TerminarPrueba()
     {
-        PantallaEleccion();
+        PantallaFinPrueba();
     }
-
+    public void FinalJuego()
+    {
+        PantallaFinJuego();
+    }
 
     public void btnEntendido()
     {
@@ -331,14 +334,20 @@ public class UIManager : MonoBehaviour
         _GameManager.SaltarPrueba();
     }
 
+    public void btnContinuar()
+    {
+        _GameManager.NuevaRonda();
+    }
+
+    public void btnTerminar()
+    {
+        _GameManager.TerminarJuego();
+    }
 
     public void MostrarBotonesPruebas(List<TipoPrueba> pruebasAMostrar)
     {
 
-        _txtBienvenida.SetActive(false);
-        _txtElige.SetActive(true);
-        menuPantalla.SetActive(true);
-        menuPantallaSiguiente.SetActive(false);
+        PantallaEleccion();
         for (int i = 0; i < pruebasAMostrar.Count; i++)
         {
             switch (pruebasAMostrar[i])
@@ -392,7 +401,7 @@ public class UIManager : MonoBehaviour
     public void btnPrueba(int pruebaElegida)
     {
 
-        _GameManager.CrearPrueba((TipoPrueba)pruebaElegida);
+        _GameManager.SeleccionarPrueba((TipoPrueba)pruebaElegida);
 
 
         //PantallaPrueba();
@@ -484,7 +493,27 @@ public class UIManager : MonoBehaviour
         menuPantallaSiguiente.SetActive(true);
     }
 
-    
+    private void PantallaFinPrueba()
+    {
+        //_txtBienvenida.SetActive(false);
+        //_txtElige.SetActive(false);
+        //_txtInstrucciones.SetActive(false);
+        //_txtDescripcion.SetActive(false);
+        //DesactivarBotonesPruebas();
+        //_btnComenzar.gameObject.SetActive(false);
+        //menuPantallaSiguiente.SetActive(true);
+    }
+
+    private void PantallaFinJuego()
+    {
+        //_txtBienvenida.SetActive(false);
+        //_txtElige.SetActive(false);
+        //_txtInstrucciones.SetActive(false);
+        //_txtDescripcion.SetActive(false);
+        //DesactivarBotonesPruebas();
+        //_btnComenzar.gameObject.SetActive(false);
+        //menuPantallaSiguiente.SetActive(true);
+    }
 
 
 

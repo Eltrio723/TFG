@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private int _numeroPruebasARealizar;
     private int _pruebasRealizadas;
-    private Prueba _pruebaActual;
+    
 
     void Start()
     {
@@ -55,42 +55,57 @@ public class GameManager : MonoBehaviour
 
     public void ComenzarJuego()
     {
+        NuevaRonda();
+    }
+
+    public void NuevaRonda()
+    {
+        if (_pruebasRealizadas < _numeroPruebasARealizar)
+        {
+            TerminarJuego();
+            return;
+        }
+
         List<TipoPrueba> pruebas = ElegirPruebas();
         _UIManager.MostrarBotonesPruebas(pruebas);
         SetEstadoJuego(EstadoJuego.EleccionPrueba);
     }
 
+    public void SeleccionarPrueba(TipoPrueba pruebaElegida)
+    {
+        CrearPrueba(pruebaElegida);
+    }
+
     public void CrearPrueba(TipoPrueba pruebaElegida)
     {
         //Instanciar prefab de prueba adecuada
-        _pruebaActual = _PruebasManager.CrearPrueba(pruebaElegida);
-        ComenzarPrueba(_pruebaActual);
+        _PruebasManager.CrearPrueba(pruebaElegida);
+        ComenzarPrueba();
     }
 
-    public void ComenzarPrueba(Prueba prueba)
+    public void ComenzarPrueba()
     {
 
         _UIManager.ComenzarPrueba();
-        prueba.CargarPrueba();
         SetEstadoJuego(EstadoJuego.Prueba);
+        _PruebasManager.ComenzarPrueba();
     }
 
     public void TerminarPrueba()
     {
+        _PruebasManager.TerminarPrueba();
         _UIManager.TerminarPrueba();
-        _pruebaActual = null;
-
-        if (_pruebasRealizadas < _numeroPruebasARealizar)
-        {
-            //Volver a elegir prueba
-            SetEstadoJuego(EstadoJuego.Listo);
-        }
-        else
-        {
-            //El juego se termina
-            SetEstadoJuego(EstadoJuego.Fin);
-        }
+        SetEstadoJuego(EstadoJuego.FinPrueba);
+        _pruebasRealizadas++;
         
+    }
+
+
+
+    public void TerminarJuego()
+    {
+        _UIManager.FinalJuego();
+        SetEstadoJuego(EstadoJuego.Final);
     }
 
 
@@ -142,5 +157,6 @@ public enum EstadoJuego
     Listo = 3,
     EleccionPrueba = 4,
     Prueba = 5,
-    Fin = 6
+    FinPrueba = 6,
+    Final = 7
 }

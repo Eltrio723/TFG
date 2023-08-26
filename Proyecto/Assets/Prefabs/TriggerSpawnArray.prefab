@@ -56,7 +56,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c02d6b2065615624ba43ee90f4933633, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position: {x: 0, y: -1, z: 0}
+  position: {x: 0, y: -2, z: 0}
 --- !u!1001 &7914439627174400418
 PrefabInstance:
   m_ObjectHideFlags: 0
