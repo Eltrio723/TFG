@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class pruebaSituaciones : Prueba
+public class PruebaSituaciones : Prueba
 {
     void Start()
     {

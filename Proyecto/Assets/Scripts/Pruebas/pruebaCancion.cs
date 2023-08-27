@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class pruebaCancion : Prueba
+public class PruebaCancion : Prueba
 {
     void Start()
     {

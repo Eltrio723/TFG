@@ -25,12 +25,15 @@ public class EscenarioManager : MonoBehaviour
 
     private GameObject _img;
     private GameObject _snd;
+    private List<GameObject> _listaObjetos;
+
+    public List<TipoPrueba> pruebasSinCambiosEscenario;
 
     // Start is called before the first frame update
     void Start()
     {
         _triggerManager = this.gameObject.GetComponent<TriggerManager>();
-        Instantiate(ascensorPrincipal);
+        _ascensorActual = Instantiate(ascensorPrincipal);
         _escenarioListo = true;
     }
 
@@ -46,8 +49,15 @@ public class EscenarioManager : MonoBehaviour
         return _escenarioListo;
     }
 
+    public void TestAscensor(int tipo)
+    {
 
-    public void CambiarAscensor(TipoPrueba tipoPrueba)
+        CambiarAscensor(TipoPrueba.Turismo);
+
+    }
+
+
+    public void CambiarAscensor(TipoPrueba? tipoPrueba)
     {
         _escenarioListo = false;
 
@@ -80,14 +90,19 @@ public class EscenarioManager : MonoBehaviour
                 _ascensorNuevo = Instantiate(ascensorLocalizacionSonidos, GameObject.Find("TargetAscensor").transform.position, Quaternion.identity);
                 break;
             default:
-                //_ascensorNuevo = Instantiate(ascensorPrincipal, GameObject.Find("TargetAscensor").transform.position, Quaternion.identity);
+                _ascensorNuevo = Instantiate(ascensorPrincipal, GameObject.Find("TargetAscensor").transform.position, Quaternion.identity);
                 break;
         }
 
         _ascensorNuevo.GetComponent<Ascensor>().SubirAscensor();
 
+
+    }
+
+    public void TerminarCambioAscensor()
+    {
+        _ascensorActual.DestroySafely();
         _ascensorActual = _ascensorNuevo;
-        _ascensorNuevo.DestroySafely();
         _ascensorNuevo = null;
 
         _escenarioListo = true;
@@ -170,6 +185,7 @@ public class EscenarioManager : MonoBehaviour
         {
             GameObject obj = Instantiate(objetos[i], listaSpawns[i].transform);
             obj.tag = "ObjetoAsociacion";
+            _listaObjetos.Add(obj);
         }
     }
 
@@ -231,17 +247,65 @@ public class EscenarioManager : MonoBehaviour
         //PrepararObjetos(prueba.listaObjetos);
         //}
 
-        //if (prueba.tipo > 0)
-        //{
-        CambiarAscensor(prueba.tipo);
-        //}
+        if (!pruebasSinCambiosEscenario.Contains(prueba.tipo))
+        {
+            CambiarAscensor(prueba.tipo);
+        }
+        else
+        {
+            _escenarioListo = true;
+        }
 
         PrepararObjetos(prueba.listaObjetos);
     }
 
     public void TerminarPrueba()
     {
+        CambiarAscensor(null);
+        EliminarElementosPrueba();
+    }
 
+    public void EliminarElementosPrueba()
+    {
+        EliminarImagen();
+        EliminarSonido();
+        EliminarObjetos();
+        EliminarTriggers();
+    }
+
+    private void EliminarImagen()
+    {
+        if (_img is not null)
+        {
+            _img.DestroySafely();
+        }
+    }
+
+    private void EliminarSonido()
+    {
+        if (_snd is not null)
+        {
+            _snd.DestroySafely();
+        }
+    }
+
+    private void EliminarObjetos()
+    {
+        if (_listaObjetos is not null)
+        {
+            for (int i = 0; i < _listaObjetos.Count; i++)
+            {
+                if (_listaObjetos[i] is not null)
+                {
+                    _listaObjetos[i].DestroySafely();
+                }
+            }
+        }
+    }
+
+    private void EliminarTriggers()
+    {
+        _triggerManager.EliminarTriggers();
     }
 
 }

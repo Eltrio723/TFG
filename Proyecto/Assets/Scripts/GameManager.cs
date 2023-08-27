@@ -25,6 +25,13 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        // Saltar prueba
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SaltarPrueba();
+        }
+
+
         if (_estado == EstadoJuego.Prueba && _pruebasManager.CheckPruebaCorrecta())
         {
             PruebaCorrecta();
@@ -69,7 +76,7 @@ public class GameManager : MonoBehaviour
 
     public void NuevaRonda()
     {
-        if (_pruebasRealizadas < _numeroPruebasARealizar)
+        if (_pruebasRealizadas >= _numeroPruebasARealizar)
         {
             TerminarJuego();
             return;
@@ -89,7 +96,7 @@ public class GameManager : MonoBehaviour
     {
         //Instanciar prefab de prueba adecuada
         _pruebasManager.CrearPrueba(pruebaElegida);
-        ComenzarPrueba();
+        //ComenzarPrueba();
     }
 
     public void ComenzarPrueba()
@@ -103,10 +110,15 @@ public class GameManager : MonoBehaviour
     public void TerminarPrueba()
     {
         _pruebasManager.TerminarPrueba();
+
+
+    }
+
+    public void PruebaTerminada()
+    {
         _uiManager.TerminarPrueba();
         SetEstadoJuego(EstadoJuego.FinPrueba);
         _pruebasRealizadas++;
-
     }
 
 

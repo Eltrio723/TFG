@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class pruebaPosiciones : Prueba
+public class PruebaPosiciones : Prueba
 {
 
 

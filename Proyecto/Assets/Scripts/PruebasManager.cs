@@ -18,6 +18,11 @@ public class PruebasManager : MonoBehaviour
     private EscenarioManager _escenarioManager;
     [SerializeField]
     private TriggerManager _triggerManager;
+    [SerializeField]
+    private GameManager _gameManager;
+
+    private bool _preparandoPrueba;
+    private bool _terminanadoPrueba;
 
 
     // Start is called before the first frame update
@@ -25,12 +30,28 @@ public class PruebasManager : MonoBehaviour
     {
         _escenarioManager = this.gameObject.GetComponent<EscenarioManager>();
         _triggerManager = this.gameObject.GetComponent<TriggerManager>();
+        _gameManager = this.gameObject.GetComponent<GameManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (_preparandoPrueba)
+        {
+            if (_escenarioManager.GetEscenarioListo())
+            {
+                _preparandoPrueba = false;
+                _gameManager.ComenzarPrueba();
+            }
+        }
+        if (_terminanadoPrueba)
+        {
+            if (_escenarioManager.GetEscenarioListo())
+            {
+                _terminanadoPrueba = false;
+                _gameManager.PruebaTerminada();
+            }
+        }
     }
 
 
@@ -40,28 +61,28 @@ public class PruebasManager : MonoBehaviour
         switch (tipoPrueba)
         {
             case TipoPrueba.Turismo:
-                _pruebaActual = Instantiate(PrefabPruebaTurismo, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<pruebaTurismo>();
+                _pruebaActual = Instantiate(PrefabPruebaTurismo, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<PruebaTurismo>();
                 break;
             case TipoPrueba.Cancion:
-                _pruebaActual = Instantiate(PrefabPruebaCancion, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<pruebaTurismo>();
+                _pruebaActual = Instantiate(PrefabPruebaCancion, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<PruebaCancion>();
                 break;
             case TipoPrueba.Asociacion:
-                _pruebaActual = Instantiate(PrefabPruebaAsociacion, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<pruebaTurismo>();
+                _pruebaActual = Instantiate(PrefabPruebaAsociacion, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<PruebaAsociacion>();
                 break;
             case TipoPrueba.Posiciones:
-                _pruebaActual = Instantiate(PrefabPruebaPosiciones, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<pruebaTurismo>();
+                _pruebaActual = Instantiate(PrefabPruebaPosiciones, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<PruebaPosiciones>();
                 break;
             case TipoPrueba.Situaciones:
-                _pruebaActual = Instantiate(PrefabPruebaSituaciones, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<pruebaTurismo>();
+                _pruebaActual = Instantiate(PrefabPruebaSituaciones, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<PruebaSituaciones>();
                 break;
             case TipoPrueba.Baile:
-                _pruebaActual = Instantiate(PrefabPruebaBaile, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<pruebaTurismo>();
+                _pruebaActual = Instantiate(PrefabPruebaBaile, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<PruebaBaile>();
                 break;
             case TipoPrueba.Sonidos:
-                _pruebaActual = Instantiate(PrefabPruebaSonidos, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<pruebaTurismo>();
+                _pruebaActual = Instantiate(PrefabPruebaSonidos, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<PruebaSonidos>();
                 break;
             case TipoPrueba.LocalizacionSonidos:
-                _pruebaActual = Instantiate(PrefabPruebaLocalizacionSonidos, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<pruebaTurismo>();
+                _pruebaActual = Instantiate(PrefabPruebaLocalizacionSonidos, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<PruebaLocalizacionSonidos>();
                 break;
             default:
                 break;
@@ -83,6 +104,7 @@ public class PruebasManager : MonoBehaviour
     public void TerminarPrueba()
     {
         _escenarioManager.TerminarPrueba();
+        _terminanadoPrueba = true;
         _pruebaActual.gameObject.DestroySafely();
         _pruebaActual = null;
         //_escenarioManager.TerminarPrueba();
@@ -91,7 +113,7 @@ public class PruebasManager : MonoBehaviour
 
     public void PrepararPrueba()
     {
-
+        _preparandoPrueba = true;
         _pruebaActual.PrepararDatos();
         _escenarioManager.PrepararPrueba(_pruebaActual);
 

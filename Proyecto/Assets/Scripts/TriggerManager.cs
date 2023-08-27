@@ -59,10 +59,14 @@ public class TriggerManager : MonoBehaviour
 
     public void ComenzarNivel()
     {
-        for (int i = 0; i < _nivelActual.parts.Count; i++)
+        if (_nivelActual is not null)
         {
-            StartCoroutine(LoadLevel(_nivelActual.parts[i].triggerPositions, _nivelActual.parts[i].time));
+            for (int i = 0; i < _nivelActual.parts.Count; i++)
+            {
+                StartCoroutine(LoadLevel(_nivelActual.parts[i].triggerPositions, _nivelActual.parts[i].time));
+            }
         }
+
     }
 
 
@@ -86,13 +90,13 @@ public class TriggerManager : MonoBehaviour
         if (aciertos > 2)
         {
             correct = true;
-            pruebaBaile pb = FindObjectOfType<pruebaBaile>();
+            PruebaBaile pb = FindObjectOfType<PruebaBaile>();
             if (pb != null)
             {
                 pb.MarcarCorrecto();
             }
 
-            pruebaPosiciones pp = FindObjectOfType<pruebaPosiciones>();
+            PruebaPosiciones pp = FindObjectOfType<PruebaPosiciones>();
             if (pp != null)
             {
                 pp.MarcarCorrecto();
@@ -136,6 +140,14 @@ public class TriggerManager : MonoBehaviour
         }
         Debug.Log(triggers.Length + " - " + correcto);
         return correcto;
+    }
+
+
+    public void EliminarTriggers()
+    {
+        _nivelActual = new Level();
+        correct = false;
+        aciertos = 0;
     }
 
 }

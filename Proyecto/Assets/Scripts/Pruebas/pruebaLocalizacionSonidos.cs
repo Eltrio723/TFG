@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class pruebaLocalizacionSonidos : Prueba
+public class PruebaLocalizacionSonidos : Prueba
 {
 
     //public override void CargarPrueba()

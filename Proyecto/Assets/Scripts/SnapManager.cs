@@ -36,7 +36,7 @@ public class SnapManager : MonoBehaviour
 
         if (correcto)
         {
-            GameObject.Find("ManagerPruebas").GetComponent<pruebaSonidos>().MarcarCorrecto();
+            GameObject.Find("ManagerPruebas").GetComponent<PruebaSonidos>().MarcarCorrecto();
         }
 
     }

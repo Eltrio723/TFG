@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class pruebaSonidos : Prueba
+public class PruebaSonidos : Prueba
 {
 
     //public override void CargarPrueba()

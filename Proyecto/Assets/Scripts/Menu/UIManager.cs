@@ -6,11 +6,11 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private GameManager _gameManager;
 
-    private GameObject _unityCanvasInfo;
-    private GameObject _unityCanvasPruebas;
-    private GameObject _unityCanvasSaltar;
-    private GameObject _unityCanvasFinPrueba;
-    private GameObject _unityCanvasFinJuego;
+    private GameObject _menuPantallaInfo;
+    private GameObject _menuPantallaPruebas;
+    private GameObject _menuPantallaSaltar;
+    private GameObject _menuPantallaFinPrueba;
+    private GameObject _menuPantallaFinJuego;
 
     private GameObject _btnComenzar;
     private GameObject _btnEntendido;
@@ -45,11 +45,11 @@ public class UIManager : MonoBehaviour
 
         //_menuPantalla = GameObject.Find("MenuPantalla");
         //_menuPantallaSiguiente = GameObject.Find("MenuPantallaSiguiente");
-        _unityCanvasInfo = GameObject.Find("UnityCanvasInfo");
-        _unityCanvasPruebas = GameObject.Find("UnityCanvasPruebas");
-        _unityCanvasSaltar = GameObject.Find("UnityCanvasSaltar");
-        _unityCanvasFinPrueba = GameObject.Find("UnityCanvasFinPrueba");
-        _unityCanvasFinJuego = GameObject.Find("UnityCanvasFinJuego");
+        _menuPantallaInfo = GameObject.Find("MenuPantallaInfo");
+        _menuPantallaPruebas = GameObject.Find("MenuPantallaPruebas");
+        _menuPantallaSaltar = GameObject.Find("MenuPantallaSaltar");
+        _menuPantallaFinPrueba = GameObject.Find("MenuPantallaFinPrueba");
+        _menuPantallaFinJuego = GameObject.Find("MenuPantallaFinJuego");
         _btnComenzar = GameObject.Find("btnComenzar");
         _btnEntendido = GameObject.Find("btnEntendido");
         _btnContinuar = GameObject.Find("btnContinuar");
@@ -177,11 +177,11 @@ public class UIManager : MonoBehaviour
 
     private void DesactivarElementosUI()
     {
-        _unityCanvasInfo.SetActive(false);
-        _unityCanvasPruebas.SetActive(false);
-        _unityCanvasSaltar.SetActive(false);
-        _unityCanvasFinPrueba.SetActive(false);
-        _unityCanvasFinJuego.SetActive(false);
+        _menuPantallaInfo.SetActive(false);
+        _menuPantallaPruebas.SetActive(false);
+        _menuPantallaSaltar.SetActive(false);
+        _menuPantallaFinPrueba.SetActive(false);
+        _menuPantallaFinJuego.SetActive(false);
         _btnComenzar.SetActive(false);
         _btnEntendido.SetActive(false);
         _btnContinuar.SetActive(false);
@@ -206,7 +206,7 @@ public class UIManager : MonoBehaviour
     private void PantallaTutorial()
     {
         DesactivarElementosUI();
-        _unityCanvasInfo.SetActive(true);
+        _menuPantallaInfo.SetActive(true);
         _btnEntendido.SetActive(true);
         _txtInstrucciones.SetActive(true);
 
@@ -216,7 +216,7 @@ public class UIManager : MonoBehaviour
     private void PantallaPrincipal()
     {
         DesactivarElementosUI();
-        _unityCanvasInfo.SetActive(true);
+        _menuPantallaInfo.SetActive(true);
         _txtBienvenida.SetActive(true);
         _btnComenzar.SetActive(true);
     }
@@ -224,7 +224,7 @@ public class UIManager : MonoBehaviour
     private void PantallaEleccion()
     {
         DesactivarElementosUI();
-        _unityCanvasPruebas.SetActive(true);
+        _menuPantallaPruebas.SetActive(true);
         _txtElige.SetActive(true);
         _txtDescripcion.SetActive(true);
     }
@@ -232,21 +232,23 @@ public class UIManager : MonoBehaviour
     private void PantallaPrueba()
     {
         DesactivarElementosUI();
-        _unityCanvasSaltar.SetActive(true);
+        _menuPantallaSaltar.SetActive(true);
     }
 
     private void PantallaFinPrueba()
     {
         DesactivarElementosUI();
-        _unityCanvasFinPrueba.SetActive(true);
+        _menuPantallaFinPrueba.SetActive(true);
         _txtFinPrueba.SetActive(true);
+        _btnContinuar.SetActive(true);
     }
 
     private void PantallaFinJuego()
     {
         DesactivarElementosUI();
-        _unityCanvasFinJuego.SetActive(true);
+        _menuPantallaFinJuego.SetActive(true);
         _txtFinJuego.SetActive(true);
+        _btnReiniciar.SetActive(true);
     }
 
 
