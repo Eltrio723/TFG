@@ -1,6 +1,4 @@
 using Meta.WitAi;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PruebasManager : MonoBehaviour
@@ -14,8 +12,11 @@ public class PruebasManager : MonoBehaviour
     public GameObject PrefabPruebaSonidos;
     public GameObject PrefabPruebaLocalizacionSonidos;
 
+    [SerializeField]
     private Prueba _pruebaActual;
+    [SerializeField]
     private EscenarioManager _escenarioManager;
+    [SerializeField]
     private TriggerManager _triggerManager;
 
 
@@ -29,7 +30,7 @@ public class PruebasManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
 
@@ -66,55 +67,76 @@ public class PruebasManager : MonoBehaviour
                 break;
         }
 
-        
+
         PrepararPrueba();
     }
 
     public void ComenzarPrueba()
     {
         //_pruebaActual.CargarPrueba();
-        _escenarioManager.MostrarImagen();
-        _escenarioManager.ReproducirSonido();
-        _triggerManager.ComenzarNivel();
+        //_escenarioManager.MostrarImagen();
+        //_escenarioManager.ReproducirSonido();
+        //_triggerManager.ComenzarNivel();
+        _escenarioManager.ComenzarPrueba();
     }
 
     public void TerminarPrueba()
     {
+        _escenarioManager.TerminarPrueba();
         _pruebaActual.gameObject.DestroySafely();
         _pruebaActual = null;
+        //_escenarioManager.TerminarPrueba();
+        //_gameManager.TerminarPrueba();
     }
 
     public void PrepararPrueba()
     {
 
         _pruebaActual.PrepararDatos();
+        _escenarioManager.PrepararPrueba(_pruebaActual);
 
-        if (_pruebaActual.pathImagen is not null)
-        {
-            _escenarioManager.PrepararImagen(_pruebaActual.pathImagen);
-        }
+        //if (_pruebaActual.pathImagen is not null)
+        //{
+        //    _escenarioManager.PrepararImagen(_pruebaActual.pathImagen);
+        //}
 
-        if (_pruebaActual.pathSonido is not null)
-        {
-            _escenarioManager.PrepararSonido(_pruebaActual.pathSonido, (_pruebaActual.tipo == TipoPrueba.LocalizacionSonidos ? true : false));
-        }
+        //if (_pruebaActual.pathSonido is not null)
+        //{
+        //    _escenarioManager.PrepararSonido(_pruebaActual.pathSonido, (_pruebaActual.tipo == TipoPrueba.LocalizacionSonidos ? true : false));
+        //}
 
-        if (_pruebaActual.pathTriggers is not null)
-        {
-            //_escenarioManager.PrepararTriggers(_pruebaActual.pathTriggers);
-            _triggerManager.CargarNivel(_pruebaActual.pathTriggers);
-        }
+        //if (_pruebaActual.pathTriggers is not null)
+        //{
+        //    //_escenarioManager.PrepararTriggers(_pruebaActual.pathTriggers);
+        //    _triggerManager.CargarNivel(_pruebaActual.pathTriggers);
+        //}
 
-        if (_pruebaActual.tipo > 0)
-        {
-            _escenarioManager.CambiarAscensor(_pruebaActual.tipo);
-        }
+        //if (_pruebaActual.listaObjetos is not null && _pruebaActual.listaObjetos.Count > 0)
+        //{
+        //    _escenarioManager.PrepararObjetos(_pruebaActual.listaObjetos);
+        //}
+        //if (listaObjetos != null && listaObjetos.Count > 0 && !objetosCreados)
+        //{
+        //    CargarObjetos(listaObjetos);
+        //}
+
+        //if (_pruebaActual.tipo > 0)
+        //{
+        //    _escenarioManager.CambiarAscensor(_pruebaActual.tipo);
+        //}
+
+
 
 
     }
 
-    
 
-    
+
+    public bool CheckPruebaCorrecta()
+    {
+        return _pruebaActual.CheckCorrecto();
+    }
+
+
 
 }

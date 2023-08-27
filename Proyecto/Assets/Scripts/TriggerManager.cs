@@ -51,7 +51,7 @@ public class TriggerManager : MonoBehaviour
         triggerSpawnArray = GameObject.FindGameObjectWithTag("TriggerSpawnArray");
         indicacionesArray = GameObject.FindGameObjectWithTag("IndicacionesArray");
 
-        
+
 
 
     }
@@ -87,15 +87,15 @@ public class TriggerManager : MonoBehaviour
         {
             correct = true;
             pruebaBaile pb = FindObjectOfType<pruebaBaile>();
-            if(pb != null)
+            if (pb != null)
             {
-                pb.PruebaCorrecta();
+                pb.MarcarCorrecto();
             }
 
             pruebaPosiciones pp = FindObjectOfType<pruebaPosiciones>();
             if (pp != null)
             {
-                pp.PruebaCorrecta();
+                pp.MarcarCorrecto();
             }
             aciertos = 0;
         }

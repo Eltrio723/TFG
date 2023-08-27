@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using UnityEngine;
+﻿using UnityEngine;
 ////using VRTK.Prefabs.Interactions.InteractableSnapZone;
 
 public class SnapManager : MonoBehaviour
@@ -10,7 +6,7 @@ public class SnapManager : MonoBehaviour
 
     ////public List<SnapZoneFacade> list;
     private bool completo;
-    
+
     public bool correcto;
 
 
@@ -40,7 +36,7 @@ public class SnapManager : MonoBehaviour
 
         if (correcto)
         {
-            GameObject.Find("ManagerPruebas").GetComponent<pruebaSonidos>().TerminarPrueba();
+            GameObject.Find("ManagerPruebas").GetComponent<pruebaSonidos>().MarcarCorrecto();
         }
 
     }

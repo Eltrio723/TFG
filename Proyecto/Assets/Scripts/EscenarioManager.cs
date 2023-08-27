@@ -1,9 +1,12 @@
-using System.Collections;
+using Meta.WitAi;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class EscenarioManager : MonoBehaviour
 {
+    [SerializeField]
+    private TriggerManager _triggerManager;
 
     public GameObject ascensorPrincipal;
     public GameObject ascensorTurismo;
@@ -15,7 +18,8 @@ public class EscenarioManager : MonoBehaviour
     public GameObject ascensorSonidos;
     public GameObject ascensorLocalizacionSonidos;
 
-    private GameObject ascensorActual;
+    private GameObject _ascensorActual;
+    private GameObject _ascensorNuevo;
 
     private bool _escenarioListo;
 
@@ -25,6 +29,7 @@ public class EscenarioManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _triggerManager = this.gameObject.GetComponent<TriggerManager>();
         Instantiate(ascensorPrincipal);
         _escenarioListo = true;
     }
@@ -32,7 +37,7 @@ public class EscenarioManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
 
@@ -46,10 +51,54 @@ public class EscenarioManager : MonoBehaviour
     {
         _escenarioListo = false;
 
+        _ascensorActual.GetComponent<Ascensor>().BajarAscensor();
+
+        switch (tipoPrueba)
+        {
+            case TipoPrueba.Turismo:
+                _ascensorNuevo = Instantiate(ascensorTurismo, GameObject.Find("TargetAscensor").transform.position, Quaternion.identity);
+                break;
+            case TipoPrueba.Cancion:
+                _ascensorNuevo = Instantiate(ascensorCancion, GameObject.Find("TargetAscensor").transform.position, Quaternion.identity);
+                break;
+            case TipoPrueba.Asociacion:
+                _ascensorNuevo = Instantiate(ascensorAsociacion, GameObject.Find("TargetAscensor").transform.position, Quaternion.identity);
+                break;
+            case TipoPrueba.Posiciones:
+                _ascensorNuevo = Instantiate(ascensorPosiciones, GameObject.Find("TargetAscensor").transform.position, Quaternion.identity);
+                break;
+            case TipoPrueba.Situaciones:
+                _ascensorNuevo = Instantiate(ascensorSituaciones, GameObject.Find("TargetAscensor").transform.position, Quaternion.identity);
+                break;
+            case TipoPrueba.Baile:
+                _ascensorNuevo = Instantiate(ascensorBaile, GameObject.Find("TargetAscensor").transform.position, Quaternion.identity);
+                break;
+            case TipoPrueba.Sonidos:
+                _ascensorNuevo = Instantiate(ascensorSonidos, GameObject.Find("TargetAscensor").transform.position, Quaternion.identity);
+                break;
+            case TipoPrueba.LocalizacionSonidos:
+                _ascensorNuevo = Instantiate(ascensorLocalizacionSonidos, GameObject.Find("TargetAscensor").transform.position, Quaternion.identity);
+                break;
+            default:
+                //_ascensorNuevo = Instantiate(ascensorPrincipal, GameObject.Find("TargetAscensor").transform.position, Quaternion.identity);
+                break;
+        }
+
+        _ascensorNuevo.GetComponent<Ascensor>().SubirAscensor();
+
+        _ascensorActual = _ascensorNuevo;
+        _ascensorNuevo.DestroySafely();
+        _ascensorNuevo = null;
+
+        _escenarioListo = true;
     }
 
     public void PrepararImagen(string path)
     {
+        if (path is null || path == "")
+        {
+            return;
+        }
         GameObject spr = (GameObject)Resources.Load(path);
         if (spr != null)
         {
@@ -65,6 +114,11 @@ public class EscenarioManager : MonoBehaviour
 
     public void PrepararSonido(string path, bool espacializado)
     {
+        if (path is null || path == "")
+        {
+            return;
+        }
+
         GameObject sonido = (GameObject)Resources.Load(path);
         if (sonido != null)
         {
@@ -96,7 +150,7 @@ public class EscenarioManager : MonoBehaviour
 
             _snd.tag = "FuenteSonido";
         }
-        
+
         _snd.SetActive(false);
 
         //if (botonCorrecto > 0)
@@ -107,14 +161,86 @@ public class EscenarioManager : MonoBehaviour
     }
 
 
+    public void PrepararObjetos(List<GameObject> objetos)
+    {
+
+        List<GameObject> listaSpawns = GameObject.FindGameObjectsWithTag("SpawnMesa").ToList();
+
+        for (int i = 0; i < listaSpawns.Count; i++)
+        {
+            GameObject obj = Instantiate(objetos[i], listaSpawns[i].transform);
+            obj.tag = "ObjetoAsociacion";
+        }
+    }
+
+    public void PrepararTriggers(string path)
+    {
+        if (path is null || path == "")
+        {
+            return;
+        }
+        _triggerManager.CargarNivel(path);
+    }
+
+
     public void MostrarImagen()
     {
-        _img.SetActive(true);
+        if (_img is not null)
+        {
+            _img.SetActive(true);
+        }
+
     }
 
     public void ReproducirSonido()
     {
-        _snd.SetActive(true);
+        if (_snd is not null)
+        {
+            _snd.SetActive(true);
+        }
+    }
+
+    public void ComenzarPrueba()
+    {
+        MostrarImagen();
+        ReproducirSonido();
+        _triggerManager.ComenzarNivel();
+
+    }
+
+
+    public void PrepararPrueba(Prueba prueba)
+    {
+        //if (prueba.pathImagen is not null)
+        //{
+        PrepararImagen(prueba.pathImagen);
+        //}
+
+        //if (prueba.pathSonido is not null)
+        //{
+        PrepararSonido(prueba.pathSonido, (prueba.tipo == TipoPrueba.LocalizacionSonidos ? true : false));
+        //}
+
+        //if (prueba.pathTriggers is not null)
+        //{
+        PrepararTriggers(prueba.pathTriggers);
+        //}
+
+        //if (prueba.listaObjetos is not null && prueba.listaObjetos.Count > 0)
+        //{
+        //PrepararObjetos(prueba.listaObjetos);
+        //}
+
+        //if (prueba.tipo > 0)
+        //{
+        CambiarAscensor(prueba.tipo);
+        //}
+
+        PrepararObjetos(prueba.listaObjetos);
+    }
+
+    public void TerminarPrueba()
+    {
 
     }
 

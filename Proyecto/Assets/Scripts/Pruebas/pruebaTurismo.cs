@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class pruebaTurismo : Prueba
 {
@@ -13,28 +11,28 @@ public class pruebaTurismo : Prueba
 
 
 
-    public override void CargarPrueba()
-    {
-        ascensor = (GameObject)Resources.Load("Escenarios/Esc_turismo");
+    //public override void CargarPrueba()
+    //{
+    //    ascensor = (GameObject)Resources.Load("Escenarios/Esc_turismo");
 
-        switch (Random.Range(0,3))
-        {
-            case 0:
-                imagen = (GameObject)Resources.Load("Imagenes/img_eiffel");
-                break;
-            case 1:
-                imagen = (GameObject)Resources.Load("Imagenes/img_coliseo");
-                break;
-            case 2:
-                imagen = (GameObject)Resources.Load("Imagenes/img_libertad");
-                break;
-            default:
-                break;
-        }
+    //    switch (Random.Range(0,3))
+    //    {
+    //        case 0:
+    //            imagen = (GameObject)Resources.Load("Imagenes/img_eiffel");
+    //            break;
+    //        case 1:
+    //            imagen = (GameObject)Resources.Load("Imagenes/img_coliseo");
+    //            break;
+    //        case 2:
+    //            imagen = (GameObject)Resources.Load("Imagenes/img_libertad");
+    //            break;
+    //        default:
+    //            break;
+    //    }
 
-        
-        MoverAscensores();
-    }
+
+    //    MoverAscensores();
+    //}
 
     public override void PrepararDatos()
     {

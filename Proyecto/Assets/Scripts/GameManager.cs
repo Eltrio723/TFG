@@ -1,20 +1,21 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-
-    private UIManager _UIManager;
-    private PruebasManager _PruebasManager;
-    private EscenarioManager _EscenarioManager;
+    [SerializeField]
+    private UIManager _uiManager;
+    [SerializeField]
+    private PruebasManager _pruebasManager;
+    [SerializeField]
+    private EscenarioManager _escenarioManager;
 
     private EstadoJuego _estado;
     [SerializeField]
     private int _numeroPruebasARealizar;
     private int _pruebasRealizadas;
-    
+
 
     void Start()
     {
@@ -22,11 +23,19 @@ public class GameManager : MonoBehaviour
         IniciarJuego();
     }
 
+    private void Update()
+    {
+        if (_estado == EstadoJuego.Prueba && _pruebasManager.CheckPruebaCorrecta())
+        {
+            PruebaCorrecta();
+        }
+    }
+
     private void InitManagers()
     {
-        _UIManager = this.gameObject.GetComponent<UIManager>();
-        _PruebasManager = this.gameObject.GetComponent<PruebasManager>();
-        _EscenarioManager = this.gameObject.GetComponent<EscenarioManager>();
+        _uiManager = this.gameObject.GetComponent<UIManager>();
+        _pruebasManager = this.gameObject.GetComponent<PruebasManager>();
+        _escenarioManager = this.gameObject.GetComponent<EscenarioManager>();
     }
 
     public void SetEstadoJuego(EstadoJuego estado)
@@ -43,13 +52,13 @@ public class GameManager : MonoBehaviour
     {
         _pruebasRealizadas = 0;
         SetEstadoJuego(EstadoJuego.Arrancado);
-        _UIManager.Iniciar();
+        _uiManager.Iniciar();
         SetEstadoJuego(EstadoJuego.Tutorial);
     }
 
     public void TerminarTutorial()
     {
-        _UIManager.TerminarTutorial();
+        _uiManager.TerminarTutorial();
         SetEstadoJuego(EstadoJuego.Listo);
     }
 
@@ -67,7 +76,7 @@ public class GameManager : MonoBehaviour
         }
 
         List<TipoPrueba> pruebas = ElegirPruebas();
-        _UIManager.MostrarBotonesPruebas(pruebas);
+        _uiManager.MostrarBotonesPruebas(pruebas);
         SetEstadoJuego(EstadoJuego.EleccionPrueba);
     }
 
@@ -79,37 +88,47 @@ public class GameManager : MonoBehaviour
     public void CrearPrueba(TipoPrueba pruebaElegida)
     {
         //Instanciar prefab de prueba adecuada
-        _PruebasManager.CrearPrueba(pruebaElegida);
+        _pruebasManager.CrearPrueba(pruebaElegida);
         ComenzarPrueba();
     }
 
     public void ComenzarPrueba()
     {
 
-        _UIManager.ComenzarPrueba();
+        _uiManager.ComenzarPrueba();
         SetEstadoJuego(EstadoJuego.Prueba);
-        _PruebasManager.ComenzarPrueba();
+        _pruebasManager.ComenzarPrueba();
     }
 
     public void TerminarPrueba()
     {
-        _PruebasManager.TerminarPrueba();
-        _UIManager.TerminarPrueba();
+        _pruebasManager.TerminarPrueba();
+        _uiManager.TerminarPrueba();
         SetEstadoJuego(EstadoJuego.FinPrueba);
         _pruebasRealizadas++;
-        
+
     }
 
 
 
     public void TerminarJuego()
     {
-        _UIManager.FinalJuego();
+        _uiManager.FinalJuego();
         SetEstadoJuego(EstadoJuego.Final);
+    }
+
+    public void ReiniciarJuego()
+    {
+        IniciarJuego();
     }
 
 
     public void SaltarPrueba()
+    {
+        TerminarPrueba();
+    }
+
+    public void PruebaCorrecta()
     {
         TerminarPrueba();
     }
@@ -124,7 +143,7 @@ public class GameManager : MonoBehaviour
         TipoPrueba segundaPrueba = (TipoPrueba)UnityEngine.Random.Range(1, numPruebas + 1);
 
         pruebasAElegir.Add(primeraPrueba);
-        
+
         while (pruebasAElegir.Contains(segundaPrueba))
         {
             segundaPrueba = (TipoPrueba)UnityEngine.Random.Range(1, numPruebas + 1);
