@@ -7,7 +7,7 @@ public class Prueba : MonoBehaviour
     protected GameObject ascensor;
     protected GameObject imagen;
     protected GameObject sonido;
-    protected int botonCorrecto;
+    //protected int botonCorrecto;
     protected Vector3 posicionSonido;
     protected TriggerManager triggerManager;
 

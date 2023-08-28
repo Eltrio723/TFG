@@ -37,14 +37,18 @@ public class PruebaLocalizacionSonidos : Prueba
 
     public override bool CheckCorrecto()
     {
-        bool correcto = false;
-        GameObject fuenteSonido = GameObject.FindGameObjectWithTag("FuenteSonido");
-        GameObject camara = GameObject.FindGameObjectWithTag("MainCamera");
-        if (Vector3.Dot(Vector3.Normalize((fuenteSonido.transform.position - camara.transform.position)), camara.transform.TransformDirection(Vector3.forward)) > 0.8f)
-        {
-            correcto = true;
-        }
-        return correcto;
+        //bool correcto = false;
+        //GameObject fuenteSonido = GameObject.FindGameObjectWithTag("FuenteSonido");
+        //GameObject camara = GameObject.FindGameObjectWithTag("MainCamera");
+        //if (Vector3.Dot(Vector3.Normalize((fuenteSonido.transform.position - camara.transform.position)), camara.transform.TransformDirection(Vector3.forward)) > 0.8f)
+        //{
+        //    correcto = true;
+        //}
+        //return correcto;
+
+        GameObject radio = GameObject.FindGameObjectWithTag("PruebaLocalizacionCorrecta");
+
+        return (radio is null ? false : true);
     }
 
 

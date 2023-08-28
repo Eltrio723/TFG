@@ -144,17 +144,24 @@ public class EscenarioManager : MonoBehaviour
                 posicionSonido.y = Random.Range(0f, 2f);
                 posicionSonido.z = Random.Range(-7f, 7f);
 
-                _snd = Instantiate(sonido, posicionSonido, Quaternion.identity);
+                //_snd = Instantiate(sonido, posicionSonido, Quaternion.identity);
                 GameObject camara = GameObject.FindGameObjectWithTag("MainCamera");
-                while (Vector3.Dot(Vector3.Normalize((_snd.transform.position - camara.transform.position)), camara.transform.TransformDirection(Vector3.forward)) > 0)
+
+
+                while (Vector3.Dot(Vector3.Normalize((posicionSonido - camara.transform.position)), camara.transform.TransformDirection(Vector3.forward)) > 0)
                 {
                     posicionSonido = new Vector3();
-                    posicionSonido.x = Random.Range(-7f, 7f);
-                    posicionSonido.y = Random.Range(0f, 5f);
-                    posicionSonido.z = Random.Range(-7f, 7f);
-                    _snd = Instantiate(sonido, (posicionSonido != null ? posicionSonido : Vector3.zero), Quaternion.identity);
+                    posicionSonido.x = Random.Range(-5f, 5f);
+                    posicionSonido.y = Random.Range(1.8f, 3f);
+                    posicionSonido.z = Random.Range(-5f, 5f);
+
                 }
 
+
+                Vector3 relativePos = GameObject.FindGameObjectWithTag("MainCamera").transform.position - posicionSonido;
+                Quaternion rotation = Quaternion.LookRotation(relativePos, Vector3.up);
+
+                _snd = Instantiate(sonido, posicionSonido, rotation);
             }
             else
             {

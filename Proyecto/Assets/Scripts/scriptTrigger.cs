@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class scriptTrigger : MonoBehaviour
 {
@@ -25,10 +22,10 @@ public class scriptTrigger : MonoBehaviour
 
     void Start()
     {
-        if (controllerTag == "")
-        {
-            controllerTag = "Controller";
-        }
+        //if (controllerTag == "")
+        //{
+        controllerTag = "Hand";
+        //}
         nControllers = 0;
     }
 
@@ -52,7 +49,7 @@ public class scriptTrigger : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log(other.gameObject.name);
-        if(other.tag == controllerTag)
+        if (other.tag == controllerTag)
         {
             nControllers++;
         }
@@ -64,6 +61,13 @@ public class scriptTrigger : MonoBehaviour
         {
             nControllers--;
         }
+    }
+
+    public void Reiniciar()
+    {
+        nControllers = 0;
+        GetComponent<MeshRenderer>().material = incorrectMaterial;
+        controllerInside = false;
     }
 
 

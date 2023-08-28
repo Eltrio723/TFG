@@ -1,0 +1,5 @@
+D:/Trabajo Fin Grado/Repositorio/TFG/Proyecto/.utmp/RelWithDebInfo/4vi193r1/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Trabajo Fin Grado/Repositorio/TFG/Proyecto/.utmp/RelWithDebInfo/4vi193r1/arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/Trabajo Fin Grado/Repositorio/TFG/Proyecto/.utmp/RelWithDebInfo/4vi193r1/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+D:/Trabajo Fin Grado/Repositorio/TFG/Proyecto/.utmp/RelWithDebInfo/4vi193r1/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+D:/Trabajo Fin Grado/Repositorio/TFG/Proyecto/.utmp/RelWithDebInfo/4vi193r1/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

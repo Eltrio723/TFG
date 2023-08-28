@@ -57,22 +57,30 @@ public class PruebaSonidos : Prueba
             "Objetos/Telefono"
         };
 
+        listaRespuestas = new List<string>
+        {
+            "Telefono",
+            "Guitarra",
+            "Coche",
+            "Pajaro"
+        };
+
         switch (Random.Range(0, 3))
         {
             case 0:
                 //sonido = (GameObject)Resources.Load("Canciones/son_pajaro");
                 pathSonido = "Canciones/son_pajaro";
-                botonCorrecto = 4;
+                respuestaCorrecta = 4;
                 break;
             case 1:
                 //sonido = (GameObject)Resources.Load("Canciones/son_guitarra");
                 pathSonido = "Canciones/son_guitarra";
-                botonCorrecto = 2;
+                respuestaCorrecta = 2;
                 break;
             case 2:
                 //sonido = (GameObject)Resources.Load("Canciones/son_telefono");
                 pathSonido = "Canciones/son_telefono";
-                botonCorrecto = 1;
+                respuestaCorrecta = 1;
                 break;
             default:
                 break;

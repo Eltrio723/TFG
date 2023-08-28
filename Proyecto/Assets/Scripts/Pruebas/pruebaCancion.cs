@@ -42,17 +42,17 @@ public class PruebaCancion : Prueba
             case 0:
                 //sonido = (GameObject)Resources.Load("Canciones/can_gardenias");
                 pathSonido = "Canciones/can_gardenias";
-                botonCorrecto = 1;
+                respuestaCorrecta = 1;
                 break;
             case 1:
                 //sonido = (GameObject)Resources.Load("Canciones/can_espania");
                 pathSonido = "Canciones/can_espania";
-                botonCorrecto = 2;
+                respuestaCorrecta = 2;
                 break;
             case 2:
                 //sonido = (GameObject)Resources.Load("Canciones/can_luna");
                 pathSonido = "Canciones/can_luna";
-                botonCorrecto = 3;
+                respuestaCorrecta = 3;
                 break;
             default:
                 break;
@@ -60,10 +60,10 @@ public class PruebaCancion : Prueba
 
         listaRespuestas = new List<string>
         {
-            "Gardenias",
-            "España",
-            "Luna",
-            "Otra"
+            "Antonio Machín",
+            "Manolo Escobar",
+            "Los Bocheros",
+            "Lola Flores"
         };
 
     }

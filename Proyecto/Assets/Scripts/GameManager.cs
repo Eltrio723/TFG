@@ -154,14 +154,14 @@ public class GameManager : MonoBehaviour
         {
             List<TipoPrueba> pruebas = new List<TipoPrueba>()
             {
-                TipoPrueba.Turismo,
-                TipoPrueba.Cancion,
-                TipoPrueba.Asociacion,
+                ////TipoPrueba.Turismo,
+                ////TipoPrueba.Cancion,
+                //TipoPrueba.Asociacion,
                 TipoPrueba.Posiciones,
-                TipoPrueba.Situaciones,
+                ////TipoPrueba.Situaciones,
                 TipoPrueba.Baile,
-                TipoPrueba.Sonidos,
-                TipoPrueba.LocalizacionSonidos
+                //TipoPrueba.Sonidos,
+                ////TipoPrueba.LocalizacionSonidos
             };
             return pruebas;
         }

@@ -26,6 +26,8 @@ TagManager:
   - Pointer
   - SamplesInfoPanel
   - MenuPantalla
+  - PruebaLocalizacionCorrecta
+  - Hand
   layers:
   - Default
   - TransparentFX
