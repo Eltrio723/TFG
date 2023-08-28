@@ -11,7 +11,6 @@ public class Prueba : MonoBehaviour
     protected Vector3 posicionSonido;
     protected TriggerManager triggerManager;
 
-
     protected bool localizarSonido;
 
 
@@ -244,8 +243,11 @@ public class Prueba : MonoBehaviour
     public string pathImagen;
     public string pathSonido;
     public string pathTriggers;
+    public List<string> listaPathObjetos;
+    public List<string> listaRespuestas;
+    public int respuestaCorrecta;
 
-    public List<GameObject> listaObjetos;
+    //public List<GameObject> listaObjetos;
 
     public TipoPrueba tipo;
 
@@ -255,6 +257,8 @@ public class Prueba : MonoBehaviour
         tipo = 0;
         _correcto = false;
     }
+
+
 
 
     public virtual void PrepararDatos()

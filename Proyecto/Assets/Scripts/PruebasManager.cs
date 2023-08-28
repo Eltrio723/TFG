@@ -20,6 +20,8 @@ public class PruebasManager : MonoBehaviour
     private TriggerManager _triggerManager;
     [SerializeField]
     private GameManager _gameManager;
+    [SerializeField]
+    private UIManager _uiManager;
 
     private bool _preparandoPrueba;
     private bool _terminanadoPrueba;
@@ -31,6 +33,7 @@ public class PruebasManager : MonoBehaviour
         _escenarioManager = this.gameObject.GetComponent<EscenarioManager>();
         _triggerManager = this.gameObject.GetComponent<TriggerManager>();
         _gameManager = this.gameObject.GetComponent<GameManager>();
+        _uiManager = this.gameObject.GetComponent<UIManager>();
     }
 
     // Update is called once per frame
@@ -46,6 +49,7 @@ public class PruebasManager : MonoBehaviour
         }
         if (_terminanadoPrueba)
         {
+            //_uiManager.TerminarPrueba();
             if (_escenarioManager.GetEscenarioListo())
             {
                 _terminanadoPrueba = false;
@@ -103,7 +107,7 @@ public class PruebasManager : MonoBehaviour
 
     public void TerminarPrueba()
     {
-        _escenarioManager.TerminarPrueba();
+        _escenarioManager.TerminarPrueba(_pruebaActual);
         _terminanadoPrueba = true;
         _pruebaActual.gameObject.DestroySafely();
         _pruebaActual = null;
@@ -116,6 +120,7 @@ public class PruebasManager : MonoBehaviour
         _preparandoPrueba = true;
         _pruebaActual.PrepararDatos();
         _escenarioManager.PrepararPrueba(_pruebaActual);
+        _uiManager.PrepararBotonesRespuestas(_pruebaActual.listaRespuestas, _pruebaActual.respuestaCorrecta);
 
         //if (_pruebaActual.pathImagen is not null)
         //{
@@ -156,7 +161,12 @@ public class PruebasManager : MonoBehaviour
 
     public bool CheckPruebaCorrecta()
     {
-        return _pruebaActual.CheckCorrecto();
+        bool correcto = false;
+        if (_pruebaActual is not null)
+        {
+            correcto = _pruebaActual.CheckCorrecto();
+        }
+        return correcto;
     }
 
 

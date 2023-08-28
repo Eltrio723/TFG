@@ -34,6 +34,11 @@ public class TriggerManager : MonoBehaviour
     private Level _nivelActual;
 
 
+    private void Start()
+    {
+        _nivelActual = null;
+    }
+
     public void CargarNivel(string path)
     {
         aciertos = 0;
@@ -90,13 +95,13 @@ public class TriggerManager : MonoBehaviour
         if (aciertos > 2)
         {
             correct = true;
-            PruebaBaile pb = FindObjectOfType<PruebaBaile>();
+            PruebaBaile pb = FindFirstObjectByType<PruebaBaile>();
             if (pb != null)
             {
                 pb.MarcarCorrecto();
             }
 
-            PruebaPosiciones pp = FindObjectOfType<PruebaPosiciones>();
+            PruebaPosiciones pp = FindFirstObjectByType<PruebaPosiciones>();
             if (pp != null)
             {
                 pp.MarcarCorrecto();
@@ -145,7 +150,7 @@ public class TriggerManager : MonoBehaviour
 
     public void EliminarTriggers()
     {
-        _nivelActual = new Level();
+        _nivelActual = null;
         correct = false;
         aciertos = 0;
     }

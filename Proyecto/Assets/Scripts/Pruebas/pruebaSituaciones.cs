@@ -42,18 +42,25 @@ public class PruebaSituaciones : Prueba
         switch (Random.Range(0, 3))
         {
             case 0:
-                imagen = (GameObject)Resources.Load("Imagenes/img_medico");
+                //imagen = (GameObject)Resources.Load("Imagenes/img_medico");
+                pathImagen = "Imagenes/img_medico";
                 break;
             case 1:
-                imagen = (GameObject)Resources.Load("Imagenes/img_cole");
+                //imagen = (GameObject)Resources.Load("Imagenes/img_cole");
+                pathImagen = "Imagenes/img_cole";
                 break;
             case 2:
-                imagen = (GameObject)Resources.Load("Imagenes/img_feria");
+                //imagen = (GameObject)Resources.Load("Imagenes/img_feria");
+                pathImagen = "Imagenes/img_feria";
                 break;
             default:
                 break;
         }
 
 
+    }
+    public override bool CheckCorrecto()
+    {
+        return false;
     }
 }

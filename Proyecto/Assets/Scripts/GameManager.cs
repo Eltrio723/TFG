@@ -16,11 +16,14 @@ public class GameManager : MonoBehaviour
     private int _numeroPruebasARealizar;
     private int _pruebasRealizadas;
 
+    private bool _testing;
+
 
     void Start()
     {
         InitManagers();
         IniciarJuego();
+        _testing = true;
     }
 
     private void Update()
@@ -111,7 +114,6 @@ public class GameManager : MonoBehaviour
     {
         _pruebasManager.TerminarPrueba();
 
-
     }
 
     public void PruebaTerminada()
@@ -147,6 +149,22 @@ public class GameManager : MonoBehaviour
 
     public List<TipoPrueba> ElegirPruebas()
     {
+
+        if (_testing)
+        {
+            List<TipoPrueba> pruebas = new List<TipoPrueba>()
+            {
+                TipoPrueba.Turismo,
+                TipoPrueba.Cancion,
+                TipoPrueba.Asociacion,
+                TipoPrueba.Posiciones,
+                TipoPrueba.Situaciones,
+                TipoPrueba.Baile,
+                TipoPrueba.Sonidos,
+                TipoPrueba.LocalizacionSonidos
+            };
+            return pruebas;
+        }
 
         int numPruebas = Enum.GetValues(typeof(EstadoJuego)).Length;
 

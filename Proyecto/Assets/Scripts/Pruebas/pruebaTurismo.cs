@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class PruebaTurismo : Prueba
 {
@@ -38,22 +39,37 @@ public class PruebaTurismo : Prueba
     {
         tipo = TipoPrueba.Turismo;
 
+        listaRespuestas = new List<string>
+        {
+            "Torre Eiffel (París)",
+            "Coliseo (Roma)",
+            "Estatua Libertad (Nueva York)",
+            "Alhambra (Granada)"
+        };
+
 
         switch (Random.Range(0, 3))
         {
             case 0:
                 pathImagen = "Imagenes/img_eiffel";
+                respuestaCorrecta = 1;
                 break;
             case 1:
                 pathImagen = "Imagenes/img_coliseo";
+                respuestaCorrecta = 2;
                 break;
             case 2:
                 pathImagen = "Imagenes/img_libertad";
+                respuestaCorrecta = 3;
                 break;
             default:
                 break;
         }
 
+    }
+    public override bool CheckCorrecto()
+    {
+        return false;
     }
 
 }

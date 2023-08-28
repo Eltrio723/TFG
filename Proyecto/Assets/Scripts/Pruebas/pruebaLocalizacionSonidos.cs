@@ -29,7 +29,8 @@ public class PruebaLocalizacionSonidos : Prueba
         posicionSonido.y = Random.Range(0f, 2f);
         posicionSonido.z = Random.Range(-7f, 7f);
 
-        sonido = (GameObject)Resources.Load("Canciones/loc_chacacha");
+        //sonido = (GameObject)Resources.Load("Canciones/loc_chacacha");
+        pathSonido = "Canciones/loc_chacacha";
 
 
     }
@@ -45,7 +46,6 @@ public class PruebaLocalizacionSonidos : Prueba
         }
         return correcto;
     }
-
 
 
 }

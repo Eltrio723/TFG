@@ -60,7 +60,6 @@ public class EscenarioManager : MonoBehaviour
     public void CambiarAscensor(TipoPrueba? tipoPrueba)
     {
         _escenarioListo = false;
-
         _ascensorActual.GetComponent<Ascensor>().BajarAscensor();
 
         switch (tipoPrueba)
@@ -118,10 +117,10 @@ public class EscenarioManager : MonoBehaviour
         if (spr != null)
         {
             GameObject canvas = GameObject.FindGameObjectWithTag("CanvasPantalla");
-            _img = Instantiate(spr, canvas.transform.position, canvas.transform.rotation);
+            _img = Instantiate(spr, canvas.transform.position + new Vector3(0, 0.4f, 0), canvas.transform.rotation);
             _img.transform.SetParent(canvas.transform);
             //img.transform.parent = canvas.transform;
-            _img.transform.localScale = new Vector3(1, 1, 1);
+            _img.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
             _img.tag = "ImagenPantalla";
             _img.SetActive(false);
         }
@@ -176,14 +175,14 @@ public class EscenarioManager : MonoBehaviour
     }
 
 
-    public void PrepararObjetos(List<GameObject> objetos)
+    public void PrepararObjetos(List<string> pathObjetos)
     {
 
         List<GameObject> listaSpawns = GameObject.FindGameObjectsWithTag("SpawnMesa").ToList();
 
-        for (int i = 0; i < listaSpawns.Count; i++)
+        for (int i = 0; i < pathObjetos.Count; i++)
         {
-            GameObject obj = Instantiate(objetos[i], listaSpawns[i].transform);
+            GameObject obj = Instantiate((GameObject)Resources.Load(pathObjetos[i]), listaSpawns[i].transform);
             obj.tag = "ObjetoAsociacion";
             _listaObjetos.Add(obj);
         }
@@ -256,13 +255,21 @@ public class EscenarioManager : MonoBehaviour
             _escenarioListo = true;
         }
 
-        PrepararObjetos(prueba.listaObjetos);
+        PrepararObjetos(prueba.listaPathObjetos);
     }
 
-    public void TerminarPrueba()
+    public void TerminarPrueba(Prueba prueba)
     {
-        CambiarAscensor(null);
         EliminarElementosPrueba();
+
+        if (!pruebasSinCambiosEscenario.Contains(prueba.tipo))
+        {
+            CambiarAscensor(null);
+        }
+        else
+        {
+            _escenarioListo = true;
+        }
     }
 
     public void EliminarElementosPrueba()
@@ -278,6 +285,7 @@ public class EscenarioManager : MonoBehaviour
         if (_img is not null)
         {
             _img.DestroySafely();
+            _img = null;
         }
     }
 
@@ -286,6 +294,7 @@ public class EscenarioManager : MonoBehaviour
         if (_snd is not null)
         {
             _snd.DestroySafely();
+            _snd = null;
         }
     }
 
@@ -300,6 +309,7 @@ public class EscenarioManager : MonoBehaviour
                     _listaObjetos[i].DestroySafely();
                 }
             }
+            _listaObjetos = null;
         }
     }
 

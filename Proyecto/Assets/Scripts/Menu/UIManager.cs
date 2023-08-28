@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class UIManager : MonoBehaviour
@@ -11,6 +12,7 @@ public class UIManager : MonoBehaviour
     private GameObject _menuPantallaSaltar;
     private GameObject _menuPantallaFinPrueba;
     private GameObject _menuPantallaFinJuego;
+    private GameObject _menuPantallaRespuestas;
 
     private GameObject _btnComenzar;
     private GameObject _btnEntendido;
@@ -33,6 +35,18 @@ public class UIManager : MonoBehaviour
     private GameObject _txtFinJuego;
 
 
+    private GameObject _btnResp1;
+    private GameObject _txtResp1;
+    private GameObject _btnResp2;
+    private GameObject _txtResp2;
+    private GameObject _btnResp3;
+    private GameObject _txtResp3;
+    private GameObject _btnResp4;
+    private GameObject _txtResp4;
+
+    private bool _botonesCargados;
+    private int _botonRespuestaCorecta;
+
 
     void Start()
     {
@@ -50,6 +64,7 @@ public class UIManager : MonoBehaviour
         _menuPantallaSaltar = GameObject.Find("MenuPantallaSaltar");
         _menuPantallaFinPrueba = GameObject.Find("MenuPantallaFinPrueba");
         _menuPantallaFinJuego = GameObject.Find("MenuPantallaFinJuego");
+        _menuPantallaRespuestas = GameObject.Find("MenuPantallaRespuestas");
         _btnComenzar = GameObject.Find("btnComenzar");
         _btnEntendido = GameObject.Find("btnEntendido");
         _btnContinuar = GameObject.Find("btnContinuar");
@@ -68,6 +83,18 @@ public class UIManager : MonoBehaviour
         _txtDescripcion = GameObject.Find("txtDescripcion");
         _txtFinPrueba = GameObject.Find("txtFinPrueba");
         _txtFinJuego = GameObject.Find("txtFinJuego");
+
+
+
+        _btnResp1 = GameObject.Find("btnResp1");
+        _txtResp1 = GameObject.Find("txtResp1");
+        _btnResp2 = GameObject.Find("btnResp2");
+        _txtResp2 = GameObject.Find("txtResp2");
+        _btnResp3 = GameObject.Find("btnResp3");
+        _txtResp3 = GameObject.Find("txtResp3");
+        _btnResp4 = GameObject.Find("btnResp4");
+        _txtResp4 = GameObject.Find("txtResp4");
+
 
     }
 
@@ -93,6 +120,8 @@ public class UIManager : MonoBehaviour
 
     public void TerminarPrueba()
     {
+        _botonesCargados = false;
+        _botonRespuestaCorecta = 0;
         PantallaFinPrueba();
     }
     public void FinalJuego()
@@ -117,6 +146,7 @@ public class UIManager : MonoBehaviour
 
     public void btnContinuar()
     {
+        _botonesCargados = false;
         _gameManager.NuevaRonda();
     }
 
@@ -167,6 +197,36 @@ public class UIManager : MonoBehaviour
 
     }
 
+    public void PrepararBotonesRespuestas(List<string> opciones, int correcta)
+    {
+        if (opciones is not null && opciones.Count > 0 && correcta > 0)
+        {
+            _botonesCargados = true;
+            _botonRespuestaCorecta = correcta;
+
+            _txtResp1.GetComponent<TextMeshProUGUI>().text = opciones[0];
+            _txtResp2.GetComponent<TextMeshProUGUI>().text = opciones[1];
+            _txtResp3.GetComponent<TextMeshProUGUI>().text = opciones[2];
+            _txtResp4.GetComponent<TextMeshProUGUI>().text = opciones[3];
+        }
+
+
+
+
+    }
+
+
+    public void btnRespuesta(int eleccion)
+    {
+        if (_botonRespuestaCorecta == eleccion)
+        {
+            _botonesCargados = false;
+            _botonRespuestaCorecta = 0;
+            _gameManager.PruebaCorrecta();
+        }
+
+    }
+
 
     public void btnPrueba(int pruebaElegida)
     {
@@ -182,6 +242,7 @@ public class UIManager : MonoBehaviour
         _menuPantallaSaltar.SetActive(false);
         _menuPantallaFinPrueba.SetActive(false);
         _menuPantallaFinJuego.SetActive(false);
+        _menuPantallaRespuestas.SetActive(false);
         _btnComenzar.SetActive(false);
         _btnEntendido.SetActive(false);
         _btnContinuar.SetActive(false);
@@ -232,7 +293,15 @@ public class UIManager : MonoBehaviour
     private void PantallaPrueba()
     {
         DesactivarElementosUI();
-        _menuPantallaSaltar.SetActive(true);
+
+        if (_botonesCargados)
+        {
+            _menuPantallaRespuestas.SetActive(true);
+        }
+        else
+        {
+            _menuPantallaSaltar.SetActive(true);
+        }
     }
 
     private void PantallaFinPrueba()

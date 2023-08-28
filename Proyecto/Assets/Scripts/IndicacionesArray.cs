@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.WSA;
 
 public class IndicacionesArray : MonoBehaviour
 {
     [Tooltip("Trigger will move relative to this object")]
-    private GameObject camera;
+    private GameObject camara;
 
     [Tooltip("Root position for the array")]
     [SerializeField]
@@ -35,8 +32,8 @@ public class IndicacionesArray : MonoBehaviour
         for (int i = 0; i < positions.Count; i++)
         {
             this.transform.GetChild(i).gameObject.SetActive(positions[i]);
-            this.transform.GetChild(i+12).gameObject.SetActive(!positions[i]);
-        } 
+            this.transform.GetChild(i + 12).gameObject.SetActive(!positions[i]);
+        }
     }
 
 }
