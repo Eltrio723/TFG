@@ -4,6 +4,8 @@ using UnityEngine;
 public class PruebaAsociacion : Prueba
 {
 
+    private DetectManager _detectManager;
+
     //public override void CargarPrueba()
     //{
     //    ascensor = (GameObject)Resources.Load("Escenarios/Esc_asociacion");
@@ -49,6 +51,8 @@ public class PruebaAsociacion : Prueba
         //listaObjetos = new List<GameObject>();
 
         Debug.LogWarning("Faltan objetos por asignar: Bombilla, Manzana, Platano, Zapato, Guante");
+        _detectManager = FindFirstObjectByType<DetectManager>();
+        mensajePantalla = "Coloca en los pedestales de cada lado los objetos con algo en común";
 
         switch (Random.Range(0, 3))
         {
@@ -67,6 +71,14 @@ public class PruebaAsociacion : Prueba
                     "Objetos/Flor",
                 };
 
+                listaCategorias = new List<string>
+                {
+                    "CatA",
+                    "CatA",
+                    "CatB",
+                    "CatB",
+                };
+
                 break;
             case 1:
                 ////Transporte (Avión, coche) vs Objetos de casa (Bombilla, teléfono)
@@ -81,6 +93,13 @@ public class PruebaAsociacion : Prueba
                     "Objetos/Avion",
                     "Objetos/Coche",
                     "Objetos/Telefono",
+                };
+                listaCategorias = new List<string>
+                {
+                    "CatA",
+                    "CatB",
+                    "CatB",
+                    "CatA",
                 };
 
                 break;
@@ -98,6 +117,13 @@ public class PruebaAsociacion : Prueba
                     "Objetos/Guitarra",
                     "Objetos/Flor",
                 };
+                listaCategorias = new List<string>
+                {
+                    "CatA",
+                    "CatB",
+                    "CatB",
+                    "CatA",
+                };
 
                 break;
             default:
@@ -111,11 +137,18 @@ public class PruebaAsociacion : Prueba
                     "Objetos/Guitarra",
                     "Objetos/Flor",
                 };
+        listaCategorias = new List<string>
+                {
+                    "CatA",
+                    "CatB",
+                    "CatB",
+                    "CatA",
+                };
 
     }
 
     public override bool CheckCorrecto()
     {
-        return false;
+        return _detectManager.ComprobarCorrecto();
     }
 }

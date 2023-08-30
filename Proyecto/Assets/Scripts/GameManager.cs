@@ -103,10 +103,10 @@ public class GameManager : MonoBehaviour
         //ComenzarPrueba();
     }
 
-    public void ComenzarPrueba(TipoPrueba tipo)
+    public void ComenzarPrueba(Prueba prueba)
     {
 
-        _uiManager.ComenzarPrueba(tipo);
+        _uiManager.ComenzarPrueba(prueba);
         SetEstadoJuego(EstadoJuego.Prueba);
         _pruebasManager.ComenzarPrueba();
     }

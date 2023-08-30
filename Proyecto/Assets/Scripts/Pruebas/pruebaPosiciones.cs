@@ -31,6 +31,7 @@ public class PruebaPosiciones : Prueba
     public override void PrepararDatos()
     {
         tipo = TipoPrueba.Posiciones;
+        usaPosiciones = true;
 
         switch (Random.Range(0, 3))
         {

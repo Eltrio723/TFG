@@ -53,34 +53,58 @@ public class PruebaSonidos : Prueba
         {
             "Objetos/Coche",
             "Objetos/Pajaro",
-            "Objetos/Guitarra_no",
+            "Objetos/Guitarra",
             "Objetos/Telefono"
         };
 
-        listaRespuestas = new List<string>
-        {
-            "Telefono",
-            "Guitarra",
-            "Coche",
-            "Pajaro"
-        };
+        //listaRespuestas = new List<string>
+        //{
+        //    "Telefono",
+        //    "Guitarra",
+        //    "Coche",
+        //    "Pajaro"
+        //};
+
+        mensajePantalla = "Coloca en el pedestal el objeto que está produciendo el sonido";
+
 
         switch (Random.Range(0, 3))
         {
             case 0:
                 //sonido = (GameObject)Resources.Load("Canciones/son_pajaro");
                 pathSonido = "Canciones/son_pajaro";
-                respuestaCorrecta = 4;
+                //respuestaCorrecta = 4;
+                listaCategorias = new List<string>
+                {
+                    "",
+                    "CatA",
+                    "",
+                    "",
+                };
                 break;
             case 1:
                 //sonido = (GameObject)Resources.Load("Canciones/son_guitarra");
                 pathSonido = "Canciones/son_guitarra";
-                respuestaCorrecta = 2;
+                //respuestaCorrecta = 2;
+                listaCategorias = new List<string>
+                {
+                    "",
+                    "",
+                    "CatA",
+                    "",
+                };
                 break;
             case 2:
                 //sonido = (GameObject)Resources.Load("Canciones/son_telefono");
                 pathSonido = "Canciones/son_telefono";
-                respuestaCorrecta = 1;
+                //respuestaCorrecta = 1;
+                listaCategorias = new List<string>
+                {
+                    "",
+                    "",
+                    "",
+                    "CatA",
+                };
                 break;
             default:
                 break;

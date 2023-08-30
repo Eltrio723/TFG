@@ -35,6 +35,7 @@ public class EscenarioManager : MonoBehaviour
         _triggerManager = this.gameObject.GetComponent<TriggerManager>();
         _ascensorActual = Instantiate(ascensorPrincipal);
         _escenarioListo = true;
+        _listaObjetos = new List<GameObject>();
     }
 
     // Update is called once per frame
@@ -182,15 +183,15 @@ public class EscenarioManager : MonoBehaviour
     }
 
 
-    public void PrepararObjetos(List<string> pathObjetos)
+    public void PrepararObjetos(List<string> pathObjetos, List<string> categorias)
     {
 
         List<GameObject> listaSpawns = GameObject.FindGameObjectsWithTag("SpawnMesa").ToList();
-
+        _listaObjetos = new List<GameObject>();
         for (int i = 0; i < pathObjetos.Count; i++)
         {
             GameObject obj = Instantiate((GameObject)Resources.Load(pathObjetos[i]), listaSpawns[i].transform);
-            obj.tag = "ObjetoAsociacion";
+            obj.tag = categorias[i];
             _listaObjetos.Add(obj);
         }
     }
@@ -262,7 +263,7 @@ public class EscenarioManager : MonoBehaviour
             _escenarioListo = true;
         }
 
-        PrepararObjetos(prueba.listaPathObjetos);
+        PrepararObjetos(prueba.listaPathObjetos, prueba.listaCategorias);
     }
 
     public void TerminarPrueba(Prueba prueba)

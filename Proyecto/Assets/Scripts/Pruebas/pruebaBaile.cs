@@ -38,6 +38,7 @@ public class PruebaBaile : Prueba
     public override void PrepararDatos()
     {
         tipo = TipoPrueba.Baile;
+        usaPosiciones = true;
 
         switch (Random.Range(0, 3))
         {

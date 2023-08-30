@@ -245,7 +245,11 @@ public class Prueba : MonoBehaviour
     public string pathTriggers;
     public List<string> listaPathObjetos;
     public List<string> listaRespuestas;
+    public List<string> listaCategorias;
     public int respuestaCorrecta;
+
+    public string mensajePantalla;
+    public bool usaPosiciones;
 
     //public List<GameObject> listaObjetos;
 

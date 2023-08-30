@@ -44,7 +44,7 @@ public class PruebasManager : MonoBehaviour
             if (_escenarioManager.GetEscenarioListo())
             {
                 _preparandoPrueba = false;
-                _gameManager.ComenzarPrueba(_pruebaActual.tipo);
+                _gameManager.ComenzarPrueba(_pruebaActual);
             }
         }
         if (_terminanadoPrueba)

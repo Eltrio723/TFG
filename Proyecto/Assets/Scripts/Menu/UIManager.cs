@@ -34,6 +34,7 @@ public class UIManager : MonoBehaviour
     private GameObject _txtFinPrueba;
     private GameObject _txtFinJuego;
     private GameObject _txtPosiciones;
+    private GameObject _txtPrueba;
 
 
     private GameObject _btnResp1;
@@ -85,6 +86,7 @@ public class UIManager : MonoBehaviour
         _txtFinPrueba = GameObject.Find("txtFinPrueba");
         _txtFinJuego = GameObject.Find("txtFinJuego");
         _txtPosiciones = GameObject.Find("txtPosiciones");
+        _txtPrueba = GameObject.Find("txtPrueba");
 
 
 
@@ -115,9 +117,9 @@ public class UIManager : MonoBehaviour
         MostrarBotonesPruebas(pruebasAMostrar);
     }
 
-    public void ComenzarPrueba(TipoPrueba tipo)
+    public void ComenzarPrueba(Prueba prueba)
     {
-        PantallaPrueba(tipo);
+        PantallaPrueba(prueba);
     }
 
     public void TerminarPrueba()
@@ -264,6 +266,8 @@ public class UIManager : MonoBehaviour
         _txtFinPrueba.SetActive(false);
         _txtFinJuego.SetActive(false);
         _txtPosiciones.SetActive(false);
+        _txtPrueba.SetActive(false);
+        _txtPrueba.GetComponent<TextMeshProUGUI>().text = "";
     }
 
 
@@ -293,11 +297,24 @@ public class UIManager : MonoBehaviour
         _txtDescripcion.SetActive(true);
     }
 
-    private void PantallaPrueba(TipoPrueba tipo)
+    private void PantallaPrueba(Prueba prueba)
     {
         DesactivarElementosUI();
 
-        if (_botonesCargados)
+        //if (_botonesCargados)
+        //{
+        //    _menuPantallaRespuestas.SetActive(true);
+        //}
+        //else
+        //{
+        //    _menuPantallaSaltar.SetActive(true);
+        //}
+
+        //if (tipo == TipoPrueba.Posiciones || tipo == TipoPrueba.Baile)
+        //{
+        //    MostrarTextPosiciones();
+        //}
+        if (prueba.listaRespuestas is not null && prueba.listaRespuestas.Count > 0)
         {
             _menuPantallaRespuestas.SetActive(true);
         }
@@ -306,10 +323,17 @@ public class UIManager : MonoBehaviour
             _menuPantallaSaltar.SetActive(true);
         }
 
-        if (tipo == TipoPrueba.Posiciones || tipo == TipoPrueba.Baile)
+        if (prueba.usaPosiciones)
         {
             MostrarTextPosiciones();
         }
+
+        if (prueba.mensajePantalla is not null && prueba.mensajePantalla != "")
+        {
+            _txtPrueba.SetActive(true);
+            _txtPrueba.GetComponent<TextMeshProUGUI>().text = prueba.mensajePantalla;
+        }
+
     }
 
     private void PantallaFinPrueba()
