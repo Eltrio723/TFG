@@ -33,6 +33,7 @@ public class UIManager : MonoBehaviour
     private GameObject _txtDescripcion;
     private GameObject _txtFinPrueba;
     private GameObject _txtFinJuego;
+    private GameObject _txtPosiciones;
 
 
     private GameObject _btnResp1;
@@ -83,6 +84,7 @@ public class UIManager : MonoBehaviour
         _txtDescripcion = GameObject.Find("txtDescripcion");
         _txtFinPrueba = GameObject.Find("txtFinPrueba");
         _txtFinJuego = GameObject.Find("txtFinJuego");
+        _txtPosiciones = GameObject.Find("txtPosiciones");
 
 
 
@@ -113,9 +115,9 @@ public class UIManager : MonoBehaviour
         MostrarBotonesPruebas(pruebasAMostrar);
     }
 
-    public void ComenzarPrueba()
+    public void ComenzarPrueba(TipoPrueba tipo)
     {
-        PantallaPrueba();
+        PantallaPrueba(tipo);
     }
 
     public void TerminarPrueba()
@@ -261,6 +263,7 @@ public class UIManager : MonoBehaviour
         _txtDescripcion.SetActive(false);
         _txtFinPrueba.SetActive(false);
         _txtFinJuego.SetActive(false);
+        _txtPosiciones.SetActive(false);
     }
 
 
@@ -290,7 +293,7 @@ public class UIManager : MonoBehaviour
         _txtDescripcion.SetActive(true);
     }
 
-    private void PantallaPrueba()
+    private void PantallaPrueba(TipoPrueba tipo)
     {
         DesactivarElementosUI();
 
@@ -301,6 +304,11 @@ public class UIManager : MonoBehaviour
         else
         {
             _menuPantallaSaltar.SetActive(true);
+        }
+
+        if (tipo == TipoPrueba.Posiciones || tipo == TipoPrueba.Baile)
+        {
+            MostrarTextPosiciones();
         }
     }
 
@@ -320,6 +328,9 @@ public class UIManager : MonoBehaviour
         _btnReiniciar.SetActive(true);
     }
 
-
+    private void MostrarTextPosiciones()
+    {
+        _txtPosiciones.SetActive(true);
+    }
 
 }

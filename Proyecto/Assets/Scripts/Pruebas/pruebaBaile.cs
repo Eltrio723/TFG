@@ -63,7 +63,7 @@ public class PruebaBaile : Prueba
     }
     public override bool CheckCorrecto()
     {
-        return false;
+        return correcto;
     }
 
 }

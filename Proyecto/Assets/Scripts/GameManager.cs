@@ -99,13 +99,14 @@ public class GameManager : MonoBehaviour
     {
         //Instanciar prefab de prueba adecuada
         _pruebasManager.CrearPrueba(pruebaElegida);
+
         //ComenzarPrueba();
     }
 
-    public void ComenzarPrueba()
+    public void ComenzarPrueba(TipoPrueba tipo)
     {
 
-        _uiManager.ComenzarPrueba();
+        _uiManager.ComenzarPrueba(tipo);
         SetEstadoJuego(EstadoJuego.Prueba);
         _pruebasManager.ComenzarPrueba();
     }
@@ -154,14 +155,14 @@ public class GameManager : MonoBehaviour
         {
             List<TipoPrueba> pruebas = new List<TipoPrueba>()
             {
-                ////TipoPrueba.Turismo,
-                ////TipoPrueba.Cancion,
-                //TipoPrueba.Asociacion,
-                TipoPrueba.Posiciones,
-                ////TipoPrueba.Situaciones,
-                TipoPrueba.Baile,
-                //TipoPrueba.Sonidos,
-                ////TipoPrueba.LocalizacionSonidos
+                //TipoPrueba.Turismo,
+                //TipoPrueba.Cancion,
+                TipoPrueba.Asociacion,
+                //TipoPrueba.Posiciones,
+                //TipoPrueba.Situaciones,
+                //TipoPrueba.Baile,
+                TipoPrueba.Sonidos,
+                //TipoPrueba.LocalizacionSonidos
             };
             return pruebas;
         }

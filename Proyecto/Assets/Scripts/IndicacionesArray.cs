@@ -26,13 +26,17 @@ public class IndicacionesArray : MonoBehaviour
     }
 
 
-    public void loadIndicaciones(List<bool> positions)
+    public void loadIndicaciones(List<bool> positions, bool fin)
     {
 
         for (int i = 0; i < positions.Count; i++)
         {
             this.transform.GetChild(i).gameObject.SetActive(positions[i]);
             this.transform.GetChild(i + 12).gameObject.SetActive(!positions[i]);
+            if (fin)
+            {
+                this.transform.GetChild(i + 12).gameObject.SetActive(positions[i]);
+            }
         }
     }
 

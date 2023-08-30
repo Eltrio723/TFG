@@ -51,7 +51,7 @@ public class PruebaPosiciones : Prueba
     }
     public override bool CheckCorrecto()
     {
-        return false;
+        return correcto;
     }
 
 }

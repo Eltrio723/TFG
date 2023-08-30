@@ -20,8 +20,9 @@ public class TriggerSpanwArray : MonoBehaviour
     {
         if (camara != null)
         {
-            gameObject.transform.position = camara.transform.position + new Vector3(0, 0, 0.3f) +
+            gameObject.transform.position = camara.transform.position + new Vector3(0, 0, 0) +
                 this.transform.TransformDirection(position);
+            transform.rotation = Quaternion.Euler(0, camara.transform.eulerAngles.y, 0);
         }
     }
 

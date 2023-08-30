@@ -68,7 +68,8 @@ public class TriggerManager : MonoBehaviour
         {
             for (int i = 0; i < _nivelActual.parts.Count; i++)
             {
-                StartCoroutine(LoadLevel(_nivelActual.parts[i].triggerPositions, _nivelActual.parts[i].time));
+                bool ultima = (i == _nivelActual.parts.Count - 1 ? true : false);
+                StartCoroutine(LoadLevel(_nivelActual.parts[i].triggerPositions, _nivelActual.parts[i].time, ultima));
             }
         }
 
@@ -92,27 +93,12 @@ public class TriggerManager : MonoBehaviour
         //correct = todosCorrectos;
 
 
-        if (aciertos > 2)
-        {
-            correct = true;
-            PruebaBaile pb = FindFirstObjectByType<PruebaBaile>();
-            if (pb != null)
-            {
-                pb.MarcarCorrecto();
-            }
 
-            PruebaPosiciones pp = FindFirstObjectByType<PruebaPosiciones>();
-            if (pp != null)
-            {
-                pp.MarcarCorrecto();
-            }
-            aciertos = 0;
-        }
     }
 
 
 
-    IEnumerator LoadLevel(List<bool> lista, float seconds)
+    IEnumerator LoadLevel(List<bool> lista, float seconds, bool ultima)
     {
         //Print the time of when the function is first called.
         Debug.Log("Started Coroutine at timestamp : " + Time.time);
@@ -129,8 +115,33 @@ public class TriggerManager : MonoBehaviour
         }
 
         triggerSpawnArray.GetComponent<TriggerSpanwArray>().loadTriggers(lista);
-        indicacionesArray.GetComponent<IndicacionesArray>().loadIndicaciones(lista);
+        indicacionesArray.GetComponent<IndicacionesArray>().loadIndicaciones(lista, ultima);
 
+
+        if (ultima)
+        {
+            if (aciertos >= 3)
+            {
+                correct = true;
+                PruebaBaile pb = FindFirstObjectByType<PruebaBaile>();
+                if (pb != null)
+                {
+                    pb.MarcarCorrecto();
+                }
+
+                PruebaPosiciones pp = FindFirstObjectByType<PruebaPosiciones>();
+                if (pp != null)
+                {
+                    pp.MarcarCorrecto();
+                }
+                aciertos = 0;
+            }
+            else
+            {
+                //En el futuro puede haber una derrota
+                correct = true;
+            }
+        }
     }
 
 

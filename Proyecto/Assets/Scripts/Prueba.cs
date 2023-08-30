@@ -238,7 +238,7 @@ public class Prueba : MonoBehaviour
 
 
     protected PruebasManager _pruebasManager;
-    private bool _correcto;
+    protected bool correcto;
 
     public string pathImagen;
     public string pathSonido;
@@ -254,8 +254,7 @@ public class Prueba : MonoBehaviour
     void Start()
     {
         _pruebasManager = FindFirstObjectByType<PruebasManager>();
-        tipo = 0;
-        _correcto = false;
+        correcto = false;
     }
 
 
@@ -268,12 +267,12 @@ public class Prueba : MonoBehaviour
 
     public virtual bool CheckCorrecto()
     {
-        return _correcto;
+        return correcto;
     }
 
     public void MarcarCorrecto()
     {
-        _correcto = true;
+        correcto = true;
     }
 
 

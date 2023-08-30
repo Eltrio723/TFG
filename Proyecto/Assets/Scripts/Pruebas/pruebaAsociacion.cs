@@ -103,6 +103,14 @@ public class PruebaAsociacion : Prueba
             default:
                 break;
         }
+        //Pruebas
+        listaPathObjetos = new List<string>
+                {
+                    "Objetos/Arbol",
+                    "Objetos/Radio",
+                    "Objetos/Guitarra",
+                    "Objetos/Flor",
+                };
 
     }
 
