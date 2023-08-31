@@ -28,6 +28,8 @@ TagManager:
   - MenuPantalla
   - PruebaLocalizacionCorrecta
   - Hand
+  - CatA
+  - CatB
   layers:
   - Default
   - TransparentFX

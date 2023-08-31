@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PruebaSonidos : Prueba
 {
-
+    private DetectManager _detectManager;
     //public override void CargarPrueba()
     //{
     //    ascensor = (GameObject)Resources.Load("Escenarios/Esc_sonidos");
@@ -39,7 +39,7 @@ public class PruebaSonidos : Prueba
     public override void PrepararDatos()
     {
         tipo = TipoPrueba.Sonidos;
-
+        _detectManager = FindFirstObjectByType<DetectManager>();
         //listaObjetos = new List<GameObject>
         //{
         //    (GameObject)Resources.Load("Objetos/Coche"),
@@ -114,7 +114,7 @@ public class PruebaSonidos : Prueba
     }
     public override bool CheckCorrecto()
     {
-        return false;
+        return _detectManager.ComprobarCorrecto();
     }
 
 }

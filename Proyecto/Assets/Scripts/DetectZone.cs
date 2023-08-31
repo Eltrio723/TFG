@@ -7,7 +7,9 @@ public class DetectZone : MonoBehaviour
     public List<GameObject> detectedObjects;
     public string categoria;
     public string categoriaSecundaria;
+    [SerializeField]
     private bool _correcto;
+    [SerializeField]
     private bool _correctoSecundaria;
     private int _numObjetosCategoria;
     private int _numObjetosCategoriaSecundaria;

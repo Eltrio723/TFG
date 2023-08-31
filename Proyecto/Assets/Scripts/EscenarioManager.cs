@@ -7,6 +7,7 @@ public class EscenarioManager : MonoBehaviour
 {
     [SerializeField]
     private TriggerManager _triggerManager;
+    private DetectManager _detectManager;
 
     public GameObject ascensorPrincipal;
     public GameObject ascensorTurismo;
@@ -36,6 +37,7 @@ public class EscenarioManager : MonoBehaviour
         _ascensorActual = Instantiate(ascensorPrincipal);
         _escenarioListo = true;
         _listaObjetos = new List<GameObject>();
+        _detectManager = this.gameObject.GetComponent<DetectManager>();
     }
 
     // Update is called once per frame
@@ -194,6 +196,7 @@ public class EscenarioManager : MonoBehaviour
             obj.tag = categorias[i];
             _listaObjetos.Add(obj);
         }
+        _detectManager.AsociarZonas();
     }
 
     public void PrepararTriggers(string path)

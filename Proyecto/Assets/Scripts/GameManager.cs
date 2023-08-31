@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     {
         InitManagers();
         IniciarJuego();
-        _testing = true;
+        _testing = false;
     }
 
     private void Update()
@@ -157,11 +157,11 @@ public class GameManager : MonoBehaviour
             {
                 //TipoPrueba.Turismo,
                 //TipoPrueba.Cancion,
-                TipoPrueba.Asociacion,
-                //TipoPrueba.Posiciones,
+                //TipoPrueba.Asociacion,
+                TipoPrueba.Posiciones,
                 //TipoPrueba.Situaciones,
-                //TipoPrueba.Baile,
-                TipoPrueba.Sonidos,
+                TipoPrueba.Baile,
+                //TipoPrueba.Sonidos,
                 //TipoPrueba.LocalizacionSonidos
             };
             return pruebas;
