@@ -1,0 +1,3328 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.10)  25 AUG 2023 12:29
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./TrabajoFinGrado.tex
+(TrabajoFinGrado.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-02>
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(01.Estructura/01.Configuracion/01.Paquetes.tex
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/imakeidx\imakeidx.sty
+Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
+nous mode
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.te
+x
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\keyval.tex)
+)
+\XKV@depth=\count194
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count195
+\mult@box=\box51
+\multicol@leftmargin=\dimen141
+\c@unbalance=\count196
+\c@collectmore=\count197
+\doublecol@number=\count198
+\multicoltolerance=\count199
+\multicolpretolerance=\count266
+\full@width=\dimen142
+\page@free=\dimen143
+\premulticols=\dimen144
+\postmulticols=\dimen145
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box52
+\last@line=\box53
+\maxbalancingoverflow=\dimen146
+\mult@rightbox=\box54
+\mult@grightbox=\box55
+\mult@firstbox=\box56
+\mult@gfirstbox=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\c@minrows=\count267
+\c@columnbadness=\count268
+\c@finalcolumnbadness=\count269
+\last@try=\dimen147
+\multicolovershoot=\dimen148
+\multicolundershoot=\dimen149
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
+\mc@col@check@num=\count270
+))
+\TrabajoFinGrado@idxfile=\write3
+\openout3 = `TrabajoFinGrado.idx'.
+
+Writing index file TrabajoFinGrado.idx
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box96
+\beforetitleunit=\skip61
+\aftertitleunit=\skip62
+\ttl@plus=\dimen150
+\ttl@minus=\dimen151
+\ttl@toksa=\toks18
+\titlewidth=\dimen152
+\titlewidthlast=\dimen153
+\titlewidthfirst=\dimen154
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titletoc.sty
+Package: titletoc 2021/07/05 v2.14 TOC entries
+\ttl@leftsep=\dimen155
+) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\alltt.sty
+Package: alltt 2021/01/29 v2.0g defines alltt environment
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcm
+ds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr
+.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.s
+ty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefi
+nekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape
+.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmac
+ro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gett
+itlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.s
+ty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count271
+)
+\@linkdim=\dimen156
+\Hy@linkcounter=\count272
+\Hy@pagecounter=\count273
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.s
+ty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count274
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4045
+.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count275
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen157
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintca
+lc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count276
+\Field@Width=\dimen158
+\Fld@charsize=\dimen159
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count277
+\c@Item=\count278
+\c@Hfootnote=\count279
+)
+Package hyperref Info: Driver: hpdftex.
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.st
+y
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count280
+\c@bookmark@seq@number=\count281
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunf
+ilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqu
+ecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip63
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\minitoc.sty
+Package: minitoc 2018/07/12 v62 Package minitoc
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 62 ***.
+\tf@mtc=\write4
+\mtcindent=\skip64
+\mtcskipamount=\skip65
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks19
+\mtc@strutbox=\box97
+\mtc@hstrutbox=\box98
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout4 = `TrabajoFinGrado.mtc0'.
+
+\openout4 = `TrabajoFinGrado.mtc'.
+
+
+(D:\Trabajo Fin Grado\Repositorio\TFG\Memoria\00.Auxiliar\02.Build\TrabajoFinGr
+ado.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout4 = `TrabajoFinGrado.mtc'.
+
+\openout4 = `TrabajoFinGrado.mtc0'.
+
+\c@mtc=\count282
+\c@minitocdepth=\count283
+\c@ptc=\count284
+\c@parttocdepth=\count285
+\ptcindent=\skip66
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
+File: english.mld 2006/01/13
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
+File: english.mld 2006/01/13
+))
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count286
+\lst@gtempboxa=\box99
+\lst@token=\toks20
+\lst@length=\count287
+\lst@currlwidth=\dimen160
+\lst@column=\count288
+\lst@pos=\count289
+\lst@lostspace=\dimen161
+\lst@width=\dimen162
+\lst@newlines=\count290
+\lst@lineno=\count291
+\lst@maxwidth=\dimen163
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count292
+\lst@skipnumbers=\count293
+\lst@framebox=\box100
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/tipa\tipa.sty
+Package: tipa 2002/08/08 TIPA version 1.1
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+Now handling font encoding T3 ...
+... no UTF-8 mapping file for font encoding T3
+)))
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip67
+\LTright=\skip68
+\LTpre=\skip69
+\LTpost=\skip70
+\LTchunksize=\count294
+\LTcapwidth=\dimen164
+\LT@head=\box101
+\LT@firsthead=\box102
+\LT@foot=\box103
+\LT@lastfoot=\box104
+\LT@gbox=\box105
+\LT@cols=\count295
+\LT@rows=\count296
+\c@LT@tables=\count297
+\c@LT@chunks=\count298
+\LT@p@ftn=\toks21
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+g
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.d
+ef
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.lt
+x)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen165
+\ar@mcellbox=\box106
+\extrarowheight=\dimen166
+\NC@list=\toks22
+\extratabsurround=\skip71
+\backup@length=\skip72
+\ar@cellbox=\box107
+)
+\everycr=\toks23
+\minrowclearance=\skip73
+\rownum=\count299
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/acronym\acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\integerpart=\count300
+\decimalpart=\count301
+)
+Package: xstring 2023/01/14 v1.85 String manipulations (CT)
+)
+\AC@clearlist=\toks24
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/emptypage\emptypage.s
+ty
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty 
+pages
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
+.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen167
+\Gin@req@width=\dimen168
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/datenumber\datenumber
+.sty
+Package: datenumber 2022/01/27v0.03
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/datenumber\datenumber
+USenglish.ldf
+File: datenumberUSenglish.ldf 
+)
+\c@@dayscnt=\count302
+\c@@startyear=\count303
+\c@datenumber=\count304
+\c@dateyear=\count305
+\c@datemonth=\count306
+\c@dateday=\count307
+\c@datedayname=\count308
+\@nom=\count309
+\@den=\count310
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip74
+\multirow@cntb=\count311
+\multirow@dima=\skip75
+\bigstrutjot=\dimen169
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.st
+y
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+ (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen170
+\captionmargin=\dimen171
+\caption@leftmargin=\dimen172
+\caption@rightmargin=\dimen173
+\caption@width=\dimen174
+\caption@indent=\dimen175
+\caption@parindent=\dimen176
+\caption@hangindent=\dimen177
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count312
+\c@continuedfloat=\count313
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+))
+\c@subfigure=\count314
+\c@subtable=\count315
+) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count316
+\float@exts=\toks25
+\float@box=\box108
+\@float@everytoks=\toks26
+\@floatcapt=\box109
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks27
+\inpenc@posthook=\toks28
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/01/23 3.85 The Babel package
+\babel@savecnt=\count317
+\U@D=\dimen178
+\l@unhyphenated=\language79
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count318
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish
+.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks29
+\es@quotdepth=\count319
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\bab
+el-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box110
+))
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.s
+ty
+Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
+Package: todonotes 2023/01/31
+ (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tik
+z.sty
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.st
+y
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.
+sty
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
+il-common.tex
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen179
+\pgfutil@tempdimb=\dimen180
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
+il-latex.def
+\pgfutil@abb=\box111
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrc
+s.code.tex
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.te
+x)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcor
+e.sty
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsy
+s.sty
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+ys.code.tex
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+yslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks33
+))
+\pgf@x=\dimen181
+\pgf@y=\dimen182
+\pgf@xa=\dimen183
+\pgf@ya=\dimen184
+\pgf@xb=\dimen185
+\pgf@yb=\dimen186
+\pgf@xc=\dimen187
+\pgf@yc=\dimen188
+\pgf@xd=\dimen189
+\pgf@yd=\dimen190
+\w@pgf@writea=\write5
+\r@pgf@reada=\read3
+\c@pgf@counta=\count320
+\c@pgf@countb=\count321
+\c@pgf@countc=\count322
+\c@pgf@countd=\count323
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+\pgf@sys@id@count=\count324
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+syssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count325
+\pgfsyssoftpath@bigbuffer@items=\count326
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+ore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
+de.tex
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathuti
+l.code.tex)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpar
+ser.code.tex
+\pgfmath@dimen=\dimen191
+\pgfmath@count=\count327
+\pgfmath@box=\box112
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.code.tex)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.basic.code.tex)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.trigonometric.code.tex)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.random.code.tex)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.comparison.code.tex)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.base.code.tex)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.round.code.tex)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.misc.code.tex)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.integerarithmetics.code.tex)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcal
+c.code.tex)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathflo
+at.code.tex
+\c@pgfmathroundto@lastzeros=\count328
+))
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.cod
+e.tex)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen192
+\pgf@picmaxx=\dimen193
+\pgf@picminy=\dimen194
+\pgf@picmaxy=\dimen195
+\pgf@pathminx=\dimen196
+\pgf@pathmaxx=\dimen197
+\pgf@pathminy=\dimen198
+\pgf@pathmaxy=\dimen199
+\pgf@xx=\dimen256
+\pgf@xy=\dimen257
+\pgf@yx=\dimen258
+\pgf@yy=\dimen259
+\pgf@zx=\dimen260
+\pgf@zy=\dimen261
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen262
+\pgf@path@lasty=\dimen263
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen264
+\pgf@shorten@start@additional=\dimen265
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box113
+\pgf@hbox=\box114
+\pgf@layerbox@main=\box115
+\pgf@picture@serial@count=\count329
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen266
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen267
+\pgf@pt@y=\dimen268
+\pgf@pt@temp=\dimen269
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen270
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen271
+\pgf@sys@shading@range@num=\count330
+\pgf@shadingcount=\count331
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box116
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+leshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box117
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+leplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgf
+comp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen272
+\pgf@nodesepend=\dimen273
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgf
+comp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.
+sty
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys
+.sty
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+ys.code.tex))
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
+de.tex))
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffo
+r.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen274
+\pgffor@skip=\dimen275
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
+))
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfli
+braryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count332
+\pgfplotmarksize=\dimen276
+)
+\tikz@lastx=\dimen277
+\tikz@lasty=\dimen278
+\tikz@lastxsaved=\dimen279
+\tikz@lastysaved=\dimen280
+\tikz@lastmovetox=\dimen281
+\tikz@lastmovetoy=\dimen282
+\tikzleveldistance=\dimen283
+\tikzsiblingdistance=\dimen284
+\tikz@figbox=\box118
+\tikz@figbox@bg=\box119
+\tikz@tempbox=\box120
+\tikz@tempbox@bg=\box121
+\tikztreelevel=\count333
+\tikznumberofchildren=\count334
+\tikznumberofcurrentchild=\count335
+\tikz@fig@count=\count336
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+lematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count337
+\pgfmatrixcurrentcolumn=\count338
+\pgf@matrix@numberofcolumns=\count339
+)
+\tikz@expandcount=\count340
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count341
+\calc@Bcount=\count342
+\calc@Adimen=\dimen285
+\calc@Bdimen=\dimen286
+\calc@Askip=\skip76
+\calc@Bskip=\skip77
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count343
+\calc@Cskip=\skip78
+)
+\c@@todonotes@numberoftodonotes=\count344
+)
+(01.Estructura/01.Configuracion/02.Comandos.tex
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM TrabajoFinGrado.toc on input line
+ 150.
+Package minitoc Info: I0033
+(minitoc)             Writing TrabajoFinGrado.mtc1.
+\openout4 = `TrabajoFinGrado.mtc1'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing TrabajoFinGrado.mtc2.
+\openout4 = `TrabajoFinGrado.mtc2'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing TrabajoFinGrado.mtc3.
+\openout4 = `TrabajoFinGrado.mtc3'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing TrabajoFinGrado.mtc4.
+\openout4 = `TrabajoFinGrado.mtc4'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing TrabajoFinGrado.mtc5.
+\openout4 = `TrabajoFinGrado.mtc5'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing TrabajoFinGrado.mtc6.
+\openout4 = `TrabajoFinGrado.mtc6'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing TrabajoFinGrado.mtc7.
+\openout4 = `TrabajoFinGrado.mtc7'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing TrabajoFinGrado.mtc8.
+\openout4 = `TrabajoFinGrado.mtc8'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing TrabajoFinGrado.mtc9.
+\openout4 = `TrabajoFinGrado.mtc9'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing TrabajoFinGrado.mtc10.
+\openout4 = `TrabajoFinGrado.mtc10'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing TrabajoFinGrado.mtc11.
+\openout4 = `TrabajoFinGrado.mtc11'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing TrabajoFinGrado.mtc12.
+\openout4 = `TrabajoFinGrado.mtc12'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing TrabajoFinGrado.mtc13.
+\openout4 = `TrabajoFinGrado.mtc13'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing TrabajoFinGrado.mtc14.
+\openout4 = `TrabajoFinGrado.mtc14'.
+
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/stackengine\stackengi
+ne.sty
+Package: stackengine 2021/07/22 v4.11\ Stacking text and objects in convenient 
+ways
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count345
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/listofitems\listofite
+ms.sty
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/listofitems\listofi
+tems.tex
+\loi_cnt_foreach_nest=\count346
+\loi_nestcnt=\count347
+)
+Package: listofitems 2019/08/21 v1.63 Grab items in lists using user-specified 
+sep char (CT)
+)
+\c@@stackindex=\count348
+\@boxshift=\skip79
+\stack@tmplength=\skip80
+\temp@stkl=\skip81
+\@stackedboxwidth=\skip82
+\@addedbox=\box122
+\@anchorbox=\box123
+\@insetbox=\box124
+\se@backgroundbox=\box125
+\stackedbox=\box126
+\@centerbox=\box127
+\c@ROWcellindex@=\count349
+) (01.Estructura/01.Configuracion/03.Entornos.tex
+\parskipenv=\skip83
+\parindentenv=\skip84
+\c@itemnumber=\count350
+)
+(01.Estructura/01.Configuracion/04.EstiloPagina.tex
+\realoddsidemargin=\skip85
+\realevensidemargin=\skip86
+\realtopmargin=\skip87
+)
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 41
+.
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
+dftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count351
+\l__pdf_internal_box=\box128
+)
+(D:\Trabajo Fin Grado\Repositorio\TFG\Memoria\00.Auxiliar\02.Build\TrabajoFinGr
+ado.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+)
+\openout1 = `TrabajoFinGrado.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 41.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 41
+.
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 41.
+Package hyperref Info: Link coloring OFF on input line 41.
+
+(D:\Trabajo Fin Grado\Repositorio\TFG\Memoria\00.Auxiliar\02.Build\TrabajoFinGr
+ado.out)
+(D:\Trabajo Fin Grado\Repositorio\TFG\Memoria\00.Auxiliar\02.Build\TrabajoFinGr
+ado.out)
+\@outlinefile=\write6
+\openout6 = `TrabajoFinGrado.out'.
+
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+
+
+Package minitoc(hints) Warning: W0099
+(minitoc(hints))                --- The titlesec package is loaded. 
+(minitoc(hints))                It is incompatible 
+(minitoc(hints))                with the minitoc package.
+
+
+Package minitoc(hints) Warning: W0040
+(minitoc(hints))                --- The titletoc package is loaded. 
+(minitoc(hints))                It is incompatible 
+(minitoc(hints))                with the minitoc package.
+
+\c@lstlisting=\count352
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
+mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count353
+\scratchdimen=\dimen287
+\scratchbox=\box129
+\nofMPsegments=\count354
+\nofMParguments=\count355
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count356
+\MPscratchDim=\dimen288
+\MPnumerator=\count357
+\makeMPintoPDFobject=\count358
+\everyMPtoPDFconversion=\toks43
+)
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
+-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys
+.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
+
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will 
+most likely cause issues with the appearance of inserted todonotes. The issue c
+an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+loading the todonotes package. on input line 41.
+
+(00.Auxiliar/03.ToDo/01.ToDoList.tex
+(D:\Trabajo Fin Grado\Repositorio\TFG\Memoria\00.Auxiliar\02.Build\TrabajoFinGr
+ado.tdo
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 1.
+
+Overfull \hbox (1.80342pt too wide) detected at line 3
+ []\T1/phv/m/n/12 117
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 4
+ []\T1/phv/m/n/12 125
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 5
+ []\T1/phv/m/n/12 143
+ []
+
+)
+\tf@tdo=\write7
+\openout7 = `TrabajoFinGrado.tdo'.
+
+) (01.Estructura/02.Portada/01.Portada.tex [1
+
+
+
+{C:/Users/Antonio/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
+
+]
+\centeroffset=\skip88
+<01.Estructura/02.Portada/00.Figuras/01.logo_ugr.jpg, id=438, 777.90625pt x 231
+.86626pt>
+File: 01.Estructura/02.Portada/00.Figuras/01.logo_ugr.jpg Graphic file (type jp
+g)
+<use 01.Estructura/02.Portada/00.Figuras/01.logo_ugr.jpg>
+Package pdftex.def Info: 01.Estructura/02.Portada/00.Figuras/01.logo_ugr.jpg  u
+sed on input line 24.
+(pdftex.def)             Requested size: 384.10959pt x 114.49287pt.
+<01.Estructura/02.Portada/00.Figuras/02.etsiit_logo.png, id=439, 110.814pt x 40
+.4712pt>
+File: 01.Estructura/02.Portada/00.Figuras/02.etsiit_logo.png Graphic file (type
+ png)
+<use 01.Estructura/02.Portada/00.Figuras/02.etsiit_logo.png>
+Package pdftex.def Info: 01.Estructura/02.Portada/00.Figuras/02.etsiit_logo.png
+  used on input line 47.
+(pdftex.def)             Requested size: 128.0387pt x 46.76198pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 \end{titlepage}
+                     [1 <./01.Estructura/02.Portada/00.Figuras/01.logo_ugr.jpg>
+]
+pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 \end{titlepage}
+                     [2 <./01.Estructura/02.Portada/00.Figuras/02.etsiit_logo.p
+ng>]) (01.Estructura/03.Resumenes/01.ResumenTfgEsp.tex
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 24--52
+[]$[]$ 
+ []
+
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 63.
+[3] [4
+
+
+]) (01.Estructura/03.Resumenes/02.ResumenTfgEng.tex
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 23--51
+[]$[]$ 
+ []
+
+[5] [6
+
+
+]) (01.Estructura/04.Autorizaciones/01.AutorizacionAlumno.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+) (01.Estructura/04.Autorizaciones/02.AutorizacionTutores.tex [7
+
+] [8
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 19.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 19.
+) (01.Estructura/05.Dedicatorias/01.Dedicatoria.tex [9] [10
+
+]
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 14--27
+[]$[]$ 
+ []
+
+[11] [12
+
+
+]) (01.Estructura/06.Contenido/01.Acronimos.tex
+
+LaTeX Warning: Hyper reference `acro:ETSITT' on page \es@scroman {xiii} undefin
+ed on input line 16.
+
+
+LaTeX Warning: Hyper reference `acro:ETSITT' on page \es@scroman {xiii} undefin
+ed on input line 16.
+
+
+LaTeX Warning: Hyper reference `acro:GDD' on page \es@scroman {xiii} undefined 
+on input line 17.
+
+
+LaTeX Warning: Hyper reference `acro:GDD' on page \es@scroman {xiii} undefined 
+on input line 17.
+
+
+LaTeX Warning: Hyper reference `acro:HMD' on page \es@scroman {xiii} undefined 
+on input line 18.
+
+
+LaTeX Warning: Hyper reference `acro:HMD' on page \es@scroman {xiii} undefined 
+on input line 18.
+
+
+LaTeX Warning: Hyper reference `acro:JSON' on page \es@scroman {xiii} undefined
+ on input line 19.
+
+
+LaTeX Warning: Hyper reference `acro:JSON' on page \es@scroman {xiii} undefined
+ on input line 19.
+
+
+LaTeX Warning: Hyper reference `acro:RV' on page \es@scroman {xiii} undefined o
+n input line 20.
+
+
+LaTeX Warning: Hyper reference `acro:RV' on page \es@scroman {xiii} undefined o
+n input line 20.
+
+
+LaTeX Warning: Hyper reference `acro:SDK' on page \es@scroman {xiii} undefined 
+on input line 21.
+
+
+LaTeX Warning: Hyper reference `acro:SDK' on page \es@scroman {xiii} undefined 
+on input line 21.
+
+
+LaTeX Warning: Hyper reference `acro:SUS' on page \es@scroman {xiii} undefined 
+on input line 22.
+
+
+LaTeX Warning: Hyper reference `acro:SUS' on page \es@scroman {xiii} undefined 
+on input line 22.
+
+
+LaTeX Warning: Hyper reference `acro:TFG' on page \es@scroman {xiii} undefined 
+on input line 23.
+
+
+LaTeX Warning: Hyper reference `acro:TFG' on page \es@scroman {xiii} undefined 
+on input line 23.
+
+
+LaTeX Warning: Hyper reference `acro:UGR' on page \es@scroman {xiii} undefined 
+on input line 24.
+
+
+LaTeX Warning: Hyper reference `acro:UGR' on page \es@scroman {xiii} undefined 
+on input line 24.
+
+
+LaTeX Warning: Hyper reference `acro:VR' on page \es@scroman {xiii} undefined o
+n input line 25.
+
+
+LaTeX Warning: Hyper reference `acro:VR' on page \es@scroman {xiii} undefined o
+n input line 25.
+
+
+LaTeX Warning: Hyper reference `acro:VRTK' on page \es@scroman {xiii} undefined
+ on input line 26.
+
+
+LaTeX Warning: Hyper reference `acro:VRTK' on page \es@scroman {xiii} undefined
+ on input line 26.
+
+[13
+
+] [14
+
+]) (01.Estructura/06.Contenido/02.TablaContenidos.tex
+(D:\Trabajo Fin Grado\Repositorio\TFG\Memoria\00.Auxiliar\02.Build\TrabajoFinGr
+ado.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [15
+
+] [16]
+Overfull \hbox (1.80342pt too wide) detected at line 97
+ []\T1/phv/m/n/12 101
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 98
+ []\T1/phv/m/n/12 102
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 99
+ []\T1/phv/m/n/12 103
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 100
+ []\T1/phv/m/n/12 103
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 101
+ []\T1/phv/m/n/12 103
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 107
+ []\T1/phv/m/n/12 108
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 113
+ []\T1/phv/m/n/12 116
+ []
+
+[17]
+Overfull \hbox (1.80342pt too wide) detected at line 114
+ []\T1/phv/m/n/12 117
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 115
+ []\T1/phv/m/n/12 117
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 116
+ []\T1/phv/m/n/12 117
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 117
+ []\T1/phv/m/n/12 117
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 119
+ []\T1/phv/m/n/12 120
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 120
+ []\T1/phv/m/n/12 120
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 121
+ []\T1/phv/m/n/12 120
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 131
+ []\T1/phv/m/n/12 137
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 132
+ []\T1/phv/m/n/12 137
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 133
+ []\T1/phv/m/n/12 138
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 134
+ []\T1/phv/m/n/12 138
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 135
+ []\T1/phv/m/n/12 138
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 136
+ []\T1/phv/m/n/12 138
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 143
+ []\T1/phv/m/n/12 139
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 144
+ []\T1/phv/m/n/12 139
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 145
+ []\T1/phv/m/n/12 140
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 146
+ []\T1/phv/m/n/12 140
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 147
+ []\T1/phv/m/n/12 140
+ []
+
+[18]
+Overfull \hbox (1.80342pt too wide) detected at line 149
+ []\T1/phv/m/n/12 140
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 150
+ []\T1/phv/m/n/12 140
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 151
+ []\T1/phv/m/n/12 141
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 153
+ []\T1/phv/m/n/12 143
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 164
+ []\T1/phv/m/n/12 145
+ []
+
+)
+\tf@toc=\write8
+\openout8 = `TrabajoFinGrado.toc'.
+
+ [19] [20
+
+]) (01.Estructura/06.Contenido/03.TablaFiguras.tex
+(D:\Trabajo Fin Grado\Repositorio\TFG\Memoria\00.Auxiliar\02.Build\TrabajoFinGr
+ado.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [21
+
+] [22] [23] [24]
+Overfull \hbox (1.80342pt too wide) detected at line 116
+ []\T1/phv/m/n/12 100
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 117
+ []\T1/phv/m/n/12 100
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 118
+ []\T1/phv/m/n/12 101
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 119
+ []\T1/phv/m/n/12 101
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 120
+ []\T1/phv/m/n/12 102
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 121
+ []\T1/phv/m/n/12 106
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 122
+ []\T1/phv/m/n/12 106
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 123
+ []\T1/phv/m/n/12 106
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 124
+ []\T1/phv/m/n/12 107
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 125
+ []\T1/phv/m/n/12 107
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 126
+ []\T1/phv/m/n/12 107
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 127
+ []\T1/phv/m/n/12 110
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 128
+ []\T1/phv/m/n/12 111
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 129
+ []\T1/phv/m/n/12 112
+ []
+
+[25]
+Overfull \hbox (1.80342pt too wide) detected at line 130
+ []\T1/phv/m/n/12 113
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 131
+ []\T1/phv/m/n/12 114
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 132
+ []\T1/phv/m/n/12 115
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 133
+ []\T1/phv/m/n/12 115
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 134
+ []\T1/phv/m/n/12 115
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 135
+ []\T1/phv/m/n/12 116
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 136
+ []\T1/phv/m/n/12 118
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 137
+ []\T1/phv/m/n/12 119
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 138
+ []\T1/phv/m/n/12 120
+ []
+
+
+Overfull \hbox (1.80342pt too wide) detected at line 139
+ []\T1/phv/m/n/12 121
+ []
+
+)
+\tf@lof=\write9
+\openout9 = `TrabajoFinGrado.lof'.
+
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
+ [26]) (01.Estructura/06.Contenido/04.TablaTablas.tex
+(D:\Trabajo Fin Grado\Repositorio\TFG\Memoria\00.Auxiliar\02.Build\TrabajoFinGr
+ado.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Overfull \hbox (1.80342pt too wide) detected at line 26
+ []\T1/phv/m/n/12 145
+ []
+
+)
+\tf@lot=\write10
+\openout10 = `TrabajoFinGrado.lot'.
+
+ [27
+
+
+] [28
+
+]) [1
+
+
+] [2] (02.Introduccion/01.Introduccion.tex
+Cap\'{\i }tulo 1.
+[3
+
+] [4]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 42.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 42.
+LaTeX Info: Redefining \. on input line 72.
+LaTeX Info: Redefining \% on input line 72.
+ [5] [6]) [7
+
+
+] [8] (03.EstudioProblema/01.EstadoArte/01.EstadoArte.tex
+Cap\'{\i }tulo 2.
+\openout4 = `TrabajoFinGrado.mtc'.
+
+\openout4 = `TrabajoFinGrado.mtc'.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 13.
+
+(D:\Trabajo Fin Grado\Repositorio\TFG\Memoria\00.Auxiliar\02.Build\TrabajoFinGr
+ado.mtc5) [9
+
+] [10]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/01.efecto_serial.jpg, id=1109, 362
+.35374pt x 242.9075pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/01.efecto_serial.jpg Graphic 
+file (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/01.efecto_serial.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/01.efecto_
+serial.jpg  used on input line 34.
+(pdftex.def)             Requested size: 213.39566pt x 143.05472pt.
+LaTeX Info: Redefining \. on input line 56.
+LaTeX Info: Redefining \% on input line 56.
+ [11 <./03.EstudioProblema/01.EstadoArte/00.Figuras/01.efecto_serial.jpg>] [12]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/02.cuaderno_esteve.png, id=1132, 4
+16.30531pt x 592.46344pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/02.cuaderno_esteve.png Graphi
+c file (type png)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/02.cuaderno_esteve.png>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/02.cuadern
+o_esteve.png  used on input line 101.
+(pdftex.def)             Requested size: 149.3763pt x 212.58153pt.
+<03.EstudioProblema/01.EstadoArte/00.Figuras/03.cuaderno_rubio.jpg, id=1135, 60
+2.25pt x 602.25pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/03.cuaderno_rubio.jpg Graphic
+ file (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/03.cuaderno_rubio.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/03.cuadern
+o_rubio.jpg  used on input line 107.
+(pdftex.def)             Requested size: 192.05478pt x 192.05309pt.
+LaTeX Info: Redefining \. on input line 112.
+LaTeX Info: Redefining \% on input line 112.
+ [13] [14 <./03.EstudioProblema/01.EstadoArte/00.Figuras/02.cuaderno_esteve.png
+> <./03.EstudioProblema/01.EstadoArte/00.Figuras/03.cuaderno_rubio.jpg>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/04.juegos_ancianos.jpg, id=1153, 6
+42.4pt x 361.35pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/04.juegos_ancianos.jpg Graphi
+c file (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/04.juegos_ancianos.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/04.juegos_
+ancianos.jpg  used on input line 135.
+(pdftex.def)             Requested size: 341.43436pt x 192.06044pt.
+LaTeX Info: Redefining \. on input line 151.
+LaTeX Info: Redefining \% on input line 151.
+ [15 <./03.EstudioProblema/01.EstadoArte/00.Figuras/04.juegos_ancianos.jpg>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/05.lumosity.png, id=1162, 746.79pt
+ x 645.91313pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/05.lumosity.png Graphic file 
+(type png)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/05.lumosity.png>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/05.lumosit
+y.png  used on input line 154.
+(pdftex.def)             Requested size: 213.39566pt x 184.57008pt.
+<03.EstudioProblema/01.EstadoArte/00.Figuras/06.neuronup.jpg, id=1165, 706.64pt
+ x 450.68375pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/06.neuronup.jpg Graphic file 
+(type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/06.neuronup.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/06.neuronu
+p.jpg  used on input line 166.
+(pdftex.def)             Requested size: 213.39566pt x 136.10014pt.
+ [16 <./03.EstudioProblema/01.EstadoArte/00.Figuras/05.lumosity.png>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/07.kojis_quest.png, id=1180, 770.8
+8pt x 433.62pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/07.kojis_quest.png Graphic fi
+le (type png)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/07.kojis_quest.png>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/07.kojis_q
+uest.png  used on input line 186.
+(pdftex.def)             Requested size: 213.39566pt x 120.02992pt.
+LaTeX Info: Redefining \. on input line 194.
+LaTeX Info: Redefining \% on input line 194.
+
+[17 <./03.EstudioProblema/01.EstadoArte/00.Figuras/06.neuronup.jpg> <./03.Estud
+ioProblema/01.EstadoArte/00.Figuras/07.kojis_quest.png>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/08.enhance.jpg, id=1192, 803.0pt x
+ 803.0pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/08.enhance.jpg Graphic file (
+type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/08.enhance.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/08.enhance
+.jpg  used on input line 198.
+(pdftex.def)             Requested size: 213.39566pt x 213.39436pt.
+ [18 <./03.EstudioProblema/01.EstadoArte/00.Figuras/08.enhance.jpg>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/09.renacimiento_roman_rose.jpg, id
+=1205, 533.995pt x 451.6875pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/09.renacimiento_roman_rose.jp
+g Graphic file (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/09.renacimiento_roman_rose.jpg
+>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/09.renacim
+iento_roman_rose.jpg  used on input line 230.
+(pdftex.def)             Requested size: 213.39566pt x 180.50638pt.
+<03.EstudioProblema/01.EstadoArte/00.Figuras/10.renacimiento_ultima_cena.jpg, i
+d=1208, 681.2652pt x 340.6326pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/10.renacimiento_ultima_cena.j
+pg Graphic file (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/10.renacimiento_ultima_cena.jp
+g>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/10.renacim
+iento_ultima_cena.jpg  used on input line 240.
+(pdftex.def)             Requested size: 192.05478pt x 96.02617pt.
+<03.EstudioProblema/01.EstadoArte/00.Figuras/11.renacimiento_llaves_san_pedro.j
+pg, id=1211, 2399.21344pt x 1447.65843pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/11.renacimiento_llaves_san_pe
+dro.jpg Graphic file (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/11.renacimiento_llaves_san_ped
+ro.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/11.renacim
+iento_llaves_san_pedro.jpg  used on input line 246.
+(pdftex.def)             Requested size: 192.05478pt x 115.8813pt.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 2
+59.
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+LaTeX Info: Redefining \. on input line 260.
+LaTeX Info: Redefining \% on input line 260.
+
+[19] [20 <./03.EstudioProblema/01.EstadoArte/00.Figuras/09.renacimiento_roman_r
+ose.jpg> <./03.EstudioProblema/01.EstadoArte/00.Figuras/10.renacimiento_ultima_
+cena.jpg> <./03.EstudioProblema/01.EstadoArte/00.Figuras/11.renacimiento_llaves
+_san_pedro.jpg>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/12.panorama_london.jpg, id=1227, 2
+46.6816pt x 37.5804pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/12.panorama_london.jpg Graphi
+c file (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/12.panorama_london.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/12.panoram
+a_london.jpg  used on input line 267.
+(pdftex.def)             Requested size: 384.10959pt x 58.5225pt.
+<03.EstudioProblema/01.EstadoArte/00.Figuras/13.panorama_rotunda.jpg, id=1230, 
+963.6pt x 660.4675pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/13.panorama_rotunda.jpg Graph
+ic file (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/13.panorama_rotunda.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/13.panoram
+a_rotunda.jpg  used on input line 274.
+(pdftex.def)             Requested size: 213.39566pt x 146.2607pt.
+<03.EstudioProblema/01.EstadoArte/00.Figuras/14.panorama_estereoscopico.jpg, id
+=1235, 1467.4825pt x 1247.66125pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/14.panorama_estereoscopico.jp
+g Graphic file (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/14.panorama_estereoscopico.jpg
+>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/14.panoram
+a_estereoscopico.jpg  used on input line 286.
+(pdftex.def)             Requested size: 213.39566pt x 181.42978pt.
+LaTeX Info: Redefining \. on input line 297.
+LaTeX Info: Redefining \% on input line 297.
+ [21 <./03.EstudioProblema/01.EstadoArte/00.Figuras/12.panorama_london.jpg> <./
+03.EstudioProblema/01.EstadoArte/00.Figuras/13.panorama_rotunda.jpg>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/34.sensorama.png, id=1246, 186.215
+7pt x 216.81pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/34.sensorama.png Graphic file
+ (type png)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/34.sensorama.png>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/34.sensora
+ma.png  used on input line 300.
+(pdftex.def)             Requested size: 213.39566pt x 248.4694pt.
+ [22 <./03.EstudioProblema/01.EstadoArte/00.Figuras/14.panorama_estereoscopico.
+jpg>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/15.headsight.png, id=1253, 666.49p
+t x 373.395pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/15.headsight.png Graphic file
+ (type png)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/15.headsight.png>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/15.headsig
+ht.png  used on input line 307.
+(pdftex.def)             Requested size: 213.39566pt x 119.55151pt.
+<03.EstudioProblema/01.EstadoArte/00.Figuras/16.damocles.jpg, id=1258, 1003.75p
+t x 650.43pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/16.damocles.jpg Graphic file 
+(type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/16.damocles.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/16.damocle
+s.jpg  used on input line 321.
+(pdftex.def)             Requested size: 213.39566pt x 138.28152pt.
+LaTeX Info: Redefining \. on input line 324.
+LaTeX Info: Redefining \% on input line 324.
+ [23 <./03.EstudioProblema/01.EstadoArte/00.Figuras/34.sensorama.png> <./03.Est
+udioProblema/01.EstadoArte/00.Figuras/15.headsight.png>] [24 <./03.EstudioProbl
+ema/01.EstadoArte/00.Figuras/16.damocles.jpg>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/17.eyephone_dataglove.jpg, id=1277
+, 301.125pt x 203.63579pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/17.eyephone_dataglove.jpg Gra
+phic file (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/17.eyephone_dataglove.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/17.eyephon
+e_dataglove.jpg  used on input line 360.
+(pdftex.def)             Requested size: 213.39566pt x 144.31519pt.
+<03.EstudioProblema/01.EstadoArte/00.Figuras/18.virtualboy.png, id=1284, 800.99
+25pt x 1017.8025pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/18.virtualboy.png Graphic fil
+e (type png)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/18.virtualboy.png>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/18.virtual
+boy.png  used on input line 384.
+(pdftex.def)             Requested size: 149.3763pt x 189.79697pt.
+<03.EstudioProblema/01.EstadoArte/00.Figuras/19.marios_tennis.png, id=1287, 385
+.44pt x 224.84pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/19.marios_tennis.png Graphic 
+file (type png)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/19.marios_tennis.png>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/19.marios_
+tennis.png  used on input line 390.
+(pdftex.def)             Requested size: 192.05478pt x 112.03204pt.
+LaTeX Info: Redefining \. on input line 394.
+LaTeX Info: Redefining \% on input line 394.
+ [25 <./03.EstudioProblema/01.EstadoArte/00.Figuras/17.eyephone_dataglove.jpg>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/20.oculus_rift_dk1.jpg, id=1299, 1
+003.75pt x 723.70375pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/20.oculus_rift_dk1.jpg Graphi
+c file (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/20.oculus_rift_dk1.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/20.oculus_
+rift_dk1.jpg  used on input line 407.
+(pdftex.def)             Requested size: 213.39566pt x 153.85954pt.
+ [26 <./03.EstudioProblema/01.EstadoArte/00.Figuras/18.virtualboy.png> <./03.Es
+tudioProblema/01.EstadoArte/00.Figuras/19.marios_tennis.png (PNG copy)>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/21.psvr.png, id=1310, 630.355pt x 
+494.84875pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/21.psvr.png Graphic file (typ
+e png)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/21.psvr.png>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/21.psvr.pn
+g  used on input line 428.
+(pdftex.def)             Requested size: 213.39566pt x 167.52147pt.
+<03.EstudioProblema/01.EstadoArte/00.Figuras/22.cardboard.jpg, id=1313, 951.486
+18pt x 634.32411pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/22.cardboard.jpg Graphic file
+ (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/22.cardboard.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/22.cardboa
+rd.jpg  used on input line 435.
+(pdftex.def)             Requested size: 213.39566pt x 142.26184pt.
+LaTeX Info: Redefining \. on input line 444.
+LaTeX Info: Redefining \% on input line 444.
+ [27 <./03.EstudioProblema/01.EstadoArte/00.Figuras/20.oculus_rift_dk1.jpg> <./
+03.EstudioProblema/01.EstadoArte/00.Figuras/21.psvr.png>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/23.htc_vive.jpeg, id=1323, 1371.12
+25pt x 829.0975pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/23.htc_vive.jpeg Graphic file
+ (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/23.htc_vive.jpeg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/23.htc_viv
+e.jpeg  used on input line 448.
+(pdftex.def)             Requested size: 213.39566pt x 129.02747pt.
+ [28 <./03.EstudioProblema/01.EstadoArte/00.Figuras/22.cardboard.jpg> <./03.Est
+udioProblema/01.EstadoArte/00.Figuras/23.htc_vive.jpeg>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/24.valve_index.jpg, id=1335, 2007.
+5pt x 1003.75pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/24.valve_index.jpg Graphic fi
+le (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/24.valve_index.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/24.valve_i
+ndex.jpg  used on input line 481.
+(pdftex.def)             Requested size: 213.39566pt x 106.69106pt.
+LaTeX Info: Redefining \. on input line 493.
+LaTeX Info: Redefining \% on input line 493.
+ [29 <./03.EstudioProblema/01.EstadoArte/00.Figuras/24.valve_index.jpg>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/35.meta_quest_2.jpg, id=1345, 681.
+54625pt x 843.15pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/35.meta_quest_2.jpg Graphic f
+ile (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/35.meta_quest_2.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/35.meta_qu
+est_2.jpg  used on input line 497.
+(pdftex.def)             Requested size: 213.39566pt x 263.99834pt.
+
+[30 <./03.EstudioProblema/01.EstadoArte/00.Figuras/35.meta_quest_2.jpg>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/26.interfaz_unity.jpg, id=1357, 12
+84.8pt x 722.7pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/26.interfaz_unity.jpg Graphic
+ file (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/26.interfaz_unity.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/26.interfa
+z_unity.jpg  used on input line 524.
+(pdftex.def)             Requested size: 341.43436pt x 192.05493pt.
+LaTeX Info: Redefining \. on input line 533.
+LaTeX Info: Redefining \% on input line 533.
+
+[31 <./03.EstudioProblema/01.EstadoArte/00.Figuras/26.interfaz_unity.jpg>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/27.monument_valley_2.jpg, id=1369,
+ 1405.25pt x 1405.25pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/27.monument_valley_2.jpg Grap
+hic file (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/27.monument_valley_2.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/27.monumen
+t_valley_2.jpg  used on input line 540.
+(pdftex.def)             Requested size: 256.0774pt x 256.06467pt.
+<03.EstudioProblema/01.EstadoArte/00.Figuras/28.interfaz_unreal.png, id=1373, 1
+445.4pt x 813.0375pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/28.interfaz_unreal.png Graphi
+c file (type png)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/28.interfaz_unreal.png>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/28.interfa
+z_unreal.png  used on input line 552.
+(pdftex.def)             Requested size: 341.43436pt x 192.0563pt.
+
+[32 <./03.EstudioProblema/01.EstadoArte/00.Figuras/27.monument_valley_2.jpg>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/29.fortnite.jpg, id=1384, 240.9pt 
+x 133.09724pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/29.fortnite.jpg Graphic file 
+(type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/29.fortnite.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/29.fortnit
+e.jpg  used on input line 566.
+(pdftex.def)             Requested size: 341.43436pt x 188.66023pt.
+LaTeX Info: Redefining \. on input line 578.
+LaTeX Info: Redefining \% on input line 578.
+
+[33 <./03.EstudioProblema/01.EstadoArte/00.Figuras/28.interfaz_unreal.png> <./0
+3.EstudioProblema/01.EstadoArte/00.Figuras/29.fortnite.jpg>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/30.interfaz_game_maker.jpg, id=139
+6, 610.73239pt x 343.02803pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/30.interfaz_game_maker.jpg Gr
+aphic file (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/30.interfaz_game_maker.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/30.interfa
+z_game_maker.jpg  used on input line 581.
+(pdftex.def)             Requested size: 341.43436pt x 191.7751pt.
+ [34 <./03.EstudioProblema/01.EstadoArte/00.Figuras/30.interfaz_game_maker.jpg>
+]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/31.crashlands.jpg, id=1407, 1284.8
+pt x 722.7pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/31.crashlands.jpg Graphic fil
+e (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/31.crashlands.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/31.crashla
+nds.jpg  used on input line 596.
+(pdftex.def)             Requested size: 341.43436pt x 192.05493pt.
+<03.EstudioProblema/01.EstadoArte/00.Figuras/32.interfaz_godot.png, id=1413, 19
+27.2pt x 1056.94875pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/32.interfaz_godot.png Graphic
+ file (type png)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/32.interfaz_godot.png>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/32.interfa
+z_godot.png  used on input line 611.
+(pdftex.def)             Requested size: 341.43436pt x 187.2428pt.
+LaTeX Info: Redefining \. on input line 615.
+LaTeX Info: Redefining \% on input line 615.
+ [35 <./03.EstudioProblema/01.EstadoArte/00.Figuras/31.crashlands.jpg>]
+<03.EstudioProblema/01.EstadoArte/00.Figuras/33.riventails_defense.jpg, id=1421
+, 943.525pt x 530.98375pt>
+File: 03.EstudioProblema/01.EstadoArte/00.Figuras/33.riventails_defense.jpg Gra
+phic file (type jpg)
+<use 03.EstudioProblema/01.EstadoArte/00.Figuras/33.riventails_defense.jpg>
+Package pdftex.def Info: 03.EstudioProblema/01.EstadoArte/00.Figuras/33.riventa
+ils_defense.jpg  used on input line 618.
+(pdftex.def)             Requested size: 341.43436pt x 192.15056pt.
+ [36 <./03.EstudioProblema/01.EstadoArte/00.Figuras/32.interfaz_godot.png> <./0
+3.EstudioProblema/01.EstadoArte/00.Figuras/33.riventails_defense.jpg>]
+LaTeX Info: Redefining \. on input line 643.
+LaTeX Info: Redefining \% on input line 643.
+ [37] [38
+
+])
+(03.EstudioProblema/02.AnalisisInicial/01.AnalisisInicial.tex
+Cap\'{\i }tulo 3.
+\openout4 = `TrabajoFinGrado.mtc'.
+
+\openout4 = `TrabajoFinGrado.mtc'.
+
+
+(D:\Trabajo Fin Grado\Repositorio\TFG\Memoria\00.Auxiliar\02.Build\TrabajoFinGr
+ado.mtc6) [39
+
+]
+<03.EstudioProblema/02.AnalisisInicial/00.Figuras/01.atrapa_un_millon.jpg, id=1
+451, 607.26875pt x 402.50375pt>
+File: 03.EstudioProblema/02.AnalisisInicial/00.Figuras/01.atrapa_un_millon.jpg 
+Graphic file (type jpg)
+<use 03.EstudioProblema/02.AnalisisInicial/00.Figuras/01.atrapa_un_millon.jpg>
+Package pdftex.def Info: 03.EstudioProblema/02.AnalisisInicial/00.Figuras/01.at
+rapa_un_millon.jpg  used on input line 25.
+(pdftex.def)             Requested size: 213.39566pt x 141.43732pt.
+ [40 <./03.EstudioProblema/02.AnalisisInicial/00.Figuras/01.atrapa_un_millon.jp
+g>]
+<03.EstudioProblema/02.AnalisisInicial/00.Figuras/02.baile.png, id=1461, 498.36
+188pt x 598.48593pt>
+File: 03.EstudioProblema/02.AnalisisInicial/00.Figuras/02.baile.png Graphic fil
+e (type png)
+<use 03.EstudioProblema/02.AnalisisInicial/00.Figuras/02.baile.png>
+Package pdftex.def Info: 03.EstudioProblema/02.AnalisisInicial/00.Figuras/02.ba
+ile.png  used on input line 51.
+(pdftex.def)             Requested size: 213.39566pt x 256.26634pt.
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
+ [41 <./03.EstudioProblema/02.AnalisisInicial/00.Figuras/02.baile.png>] [42]
+<03.EstudioProblema/02.AnalisisInicial/00.Figuras/03.turismo.png, id=1477, 542.
+77782pt x 633.11531pt>
+File: 03.EstudioProblema/02.AnalisisInicial/00.Figuras/03.turismo.png Graphic f
+ile (type png)
+<use 03.EstudioProblema/02.AnalisisInicial/00.Figuras/03.turismo.png>
+Package pdftex.def Info: 03.EstudioProblema/02.AnalisisInicial/00.Figuras/03.tu
+rismo.png  used on input line 85.
+(pdftex.def)             Requested size: 213.39566pt x 248.9137pt.
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
+ [43 <./03.EstudioProblema/02.AnalisisInicial/00.Figuras/03.turismo.png>] [44]
+<03.EstudioProblema/02.AnalisisInicial/00.Figuras/04.agrupacion_objetos.png, id
+=1493, 540.51938pt x 412.54124pt>
+File: 03.EstudioProblema/02.AnalisisInicial/00.Figuras/04.agrupacion_objetos.pn
+g Graphic file (type png)
+<use 03.EstudioProblema/02.AnalisisInicial/00.Figuras/04.agrupacion_objetos.png
+>
+Package pdftex.def Info: 03.EstudioProblema/02.AnalisisInicial/00.Figuras/04.ag
+rupacion_objetos.png  used on input line 119.
+(pdftex.def)             Requested size: 213.39566pt x 162.86702pt.
+LaTeX Info: Redefining \. on input line 138.
+LaTeX Info: Redefining \% on input line 138.
+ [45 <./03.EstudioProblema/02.AnalisisInicial/00.Figuras/04.agrupacion_objetos.
+png>]
+<03.EstudioProblema/02.AnalisisInicial/00.Figuras/05.localizacion_sonido.png, i
+d=1502, 420.06938pt x 357.58594pt>
+File: 03.EstudioProblema/02.AnalisisInicial/00.Figuras/05.localizacion_sonido.p
+ng Graphic file (type png)
+<use 03.EstudioProblema/02.AnalisisInicial/00.Figuras/05.localizacion_sonido.pn
+g>
+Package pdftex.def Info: 03.EstudioProblema/02.AnalisisInicial/00.Figuras/05.lo
+calizacion_sonido.png  used on input line 147.
+(pdftex.def)             Requested size: 213.39566pt x 181.65163pt.
+ [46]
+LaTeX Info: Redefining \. on input line 175.
+LaTeX Info: Redefining \% on input line 175.
+ [47 <./03.EstudioProblema/02.AnalisisInicial/00.Figuras/05.localizacion_sonido
+.png>] [48])
+(03.EstudioProblema/03.TecnologiaAUsar/01.TecnologiaAUsar.tex
+Cap\'{\i }tulo 4.
+<03.EstudioProblema/03.TecnologiaAUsar/00.Figuras/04.meta_quest_2.jpg, id=1519,
+ 681.54625pt x 843.15pt>
+File: 03.EstudioProblema/03.TecnologiaAUsar/00.Figuras/04.meta_quest_2.jpg Grap
+hic file (type jpg)
+<use 03.EstudioProblema/03.TecnologiaAUsar/00.Figuras/04.meta_quest_2.jpg>
+Package pdftex.def Info: 03.EstudioProblema/03.TecnologiaAUsar/00.Figuras/04.me
+ta_quest_2.jpg  used on input line 32.
+(pdftex.def)             Requested size: 213.39566pt x 263.99834pt.
+[49
+
+
+]
+<03.EstudioProblema/03.TecnologiaAUsar/00.Figuras/02.interfaz_unity.jpg, id=152
+8, 1284.8pt x 722.7pt>
+File: 03.EstudioProblema/03.TecnologiaAUsar/00.Figuras/02.interfaz_unity.jpg Gr
+aphic file (type jpg)
+<use 03.EstudioProblema/03.TecnologiaAUsar/00.Figuras/02.interfaz_unity.jpg>
+Package pdftex.def Info: 03.EstudioProblema/03.TecnologiaAUsar/00.Figuras/02.in
+terfaz_unity.jpg  used on input line 47.
+(pdftex.def)             Requested size: 341.43436pt x 192.05493pt.
+ [50 <./03.EstudioProblema/03.TecnologiaAUsar/00.Figuras/04.meta_quest_2.jpg>]
+<03.EstudioProblema/03.TecnologiaAUsar/00.Figuras/03.asset_store.png, id=1536, 
+949.29657pt x 691.83469pt>
+File: 03.EstudioProblema/03.TecnologiaAUsar/00.Figuras/03.asset_store.png Graph
+ic file (type png)
+<use 03.EstudioProblema/03.TecnologiaAUsar/00.Figuras/03.asset_store.png>
+Package pdftex.def Info: 03.EstudioProblema/03.TecnologiaAUsar/00.Figuras/03.as
+set_store.png  used on input line 70.
+(pdftex.def)             Requested size: 341.43436pt x 248.82805pt.
+LaTeX Info: Redefining \. on input line 74.
+LaTeX Info: Redefining \% on input line 74.
+ [51 <./03.EstudioProblema/03.TecnologiaAUsar/00.Figuras/02.interfaz_unity.jpg>
+] [52 <./03.EstudioProblema/03.TecnologiaAUsar/00.Figuras/03.asset_store.png>])
+ (03.EstudioProblema/04.MetodologiaAUsar/01.MetodologiaAUsar.tex
+Cap\'{\i }tulo 5.
+[53
+
+
+]
+<03.EstudioProblema/04.MetodologiaAUsar/00.Figuras/01.modelo_iterativo.jpg, id=
+1551, 642.4pt x 481.8pt>
+File: 03.EstudioProblema/04.MetodologiaAUsar/00.Figuras/01.modelo_iterativo.jpg
+ Graphic file (type jpg)
+<use 03.EstudioProblema/04.MetodologiaAUsar/00.Figuras/01.modelo_iterativo.jpg>
+
+Package pdftex.def Info: 03.EstudioProblema/04.MetodologiaAUsar/00.Figuras/01.m
+odelo_iterativo.jpg  used on input line 32.
+(pdftex.def)             Requested size: 213.39566pt x 160.04578pt.
+<03.EstudioProblema/04.MetodologiaAUsar/00.Figuras/02.modelo_evolutivo.png, id=
+1555, 365.86688pt x 147.55125pt>
+File: 03.EstudioProblema/04.MetodologiaAUsar/00.Figuras/02.modelo_evolutivo.png
+ Graphic file (type png)
+<use 03.EstudioProblema/04.MetodologiaAUsar/00.Figuras/02.modelo_evolutivo.png>
+
+Package pdftex.def Info: 03.EstudioProblema/04.MetodologiaAUsar/00.Figuras/02.m
+odelo_evolutivo.png  used on input line 43.
+(pdftex.def)             Requested size: 213.39566pt x 86.06158pt.
+ [54 <./03.EstudioProblema/04.MetodologiaAUsar/00.Figuras/01.modelo_iterativo.j
+pg> <./03.EstudioProblema/04.MetodologiaAUsar/00.Figuras/02.modelo_evolutivo.pn
+g>]
+LaTeX Info: Redefining \. on input line 69.
+LaTeX Info: Redefining \% on input line 69.
+ [55]
+<03.EstudioProblema/04.MetodologiaAUsar/00.Figuras/03.sus.png, id=1575, 529.98p
+t x 148.05313pt>
+File: 03.EstudioProblema/04.MetodologiaAUsar/00.Figuras/03.sus.png Graphic file
+ (type png)
+<use 03.EstudioProblema/04.MetodologiaAUsar/00.Figuras/03.sus.png>
+Package pdftex.def Info: 03.EstudioProblema/04.MetodologiaAUsar/00.Figuras/03.s
+us.png  used on input line 89.
+(pdftex.def)             Requested size: 213.39566pt x 59.61327pt.
+ [56 <./03.EstudioProblema/04.MetodologiaAUsar/00.Figuras/03.sus.png>]) (03.Est
+udioProblema/05.PlanEntregas/01.PlanEntregas.tex
+Cap\'{\i }tulo 6.
+[57
+
+
+] [58]) [59
+
+
+] [60] (04.Desarrollo/00.Desarrollo.tex
+Cap\'{\i }tulo 7.
+\openout4 = `TrabajoFinGrado.mtc'.
+
+\openout4 = `TrabajoFinGrado.mtc'.
+
+
+(D:\Trabajo Fin Grado\Repositorio\TFG\Memoria\00.Auxiliar\02.Build\TrabajoFinGr
+ado.mtc10 [61
+
+]) (04.Desarrollo/01.Entrega1/00.Entrega1.tex
+(04.Desarrollo/01.Entrega1/01.Iteracion1_1/01.Iteracion1_1.tex [62]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+0.
+
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+<04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/01.steam_vr_import.png, i
+d=1640, 264.23718pt x 437.38406pt>
+File: 04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/01.steam_vr_import.p
+ng Graphic file (type png)
+<use 04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/01.steam_vr_import.pn
+g>
+Package pdftex.def Info: 04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/0
+1.steam_vr_import.png  used on input line 24.
+(pdftex.def)             Requested size: 213.39566pt x 353.22466pt.
+<04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/02.vrtk_package.png, id=1
+643, 325.215pt x 252.19218pt>
+File: 04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/02.vrtk_package.png 
+Graphic file (type png)
+<use 04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/02.vrtk_package.png>
+Package pdftex.def Info: 04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/0
+2.vrtk_package.png  used on input line 34.
+(pdftex.def)             Requested size: 298.75262pt x 231.68867pt.
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
+
+[63 <./04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/01.steam_vr_import.
+png>]
+<04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/03.errores_vrtk.png, id=1
+653, 1260.20813pt x 176.15813pt>
+File: 04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/03.errores_vrtk.png 
+Graphic file (type png)
+<use 04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/03.errores_vrtk.png>
+Package pdftex.def Info: 04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/0
+3.errores_vrtk.png  used on input line 45.
+(pdftex.def)             Requested size: 426.79134pt x 59.6591pt.
+ [64 <./04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/02.vrtk_package.pn
+g> <./04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/03.errores_vrtk.png>
+]
+<04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/04.input_compile.png, id=
+1661, 908.64468pt x 421.575pt>
+File: 04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/04.input_compile.png
+ Graphic file (type png)
+<use 04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/04.input_compile.png>
+
+Package pdftex.def Info: 04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/0
+4.input_compile.png  used on input line 66.
+(pdftex.def)             Requested size: 341.43436pt x 158.41187pt.
+) (04.Desarrollo/01.Entrega1/02.Iteracion1_2/01.Iteracion1_2.tex
+<04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/01.manos.png, id=1663, 86
+0.46469pt x 789.70032pt>
+File: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/01.manos.png Graphic
+ file (type png)
+<use 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/01.manos.png>
+Package pdftex.def Info: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/0
+1.manos.png  used on input line 10.
+(pdftex.def)             Requested size: 298.75262pt x 274.18208pt.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
+ [65 <./04.Desarrollo/01.Entrega1/01.Iteracion1_1/00.Figuras/04.input_compile.p
+ng>]
+<04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/02.linked_alias_collectio
+n.png, id=1670, 347.79938pt x 213.79875pt>
+File: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/02.linked_alias_coll
+ection.png Graphic file (type png)
+<use 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/02.linked_alias_colle
+ction.png>
+Package pdftex.def Info: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/0
+2.linked_alias_collection.png  used on input line 22.
+(pdftex.def)             Requested size: 256.0774pt x 157.42236pt.
+<04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/03.script_velocities.png,
+ id=1672, 441.14813pt x 285.31593pt>
+File: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/03.script_velocities
+.png Graphic file (type png)
+<use 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/03.script_velocities.
+png>
+Package pdftex.def Info: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/0
+3.script_velocities.png  used on input line 31.
+(pdftex.def)             Requested size: 256.0774pt x 165.62701pt.
+<04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/04.tracked_alias.png, id=
+1674, 350.81062pt x 217.5628pt>
+File: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/04.tracked_alias.png
+ Graphic file (type png)
+<use 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/04.tracked_alias.png>
+
+Package pdftex.def Info: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/0
+4.tracked_alias.png  used on input line 40.
+(pdftex.def)             Requested size: 256.0774pt x 158.82285pt.
+<04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/05.steam_input_map.png, i
+d=1676, 473.51906pt x 309.40594pt>
+File: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/05.steam_input_map.p
+ng Graphic file (type png)
+<use 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/05.steam_input_map.pn
+g>
+Package pdftex.def Info: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/0
+5.steam_input_map.png  used on input line 50.
+(pdftex.def)             Requested size: 256.0774pt x 167.33165pt.
+
+[66 <./04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/01.manos.png>]
+LaTeX Info: Redefining \. on input line 56.
+LaTeX Info: Redefining \% on input line 56.
+
+[67 <./04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/02.linked_alias_col
+lection.png> <./04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/03.script_
+velocities.png> <./04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/04.trac
+ked_alias.png>]
+<04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/06.handlers.png, id=1691,
+ 598.48593pt x 164.11313pt>
+File: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/06.handlers.png Grap
+hic file (type png)
+<use 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/06.handlers.png>
+Package pdftex.def Info: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/0
+6.handlers.png  used on input line 59.
+(pdftex.def)             Requested size: 341.43436pt x 93.62808pt.
+<04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/07.interactor_anidado.png
+, id=1693, 252.19218pt x 147.55125pt>
+File: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/07.interactor_anidad
+o.png Graphic file (type png)
+<use 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/07.interactor_anidado
+.png>
+Package pdftex.def Info: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/0
+7.interactor_anidado.png  used on input line 68.
+(pdftex.def)             Requested size: 213.39566pt x 124.85402pt.
+<04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/08.interactor.png, id=169
+5, 606.01407pt x 201.75375pt>
+File: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/08.interactor.png Gr
+aphic file (type png)
+<use 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/08.interactor.png>
+Package pdftex.def Info: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/0
+8.interactor.png  used on input line 77.
+(pdftex.def)             Requested size: 341.43436pt x 113.67091pt.
+ [68 <./04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/05.steam_input_map
+.png> <./04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/06.handlers.png>]
+<04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/09.bola.png, id=1703, 997
+.47656pt x 694.84593pt>
+File: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/09.bola.png Graphic 
+file (type png)
+<use 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/09.bola.png>
+Package pdftex.def Info: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/0
+9.bola.png  used on input line 101.
+(pdftex.def)             Requested size: 384.10959pt x 267.56421pt.
+<04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/10.manos_2.png, id=1705, 
+1445.4pt x 782.925pt>
+File: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/10.manos_2.png Graph
+ic file (type png)
+<use 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/10.manos_2.png>
+Package pdftex.def Info: 04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/1
+0.manos_2.png  used on input line 111.
+(pdftex.def)             Requested size: 384.10959pt x 208.05951pt.
+)
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+ [69 <./04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/07.interactor_anid
+ado.png> <./04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/08.interactor.
+png>] [70 <./04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/09.bola.png> 
+<./04.Desarrollo/01.Entrega1/02.Iteracion1_2/00.Figuras/10.manos_2.png>]) (04.D
+esarrollo/02.Entrega2/00.Entrega2.tex
+(04.Desarrollo/02.Entrega2/01.Iteracion2_1/01.Iteracion2_1.tex
+<04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/01.transform.png, id=1719
+, 332.74312pt x 60.225pt>
+File: 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/01.transform.png Gra
+phic file (type png)
+<use 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/01.transform.png>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/0
+1.transform.png  used on input line 14.
+(pdftex.def)             Requested size: 384.10959pt x 69.52652pt.
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+ [71]
+<04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/02.trigger.png, id=1726, 
+374.14781pt x 344.78813pt>
+File: 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/02.trigger.png Graph
+ic file (type png)
+<use 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/02.trigger.png>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/0
+2.trigger.png  used on input line 24.
+(pdftex.def)             Requested size: 213.39566pt x 196.65227pt.
+ [72 <./04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/01.transform.png> 
+<./04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/02.trigger.png>]
+<04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/03.poses.png, id=1734, 50
+7.39563pt x 581.17125pt>
+File: 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/03.poses.png Graphic
+ file (type png)
+<use 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/03.poses.png>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/0
+3.poses.png  used on input line 39.
+(pdftex.def)             Requested size: 213.39566pt x 244.41837pt.
+<04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/04.baile.png, id=1736, 31
+3.9228pt x 348.55219pt>
+File: 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/04.baile.png Graphic
+ file (type png)
+<use 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/04.baile.png>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/0
+4.baile.png  used on input line 48.
+(pdftex.def)             Requested size: 213.39566pt x 236.93256pt.
+<04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/05.objetivos.png, id=1738
+, 304.88907pt x 361.35pt>
+File: 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/05.objetivos.png Gra
+phic file (type png)
+<use 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/05.objetivos.png>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/0
+5.objetivos.png  used on input line 59.
+(pdftex.def)             Requested size: 213.39566pt x 252.92122pt.
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
+ [73 <./04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/03.poses.png>] [74
+ <./04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/04.baile.png> <./04.De
+sarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/05.objetivos.png>]
+<04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/06.agrupacion.png, id=175
+2, 573.64313pt x 431.36156pt>
+File: 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/06.agrupacion.png Gr
+aphic file (type png)
+<use 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/06.agrupacion.png>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/0
+6.agrupacion.png  used on input line 74.
+(pdftex.def)             Requested size: 213.39566pt x 160.46352pt.
+<04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/07.superpuestas.jpg, id=1
+754, 963.6pt x 1284.8pt>
+File: 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/07.superpuestas.jpg 
+Graphic file (type jpg)
+<use 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/07.superpuestas.jpg>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/0
+7.superpuestas.jpg  used on input line 84.
+(pdftex.def)             Requested size: 213.39566pt x 284.5193pt.
+<04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/08.sonidos.png, id=1756, 
+578.91281pt x 415.5525pt>
+File: 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/08.sonidos.png Graph
+ic file (type png)
+<use 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/08.sonidos.png>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/0
+8.sonidos.png  used on input line 94.
+(pdftex.def)             Requested size: 213.39566pt x 153.175pt.
+LaTeX Info: Redefining \. on input line 97.
+LaTeX Info: Redefining \% on input line 97.
+ [75 <./04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/06.agrupacion.png>
+] [76 <./04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/07.superpuestas.j
+pg>])
+(04.Desarrollo/02.Entrega2/02.Iteracion2_2/01.Iteracion2_2.tex
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+ [77 <./04.Desarrollo/02.Entrega2/01.Iteracion2_1/00.Figuras/08.sonidos.png>]
+<04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/01.variables_trigger.png,
+ id=1774, 445.665pt x 191.21437pt>
+File: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/01.variables_trigger
+.png Graphic file (type png)
+<use 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/01.variables_trigger.
+png>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/0
+1.variables_trigger.png  used on input line 18.
+(pdftex.def)             Requested size: 384.10959pt x 164.80586pt.
+<04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/02.on_trigger_enter.png, 
+id=1776, 272.51813pt x 205.5178pt>
+File: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/02.on_trigger_enter.
+png Graphic file (type png)
+<use 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/02.on_trigger_enter.p
+ng>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/0
+2.on_trigger_enter.png  used on input line 28.
+(pdftex.def)             Requested size: 298.75262pt x 225.31451pt.
+ [78 <./04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/01.variables_trigg
+er.png>]
+<04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/03.update_trigger.png, id
+=1784, 371.13657pt x 202.50656pt>
+File: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/03.update_trigger.pn
+g Graphic file (type png)
+<use 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/03.update_trigger.png
+>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/0
+3.update_trigger.png  used on input line 38.
+(pdftex.def)             Requested size: 298.75262pt x 163.01279pt.
+<04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/04.spawn_array.png, id=17
+86, 534.49687pt x 365.11406pt>
+File: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/04.spawn_array.png G
+raphic file (type png)
+<use 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/04.spawn_array.png>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/0
+4.spawn_array.png  used on input line 48.
+(pdftex.def)             Requested size: 298.75262pt x 204.08363pt.
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
+ [79 <./04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/02.on_trigger_ente
+r.png>]
+[80 <./04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/03.update_trigger.p
+ng> <./04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/04.spawn_array.png>
+]
+<04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/05.json.png, id=1800, 222
+.8325pt x 362.10281pt>
+File: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/05.json.png Graphic 
+file (type png)
+<use 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/05.json.png>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/0
+5.json.png  used on input line 60.
+(pdftex.def)             Requested size: 170.71393pt x 277.41107pt.
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+ [81 <./04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/05.json.png>]
+<04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/06.snap_highlights.png, i
+d=1807, 478.03593pt x 396.7322pt>
+File: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/06.snap_highlights.p
+ng Graphic file (type png)
+<use 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/06.snap_highlights.pn
+g>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/0
+6.snap_highlights.png  used on input line 83.
+(pdftex.def)             Requested size: 213.39566pt x 177.09917pt.
+
+[82]
+<04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/07.script_snap.png, id=18
+13, 446.41782pt x 452.4403pt>
+File: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/07.script_snap.png G
+raphic file (type png)
+<use 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/07.script_snap.png>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/0
+7.script_snap.png  used on input line 93.
+(pdftex.def)             Requested size: 341.43436pt x 346.04668pt.
+<04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/08.boton.png, id=1816, 47
+7.28313pt x 335.75438pt>
+File: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/08.boton.png Graphic
+ file (type png)
+<use 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/08.boton.png>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/0
+8.boton.png  used on input line 105.
+(pdftex.def)             Requested size: 213.39566pt x 150.11465pt.
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
+ [83 <./04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/06.snap_highlights
+.png>] [84 <./04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/07.script_sn
+ap.png> <./04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/08.boton.png>]
+<04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/09.audio_source.png, id=1
+831, 321.45094pt x 599.23875pt>
+File: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/09.audio_source.png 
+Graphic file (type png)
+<use 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/09.audio_source.png>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/0
+9.audio_source.png  used on input line 114.
+(pdftex.def)             Requested size: 213.39566pt x 397.81213pt.
+<04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/10.audio_spatializer.png,
+ id=1832, 337.26pt x 214.55156pt>
+File: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/10.audio_spatializer
+.png Graphic file (type png)
+<use 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/10.audio_spatializer.
+png>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/1
+0.audio_spatializer.png  used on input line 121.
+(pdftex.def)             Requested size: 213.39566pt x 135.75746pt.
+<04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/11.audio_visible_script.p
+ng, id=1833, 305.64188pt x 121.95563pt>
+File: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/11.audio_visible_scr
+ipt.png Graphic file (type png)
+<use 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/11.audio_visible_scri
+pt.png>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/1
+1.audio_visible_script.png  used on input line 128.
+(pdftex.def)             Requested size: 213.39566pt x 85.1469pt.
+) (04.Desarrollo/02.Entrega2/03.Iteracion2_3/01.Iteracion2_3.tex
+<04.Desarrollo/02.Entrega2/03.Iteracion2_3/00.Figuras/01.mesa.png, id=1835, 666
+.99188pt x 374.90062pt>
+File: 04.Desarrollo/02.Entrega2/03.Iteracion2_3/00.Figuras/01.mesa.png Graphic 
+file (type png)
+<use 04.Desarrollo/02.Entrega2/03.Iteracion2_3/00.Figuras/01.mesa.png>
+Package pdftex.def Info: 04.Desarrollo/02.Entrega2/03.Iteracion2_3/00.Figuras/0
+1.mesa.png  used on input line 11.
+(pdftex.def)             Requested size: 213.39566pt x 119.94205pt.
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
+ [85]
+[86 <./04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/09.audio_source.png
+> <./04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/10.audio_spatializer.
+png>]
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
+ [87 <./04.Desarrollo/02.Entrega2/02.Iteracion2_2/00.Figuras/11.audio_visible_s
+cript.png> <./04.Desarrollo/02.Entrega2/03.Iteracion2_3/00.Figuras/01.mesa.png>
+]) [88]) (04.Desarrollo/03.Entrega3/00.Entrega3.tex
+(04.Desarrollo/03.Entrega3/01.Iteracion3_1/01.Iteracion3_1.tex
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+ [89]
+<04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/01.atrapa_un_millon.jpg, 
+id=1863, 607.26875pt x 402.50375pt>
+File: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/01.atrapa_un_millon.
+jpg Graphic file (type jpg)
+<use 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/01.atrapa_un_millon.j
+pg>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/0
+1.atrapa_un_millon.jpg  used on input line 16.
+(pdftex.def)             Requested size: 298.75262pt x 198.02084pt.
+<04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/02.ahora_caigo.png, id=18
+66, 1445.4pt x 715.17188pt>
+File: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/02.ahora_caigo.png G
+raphic file (type png)
+<use 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/02.ahora_caigo.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/0
+2.ahora_caigo.png  used on input line 23.
+(pdftex.def)             Requested size: 298.75262pt x 147.82248pt.
+ [90 <./04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/01.atrapa_un_millo
+n.jpg>]
+<04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/03.boceto_escenario_arrib
+a.png, id=1875, 430.60875pt x 373.395pt>
+File: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/03.boceto_escenario_
+arriba.png Graphic file (type png)
+<use 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/03.boceto_escenario_a
+rriba.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/0
+3.boceto_escenario_arriba.png  used on input line 36.
+(pdftex.def)             Requested size: 213.39566pt x 185.04475pt.
+<04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/04.boceto_escenario_perfi
+l.png, id=1876, 487.06969pt x 268.75406pt>
+File: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/04.boceto_escenario_
+perfil.png Graphic file (type png)
+<use 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/04.boceto_escenario_p
+erfil.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/0
+4.boceto_escenario_perfil.png  used on input line 43.
+(pdftex.def)             Requested size: 213.39566pt x 117.74774pt.
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
+
+[91 <./04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/02.ahora_caigo.png>
+ <./04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/03.boceto_escenario_ar
+riba.png>]
+<04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/05.baile.png, id=1884, 49
+8.36188pt x 598.48593pt>
+File: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/05.baile.png Graphic
+ file (type png)
+<use 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/05.baile.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/0
+5.baile.png  used on input line 59.
+(pdftex.def)             Requested size: 213.39566pt x 256.26634pt.
+<04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/06.turismo.png, id=1886, 
+542.77782pt x 633.11531pt>
+File: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/06.turismo.png Graph
+ic file (type png)
+<use 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/06.turismo.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/0
+6.turismo.png  used on input line 68.
+(pdftex.def)             Requested size: 213.39566pt x 248.9137pt.
+<04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/07.cancion.png, id=1888, 
+511.9125pt x 444.15938pt>
+File: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/07.cancion.png Graph
+ic file (type png)
+<use 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/07.cancion.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/0
+7.cancion.png  used on input line 80.
+(pdftex.def)             Requested size: 213.39566pt x 185.14954pt.
+ [92 <./04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/04.boceto_escenari
+o_perfil.png>]
+LaTeX Info: Redefining \. on input line 86.
+LaTeX Info: Redefining \% on input line 86.
+ [93 <./04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/05.baile.png> <./0
+4.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/06.turismo.png>]
+<04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/08.figuras.png, id=1902, 
+572.1375pt x 456.95718pt>
+File: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/08.figuras.png Graph
+ic file (type png)
+<use 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/08.figuras.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/0
+8.figuras.png  used on input line 98.
+(pdftex.def)             Requested size: 213.39566pt x 170.43813pt.
+<04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/09.sonidos.png, id=1906, 
+539.76656pt x 482.55281pt>
+File: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/09.sonidos.png Graph
+ic file (type png)
+<use 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/09.sonidos.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/0
+9.sonidos.png  used on input line 111.
+(pdftex.def)             Requested size: 213.39566pt x 190.7793pt.
+ [94 <./04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/07.cancion.png>]
+<04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/10.agrupacion_objetos.png
+, id=1913, 540.51938pt x 412.54124pt>
+File: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/10.agrupacion_objeto
+s.png Graphic file (type png)
+<use 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/10.agrupacion_objetos
+.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/1
+0.agrupacion_objetos.png  used on input line 118.
+(pdftex.def)             Requested size: 213.39566pt x 162.86702pt.
+<04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/11.localizacion_sonido.pn
+g, id=1915, 420.06938pt x 357.58594pt>
+File: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/11.localizacion_soni
+do.png Graphic file (type png)
+<use 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/11.localizacion_sonid
+o.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/1
+1.localizacion_sonido.png  used on input line 128.
+(pdftex.def)             Requested size: 213.39566pt x 181.65163pt.
+) (04.Desarrollo/03.Entrega3/02.Iteracion3_2/01.Iteracion3_2.tex
+<04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/01.escenario_5.png, id=19
+17, 636.12656pt x 509.65407pt>
+File: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/01.escenario_5.png G
+raphic file (type png)
+<use 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/01.escenario_5.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/0
+1.escenario_5.png  used on input line 14.
+(pdftex.def)             Requested size: 213.39566pt x 170.96263pt.
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+
+[95 <./04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/08.figuras.png>]
+[96 <./04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/09.sonidos.png> <./
+04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/10.agrupacion_objetos.png>
+]
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+ [97 <./04.Desarrollo/03.Entrega3/01.Iteracion3_1/00.Figuras/11.localizacion_so
+nido.png> <./04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/01.escenario_
+5.png>]
+<04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/02.escenario_6.png, id=19
+38, 803.25093pt x 504.38437pt>
+File: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/02.escenario_6.png G
+raphic file (type png)
+<use 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/02.escenario_6.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/0
+2.escenario_6.png  used on input line 24.
+(pdftex.def)             Requested size: 213.39566pt x 133.99216pt.
+<04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/03.escenario_7.png, id=19
+40, 663.22781pt x 521.69907pt>
+File: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/03.escenario_7.png G
+raphic file (type png)
+<use 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/03.escenario_7.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/0
+3.escenario_7.png  used on input line 33.
+(pdftex.def)             Requested size: 213.39566pt x 167.8546pt.
+ [98 <./04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/02.escenario_6.png
+> <./04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/03.escenario_7.png>]
+<04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/04.ascensor_3.png, id=195
+0, 654.19406pt x 490.83376pt>
+File: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/04.ascensor_3.png Gr
+aphic file (type png)
+<use 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/04.ascensor_3.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/0
+4.ascensor_3.png  used on input line 46.
+(pdftex.def)             Requested size: 115.23404pt x 86.4589pt.
+<04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/05.ascensor_2.png, id=195
+1, 636.87938pt x 494.59781pt>
+File: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/05.ascensor_2.png Gr
+aphic file (type png)
+<use 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/05.ascensor_2.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/0
+5.ascensor_2.png  used on input line 52.
+(pdftex.def)             Requested size: 111.39304pt x 86.50308pt.
+<04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/06.ascensor_1.png, id=195
+2, 645.16031pt x 535.2497pt>
+File: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/06.ascensor_1.png Gr
+aphic file (type png)
+<use 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/06.ascensor_1.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/0
+6.ascensor_1.png  used on input line 58.
+(pdftex.def)             Requested size: 98.59033pt x 81.78676pt.
+<04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/07.unity_1.png, id=1954, 
+698.61pt x 365.86688pt>
+File: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/07.unity_1.png Graph
+ic file (type png)
+<use 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/07.unity_1.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/0
+7.unity_1.png  used on input line 77.
+(pdftex.def)             Requested size: 213.39566pt x 111.75392pt.
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
+ [99 <./04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/04.ascensor_3.png>
+ <./04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/05.ascensor_2.png> <./
+04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/06.ascensor_1.png> <./04.D
+esarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/07.unity_1.png>]
+<04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/08.unity_5.png, id=1965, 
+472.01344pt x 301.8778pt>
+File: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/08.unity_5.png Graph
+ic file (type png)
+<use 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/08.unity_5.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/0
+8.unity_5.png  used on input line 86.
+(pdftex.def)             Requested size: 213.39566pt x 136.47942pt.
+<04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/09.unity_2.png, id=1967, 
+344.78813pt x 332.74312pt>
+File: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/09.unity_2.png Graph
+ic file (type png)
+<use 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/09.unity_2.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/0
+9.unity_2.png  used on input line 96.
+(pdftex.def)             Requested size: 213.39566pt x 205.94318pt.
+
+[100 <./04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/08.unity_5.png> <.
+/04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/09.unity_2.png>]
+<04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/10.unity_3.png, id=1975, 
+663.98062pt x 405.01312pt>
+File: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/10.unity_3.png Graph
+ic file (type png)
+<use 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/10.unity_3.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/1
+0.unity_3.png  used on input line 106.
+(pdftex.def)             Requested size: 213.39566pt x 130.16304pt.
+<04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/11.unity_4.png, id=1977, 
+682.04813pt x 356.0803pt>
+File: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/11.unity_4.png Graph
+ic file (type png)
+<use 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/11.unity_4.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/1
+1.unity_4.png  used on input line 118.
+(pdftex.def)             Requested size: 213.39566pt x 111.41064pt.
+)
+(04.Desarrollo/03.Entrega3/03.Iteracion3_3/01.Iteracion3_3.tex
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+ [101 <./04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/10.unity_3.png> <
+./04.Desarrollo/03.Entrega3/02.Iteracion3_2/00.Figuras/11.unity_4.png>]
+<04.Desarrollo/03.Entrega3/03.Iteracion3_3/00.Figuras/01.unity_6.png, id=1985, 
+523.9575pt x 371.88937pt>
+File: 04.Desarrollo/03.Entrega3/03.Iteracion3_3/00.Figuras/01.unity_6.png Graph
+ic file (type png)
+<use 04.Desarrollo/03.Entrega3/03.Iteracion3_3/00.Figuras/01.unity_6.png>
+Package pdftex.def Info: 04.Desarrollo/03.Entrega3/03.Iteracion3_3/00.Figuras/0
+1.unity_6.png  used on input line 16.
+(pdftex.def)             Requested size: 213.39566pt x 151.45987pt.
+) [102 <./04.Desarrollo/03.Entrega3/03.Iteracion3_3/00.Figuras/01.unity_6.png>]
+)
+(04.Desarrollo/04.Entrega4/00.Entrega4.tex
+(04.Desarrollo/04.Entrega4/01.Iteracion4_1/01.Iteracion4_1.tex
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
+ [103] [104]
+<04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/01.eiffel.jpg, id=2004, 4
+453.63875pt x 6680.96pt>
+File: 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/01.eiffel.jpg Graphi
+c file (type jpg)
+<use 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/01.eiffel.jpg>
+Package pdftex.def Info: 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/0
+1.eiffel.jpg  used on input line 92.
+(pdftex.def)             Requested size: 89.6267pt x 134.36101pt.
+
+Underfull \hbox (badness 3942) in paragraph at lines 93--93
+[]\T1/phv/b/n/8 Figura 7.58: |\T1/phv/m/n/8 To-rre Eif-fel, Pa-rís,
+ []
+
+<04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/02.coliseo.jpg, id=2005, 
+963.6pt x 541.02126pt>
+File: 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/02.coliseo.jpg Graph
+ic file (type jpg)
+<use 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/02.coliseo.jpg>
+Package pdftex.def Info: 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/0
+2.coliseo.jpg  used on input line 98.
+(pdftex.def)             Requested size: 115.23404pt x 64.69685pt.
+<04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/03.libertad.jpg, id=2006,
+ 1003.75pt x 660.4675pt>
+File: 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/03.libertad.jpg Grap
+hic file (type jpg)
+<use 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/03.libertad.jpg>
+Package pdftex.def Info: 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/0
+3.libertad.jpg  used on input line 104.
+(pdftex.def)             Requested size: 115.23404pt x 75.8161pt.
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
+[105]
+<04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/04.medico.jpg, id=2015, 7
+02.625pt x 534.99875pt>
+File: 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/04.medico.jpg Graphi
+c file (type jpg)
+<use 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/04.medico.jpg>
+Package pdftex.def Info: 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/0
+4.medico.jpg  used on input line 136.
+(pdftex.def)             Requested size: 115.23404pt x 87.74036pt.
+<04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/05.colegio.png, id=2016, 
+441.14813pt x 291.33844pt>
+File: 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/05.colegio.png Graph
+ic file (type png)
+<use 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/05.colegio.png>
+Package pdftex.def Info: 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/0
+5.colegio.png  used on input line 142.
+(pdftex.def)             Requested size: 115.23404pt x 76.10184pt.
+<04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/06.feria.png, id=2017, 44
+2.65375pt x 293.59688pt>
+File: 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/06.feria.png Graphic
+ file (type png)
+<use 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/06.feria.png>
+Package pdftex.def Info: 04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/0
+6.feria.png  used on input line 148.
+(pdftex.def)             Requested size: 115.23404pt x 76.42746pt.
+ [106 <./04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/01.eiffel.jpg> <.
+/04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/02.coliseo.jpg> <./04.Des
+arrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/03.libertad.jpg>]
+LaTeX Info: Redefining \. on input line 183.
+LaTeX Info: Redefining \% on input line 183.
+ [107 <./04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/04.medico.jpg> <.
+/04.Desarrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/05.colegio.png> <./04.Des
+arrollo/04.Entrega4/01.Iteracion4_1/00.Figuras/06.feria.png>])
+(04.Desarrollo/04.Entrega4/02.Iteracion4_2/01.Iteracion4_2.tex [108]
+<04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/01.prueba.png, id=2037, 3
+43.2825pt x 552.56438pt>
+File: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/01.prueba.png Graphi
+c file (type png)
+<use 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/01.prueba.png>
+Package pdftex.def Info: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/0
+1.prueba.png  used on input line 23.
+(pdftex.def)             Requested size: 213.39566pt x 343.48853pt.
+<04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/02.cargar_prueba.png, id=
+2038, 446.41782pt x 431.36156pt>
+File: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/02.cargar_prueba.png
+ Graphic file (type png)
+<use 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/02.cargar_prueba.png>
+
+Package pdftex.def Info: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/0
+2.cargar_prueba.png  used on input line 30.
+(pdftex.def)             Requested size: 298.75262pt x 288.68164pt.
+LaTeX Info: Redefining \. on input line 45.
+LaTeX Info: Redefining \% on input line 45.
+ [109]
+[110 <./04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/01.prueba.png>]
+LaTeX Info: Redefining \. on input line 45.
+LaTeX Info: Redefining \% on input line 45.
+
+[111 <./04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/02.cargar_prueba.p
+ng>]
+<04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/03.posiciones.png, id=205
+7, 461.47406pt x 328.97906pt>
+File: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/03.posiciones.png Gr
+aphic file (type png)
+<use 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/03.posiciones.png>
+Package pdftex.def Info: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/0
+3.posiciones.png  used on input line 50.
+(pdftex.def)             Requested size: 298.75262pt x 212.97546pt.
+<04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/04.audio_source.png, id=2
+059, 410.2828pt x 225.84375pt>
+File: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/04.audio_source.png 
+Graphic file (type png)
+<use 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/04.audio_source.png>
+Package pdftex.def Info: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/0
+4.audio_source.png  used on input line 62.
+(pdftex.def)             Requested size: 298.75262pt x 164.45102pt.
+ [112 <./04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/03.posiciones.png
+>]
+<04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/05.imagen.png, id=2067, 4
+13.29407pt x 335.00156pt>
+File: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/05.imagen.png Graphi
+c file (type png)
+<use 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/05.imagen.png>
+Package pdftex.def Info: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/0
+5.imagen.png  used on input line 72.
+(pdftex.def)             Requested size: 298.75262pt x 242.16193pt.
+LaTeX Info: Redefining \. on input line 86.
+LaTeX Info: Redefining \% on input line 86.
+ [113 <./04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/04.audio_source.p
+ng>]
+<04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/06.asociacion.png, id=207
+7, 730.22812pt x 366.61969pt>
+File: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/06.asociacion.png Gr
+aphic file (type png)
+<use 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/06.asociacion.png>
+Package pdftex.def Info: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/0
+6.asociacion.png  used on input line 93.
+(pdftex.def)             Requested size: 298.75262pt x 149.99057pt.
+<04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/07.mesa.png, id=2078, 143
+.78719pt x 159.59625pt>
+File: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/07.mesa.png Graphic 
+file (type png)
+<use 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/07.mesa.png>
+Package pdftex.def Info: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/0
+7.mesa.png  used on input line 101.
+(pdftex.def)             Requested size: 170.71393pt x 189.49083pt.
+<04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/08.sonidos.png, id=2081, 
+733.23938pt x 345.54094pt>
+File: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/08.sonidos.png Graph
+ic file (type png)
+<use 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/08.sonidos.png>
+Package pdftex.def Info: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/0
+8.sonidos.png  used on input line 113.
+(pdftex.def)             Requested size: 298.75262pt x 140.78691pt.
+<04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/09.boton_correcto.png, id
+=2082, 539.76656pt x 67.75313pt>
+File: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/09.boton_correcto.pn
+g Graphic file (type png)
+<use 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/09.boton_correcto.png
+>
+Package pdftex.def Info: 04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/0
+9.boton_correcto.png  used on input line 120.
+(pdftex.def)             Requested size: 384.10959pt x 48.21565pt.
+ [114 <./04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/05.imagen.png>]
+LaTeX Info: Redefining \. on input line 131.
+LaTeX Info: Redefining \% on input line 131.
+ [115 <./04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/06.asociacion.png
+> <./04.Desarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/07.mesa.png> <./04.De
+sarrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/08.sonidos.png>])
+(04.Desarrollo/04.Entrega4/03.Iteracion4_3/01.Iteracion4_3.tex) [116 <./04.Desa
+rrollo/04.Entrega4/02.Iteracion4_2/00.Figuras/09.boton_correcto.png>])
+(04.Desarrollo/05.Entrega5/00.Entrega5.tex
+(04.Desarrollo/05.Entrega5/01.Iteracion5_1/01.Iteracion5_1.tex
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+ [117]
+<04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/03.deprecated.png, id=210
+9, 295.1025pt x 109.91063pt>
+File: 04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/03.deprecated.png Gr
+aphic file (type png)
+<use 04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/03.deprecated.png>
+Package pdftex.def Info: 04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/0
+3.deprecated.png  used on input line 18.
+(pdftex.def)             Requested size: 298.75262pt x 111.27214pt.
+ [118 <./04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/03.deprecated.png
+>]
+<04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/04.sample_rig.png, id=212
+0, 221.32687pt x 214.55156pt>
+File: 04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/04.sample_rig.png Gr
+aphic file (type png)
+<use 04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/04.sample_rig.png>
+Package pdftex.def Info: 04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/0
+4.sample_rig.png  used on input line 30.
+(pdftex.def)             Requested size: 298.75262pt x 289.62227pt.
+<04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/05.hand_tracking.png, id=
+2122, 552.56438pt x 417.05812pt>
+File: 04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/05.hand_tracking.png
+ Graphic file (type png)
+<use 04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/05.hand_tracking.png>
+
+Package pdftex.def Info: 04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/0
+5.hand_tracking.png  used on input line 40.
+(pdftex.def)             Requested size: 298.75262pt x 225.48804pt.
+<04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/06.interactors.png, id=21
+24, 229.60782pt x 437.38406pt>
+File: 04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/06.interactors.png G
+raphic file (type png)
+<use 04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/06.interactors.png>
+Package pdftex.def Info: 04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/0
+6.interactors.png  used on input line 50.
+(pdftex.def)             Requested size: 298.75262pt x 569.12645pt.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 51.
+LaTeX Info: Redefining \. on input line 53.
+LaTeX Info: Redefining \% on input line 53.
+ [119 <./04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/04.sample_rig.png
+>]
+
+! LaTeX Error: Unicode character â™  (U+2660)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 â™ 
+        \begin{itemize}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+) (04.Desarrollo/05.Entrega5/02.Iteracion5_2/01.Iteracion5_2.tex)
+(04.Desarrollo/05.Entrega5/03.Iteracion5_3/01.Iteracion5_3.tex)) [120 <./04.Des
+arrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/05.hand_tracking.png>]
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+ [121 <./04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/06.interactors.pn
+g>]
+[122
+
+]) [123
+
+] [124] (05.Conclusiones/01.Conclusiones.tex [125
+
+] [126
+
+]) [127
+
+]
+[128] (06.Bibliografia/01.Bibliografia.tex
+(D:\Trabajo Fin Grado\Repositorio\TFG\Memoria\00.Auxiliar\02.Build\TrabajoFinGr
+ado.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 20--25
+[]\T1/phv/m/n/12 Central In-for-ma-ti-va.  Ac-ti-vi-da-des pa-ra adul-tos ma-yo
+-res
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--25
+\T1/phv/m/n/12 de Ho-gar Ge-riá-tri-co.  []$\T1/cmtt/m/n/12 https : / / www . r
+edadultomayor . org /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
+[]\T1/phv/m/n/12 Neuroreality.  Ko-ji's Quest.  []$\T1/cmtt/m/n/12 https : / / 
+medkitvr . com /
+ []
+
+[129
+
+]
+Underfull \hbox (badness 2865) in paragraph at lines 86--91
+[]\T1/phv/m/n/12 Ivan Suther-land.  The Sword of Da-mo-cles - Head Moun-ted Dis
+-
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 86--91
+\T1/phv/m/n/12 play.  []$\T1/cmtt/m/n/12 http : / / www . dsource . in / course
+ / virtual-[]reality-[]introduction /
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 120--122
+[]\T1/phv/m/n/12 Imagen pro-mo-cio-nal de Sony.  []$\T1/cmtt/m/n/12 https : / /
+ www . playstation . com / es-[]es /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--134
+[]\T1/phv/m/n/12 Jesús Ma-tu-ra-na.  HTC Vi-ve, aná-li-sis: es-to sí que es rea
+li-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--134
+\T1/phv/m/n/12 dad vir-tual in-ter-ac-ti-va.  []$\T1/cmtt/m/n/12 https : / / ww
+w . xataka . com / analisis /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--134
+\T1/cmtt/m/n/12 htc-[]vive-[]analisis-[]esto-[]si-[]que-[]es-[]realidad-[]virtu
+al-[]interactiva$[]\T1/phv/m/n/12 ,
+ []
+
+[130]
+Underfull \hbox (badness 3229) in paragraph at lines 169--174
+[]\T1/phv/m/n/12 YoYo Ga-mes Ltd.  Ga-me-Ma-ker Stu-dio 2 Web.  []$\T1/cmtt/m/n
+/12 https : / / store .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--174
+\T1/cmtt/m/n/12 steampowered . com / app / 585600 / GameMaker _ Studio _ 2 _ We
+b / ?l = spanish$[]\T1/phv/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 193--198
+[]\T1/phv/m/n/12 panoramaaudiovisual.com.  Des-plie-gue au-dio-vi-sual es-ce-no
+-grá-fi-co en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--205
+\T1/cmtt/m/n/12 gamespot . com / articles / oculus-[]quest-[]sold-[]out-[]at-[]
+major-[]retailers /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--221
+[]\T1/phv/m/n/12 Cris Bus-quets.  Me-dir la usa-bi-li-dad con el Sis-te-ma de E
+s-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--221
+\T1/phv/m/n/12 ca-las de Usa-bi-li-dad (SUS).  []$\T1/cmtt/m/n/12 https : / / w
+ww . uifrommars . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--229
+[]\T1/phv/m/n/12 antena3.com.  ¾Es-tá Will Smith? Las sor-pre-sas en-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--229
+\T1/phv/m/n/12 tre el pú-bli-co que re-gre-sa al pla-tó de '½Aho-ra cai-go!'.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--229
+[]$\T1/cmtt/m/n/12 https : / / www . antena3 . com / programas / ahora-[]caigo 
+/ momentos /
+ []
+
+
+Overfull \hbox (118.49907pt too wide) in paragraph at lines 223--229
+\T1/cmtt/m/n/12 esta-[]will-[]smith-[]las-[]sorpresas-[]entre-[]el-[]publico-[]
+que-[]regresa-[]al-[]plato-[]de-[]ahora-[]caigo _
+ []
+
+[131]
+Underfull \hbox (badness 1715) in paragraph at lines 262--266
+[]\T1/phv/m/n/12 Huey ed, manly jj, tang mx, et al. cour-se and etio-logy of dy
+-se-xe-
+ []
+
+[132]
+! Misplaced alignment tab character &.
+l.333 \newblock New York: Simon &
+                                  Schuster, 1992.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--345
+[]\T1/phv/m/n/12 Malachai Ja-cobs.  He-re's what you didn't know about the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--345
+\T1/phv/m/n/12 his-tory of vir-tual reality.  []$\T1/cmtt/m/n/12 https : / / de
+lta2020 . com / blog /
+ []
+
+
+Overfull \hbox (28.73256pt too wide) in paragraph at lines 341--345
+\T1/cmtt/m/n/12 221-[]here-[]s-[]what-[]you-[]didn-[]t-[]know-[]about-[]the-[]h
+istory-[]of-[]virtual-[]reality$[]\T1/phv/m/n/12 . 
+ []
+
+[133]
+Underfull \hbox (badness 1259) in paragraph at lines 408--410
+[]\T1/phv/m/n/12 Frequently As-ked Ques-tions (FAQs) - Un-real En-gi-ne.  []$\T
+1/cmtt/m/n/12 https : / / www .
+ []
+
+
+Underfull \hbox (badness 7796) in paragraph at lines 412--414
+[]\T1/phv/m/n/12 Funciones de Ga-me-Ma-ker.  []$\T1/cmtt/m/n/12 https : / / gam
+emaker . io / es / gamemaker /
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 416--418
+[]\T1/phv/m/n/12 Planes de pa-go de Ga-me-Ma-ker.  []$\T1/cmtt/m/n/12 https : /
+ / gamemaker . io / es / get #
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--434
+\T1/cmtt/m/n/12 oculus . com / documentation / unity / unity-[]tutorial-[]hello
+-[]vr /
+ []
+
+) [134]) [135
+
+
+] [136] (07.Apendices/01.GDD.tex
+Ap\'{e}ndice A.
+Package minitoc Info: I0006
+(minitoc)             TrabajoFinGrado.mtc12 is empty on input line 21.
+[137
+
+] [138]
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
+ [139] [140]
+LaTeX Info: Redefining \. on input line 215.
+LaTeX Info: Redefining \% on input line 215.
+ [141] [142
+
+]) (07.Apendices/03.Cuestionarios.tex
+Ap\'{e}ndice B.
+[143
+
+] [144]
+LaTeX Info: Redefining \. on input line 188.
+LaTeX Info: Redefining \% on input line 188.
+ [145] [146
+
+])
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the TrabajoFinGrado.maf file.
+\openout4 = `TrabajoFinGrado.maf'.
+
+
+
+Package minitoc(hints) Warning: W0033
+(minitoc(hints))                The caption package should be 
+(minitoc(hints))                loaded BEFORE the minitoc package.
+
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the TrabajoFinGrado.log file.
+
+[147
+
+]
+(D:\Trabajo Fin Grado\Repositorio\TFG\Memoria\00.Auxiliar\02.Build\TrabajoFinGr
+ado.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+)
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `TrabajoFinGrado.out' has not changed.
+(rerunfilecheck)             Checksum: E0FD323D1432864683202CD35FFFFC30;16952.
+ ) 
+Here is how much of TeX's memory you used:
+ 31642 strings out of 476374
+ 628111 string characters out of 5787910
+ 1875340 words of memory out of 5000000
+ 50340 multiletter control sequences out of 15000+600000
+ 588096 words of font info for 93 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 103i,13n,134p,1279b,863s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Antonio\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
+tt1200.pk>{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/
+8r.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic
+/uhvb8a.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
+vetic/uhvbo8a.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/u
+rw/helvetic/uhvr8a.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/urw/helvetic/uhvro8a.pfb>
+Output written on "D:\Trabajo Fin Grado\Repositorio\TFG\Memoria\00.Auxiliar\01.
+Output\TrabajoFinGrado.pdf" (177 pages, 44441361 bytes).
+PDF statistics:
+ 2595 PDF objects out of 2984 (max. 8388607)
+ 554 named destinations out of 1000 (max. 500000)
+ 1452 words of extra memory for PDF output out of 10000 (max. 10000000)
+

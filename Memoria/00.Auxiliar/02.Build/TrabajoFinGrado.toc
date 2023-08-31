@@ -1,0 +1,165 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {starchapter}{Resumen}{\es@scroman {iii}}{chapter*.1}%
+\contentsline {starchapter}{Abstract}{\es@scroman {v}}{section*.2}%
+\contentsline {starchapter}{Acrónimos}{\es@scroman {xiii}}{chapter*.6}%
+\contentsline {part}{I\hspace {1em}Introducción}{1}{part.1}%
+\contentsline {xpart}{Introducción}{3}{part.1}%
+\contentsline {chapter}{\numberline {1}Introducción}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introducción}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Motivación}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Objetivo}{5}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Objetivos específicos}{5}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.4}Estructura de la memoria}{6}{section.1.4}%
+\contentsline {part}{II\hspace {1em}Estudio del problema}{7}{part.2}%
+\contentsline {xpart}{Estudio del problema}{9}{part.2}%
+\contentsline {chapter}{\numberline {2}Estado del arte}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Cognición}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Entrenamiento cognitivo}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Ejercicios de Brain Training}{13}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Cuadernos de ejercicios}{13}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Juegos grupales}{14}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Juegos y plataformas online}{15}{subsection.2.3.3}%
+\contentsline {subsubsection}{Lumosity}{16}{subsubsection*.13}%
+\contentsline {subsubsection}{NeuronUp}{16}{subsubsection*.15}%
+\contentsline {subsubsection}{Brain training RV}{16}{subsubsection*.17}%
+\contentsline {subsubsection}{NeuroReality}{17}{subsubsection*.18}%
+\contentsline {subsubsection}{Virtuleap}{18}{subsubsection*.20}%
+\contentsline {section}{\numberline {2.4}Realidad Virtual}{18}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Renacimiento}{19}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Siglo XIX}{21}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Sensorama y Headsight}{22}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Espada de Damocles}{23}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Realidad virtual}{24}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Virtual Boy}{25}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}Siglo XXI}{26}{subsection.2.4.7}%
+\contentsline {subsection}{\numberline {2.4.8}Actualidad}{28}{subsection.2.4.8}%
+\contentsline {section}{\numberline {2.5}Motores de videojuegos}{31}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Unity}{31}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Unreal Engine}{32}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Game Maker}{34}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Godot}{35}{subsection.2.5.4}%
+\contentsline {section}{\numberline {2.6}Conclusión y justificación del proyecto}{36}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Análisis inicial del problema}{39}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Pruebas}{40}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Motricidad}{40}{subsection.3.1.1}%
+\contentsline {subsubsection}{Baile}{41}{subsubsection*.47}%
+\contentsline {subsubsection}{Figuras}{41}{subsubsection*.49}%
+\contentsline {subsubsection}{Parada}{42}{subsubsection*.50}%
+\contentsline {subsubsection}{Objetivos}{42}{subsubsection*.51}%
+\contentsline {subsection}{\numberline {3.1.2}Memoria}{42}{subsection.3.1.2}%
+\contentsline {subsubsection}{Canción}{42}{subsubsection*.52}%
+\contentsline {subsubsection}{Turismo}{43}{subsubsection*.53}%
+\contentsline {subsection}{\numberline {3.1.3}Lenguaje}{43}{subsection.3.1.3}%
+\contentsline {subsubsection}{Situaciones}{43}{subsubsection*.55}%
+\contentsline {subsubsection}{Descripciones}{44}{subsubsection*.56}%
+\contentsline {subsection}{\numberline {3.1.4}Razonamiento}{44}{subsection.3.1.4}%
+\contentsline {subsubsection}{Agrupación de objetos}{44}{subsubsection*.57}%
+\contentsline {subsubsection}{Asociación de sonidos}{45}{subsubsection*.59}%
+\contentsline {subsection}{\numberline {3.1.5}Comprensión espacial}{45}{subsection.3.1.5}%
+\contentsline {subsubsection}{Figuras superpuestas}{46}{subsubsection*.60}%
+\contentsline {subsubsection}{Localización de sonidos}{46}{subsubsection*.61}%
+\contentsline {section}{\numberline {3.2}Desarrollo}{46}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Tecnología a usar}{49}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Tecnología a usar}{49}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Metodología a usar}{53}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Desarrollo y Metodología Ágil}{53}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Game Design Document}{55}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Evaluación}{55}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Plan de entregas}{57}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Entregas}{57}{section.6.1}%
+\contentsline {part}{III\hspace {1em}Desarrollo}{59}{part.3}%
+\contentsline {xpart}{Desarrollo}{61}{part.3}%
+\contentsline {chapter}{\numberline {7}Desarrollo del proyecto}{61}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Entrega 1}{62}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Objetivo}{62}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Iteración 1}{62}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Iteración 2}{65}{subsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.1.4}Conclusiones de la entrega}{69}{subsection.7.1.4}%
+\contentsline {section}{\numberline {7.2}Entrega 2}{71}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Objetivo}{71}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Iteración 1}{71}{subsection.7.2.2}%
+\contentsline {subsubsection}{Pruebas de posición}{71}{subsubsection*.83}%
+\contentsline {subsubsection}{Pruebas de interacción}{75}{subsubsection*.89}%
+\contentsline {subsubsection}{Pruebas de entorno}{77}{subsubsection*.93}%
+\contentsline {subsection}{\numberline {7.2.3}Iteración 2}{77}{subsection.7.2.3}%
+\contentsline {subsubsection}{Pruebas de posición}{78}{subsubsection*.94}%
+\contentsline {subsubsection}{Pruebas de interacción}{82}{subsubsection*.100}%
+\contentsline {subsection}{\numberline {7.2.4}Iteración 3}{85}{subsection.7.2.4}%
+\contentsline {subsection}{\numberline {7.2.5}Conclusiones de la entrega}{88}{subsection.7.2.5}%
+\contentsline {section}{\numberline {7.3}Entrega 3}{89}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Objetivo}{89}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Iteración 1}{89}{subsection.7.3.2}%
+\contentsline {subsubsection}{Pruebas de pantalla}{92}{subsubsection*.112}%
+\contentsline {subsubsection}{Pruebas de escenario}{94}{subsubsection*.116}%
+\contentsline {subsection}{\numberline {7.3.3}Iteración 2}{95}{subsection.7.3.3}%
+\contentsline {subsubsection}{Escenario principal}{95}{subsubsection*.121}%
+\contentsline {subsubsection}{Escenarios secundarios}{99}{subsubsection*.126}%
+\contentsline {subsection}{\numberline {7.3.4}Iteración 3}{101}{subsection.7.3.4}%
+\contentsline {subsection}{\numberline {7.3.5}Conclusiones de la entrega}{102}{subsection.7.3.5}%
+\contentsline {section}{\numberline {7.4}Entrega 4}{103}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Objetivo}{103}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Iteración 1}{103}{subsection.7.4.2}%
+\contentsline {subsubsection}{Pruebas de motricidad}{103}{subsubsection*.133}%
+\contentsline {subsubsection}{Pruebas de memoria}{105}{subsubsection*.134}%
+\contentsline {subsubsection}{Prueba de lenguaje}{106}{subsubsection*.136}%
+\contentsline {subsubsection}{Pruebas de razonamiento}{107}{subsubsection*.138}%
+\contentsline {subsubsection}{Pruebas de comprensión espacial}{108}{subsubsection*.139}%
+\contentsline {subsection}{\numberline {7.4.3}Iteración 2}{108}{subsection.7.4.3}%
+\contentsline {subsubsection}{Pruebas de motricidad}{109}{subsubsection*.142}%
+\contentsline {subsubsection}{Pruebas de memoria}{112}{subsubsection*.144}%
+\contentsline {subsubsection}{Prueba de lenguaje}{113}{subsubsection*.147}%
+\contentsline {subsubsection}{Pruebas de razonamiento}{113}{subsubsection*.148}%
+\contentsline {subsubsection}{Pruebas de comprensión espacial}{114}{subsubsection*.153}%
+\contentsline {subsection}{\numberline {7.4.4}Iteración 3}{116}{subsection.7.4.4}%
+\contentsline {subsection}{\numberline {7.4.5}Conclusiones de la entrega}{117}{subsection.7.4.5}%
+\contentsline {section}{\numberline {7.5}Entrega 5}{117}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Objetivo}{117}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}Iteración 1}{117}{subsection.7.5.2}%
+\contentsline {subsubsection}{Migración dispositivo VR}{118}{subsubsection*.155}%
+\contentsline {subsection}{\numberline {7.5.3}Iteración 2}{120}{subsection.7.5.3}%
+\contentsline {subsection}{\numberline {7.5.4}Iteración 3}{120}{subsection.7.5.4}%
+\contentsline {subsection}{\numberline {7.5.5}Conclusiones de la entrega}{120}{subsection.7.5.5}%
+\contentsline {part}{IV\hspace {1em}Conclusiones}{123}{part.4}%
+\contentsline {xpart}{Conclusiones}{125}{part.4}%
+\contentsline {starchapter}{Conclusiones y líneas futuras}{125}{chapter*.160}%
+\contentsline {part}{V\hspace {1em}Bibliografía}{127}{part.5}%
+\contentsline {xpart}{Bibliografía}{129}{part.5}%
+\contentsline {chapter}{Bibliografía}{134}{chapter*.162}%
+\contentsline {part}{VI\hspace {1em}Apéndices}{135}{part.6}%
+\contentsline {xpart}{Apéndices}{137}{part.6}%
+\contentsline {chapter}{\numberline {A}Game Desing Document}{137}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Información general}{137}{section.Alph1.1}%
+\contentsline {subsection}{\numberline {A.1.1}Resumen del juego}{137}{subsection.Alph1.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Objetivos a alcanzar por el juego}{138}{subsection.Alph1.1.2}%
+\contentsline {subsection}{\numberline {A.1.3}Justificación del juego}{138}{subsection.Alph1.1.3}%
+\contentsline {subsection}{\numberline {A.1.4}Core gameplay}{138}{subsection.Alph1.1.4}%
+\contentsline {subsection}{\numberline {A.1.5}Características del juego}{138}{subsection.Alph1.1.5}%
+\contentsline {subsubsection}{Género}{138}{subsubsection*.163}%
+\contentsline {subsubsection}{Número de jugadores}{139}{subsubsection*.164}%
+\contentsline {subsubsection}{Público objetivo}{139}{subsubsection*.165}%
+\contentsline {subsubsection}{Plataformas de destino}{139}{subsubsection*.166}%
+\contentsline {subsubsection}{Estética y arte del juego. Estilo visual}{139}{subsubsection*.167}%
+\contentsline {subsubsection}{Resumen de historia}{139}{subsubsection*.168}%
+\contentsline {subsection}{\numberline {A.1.6}Características del jugador}{139}{subsection.Alph1.1.6}%
+\contentsline {subsection}{\numberline {A.1.7}Recursos iniciales}{139}{subsection.Alph1.1.7}%
+\contentsline {section}{\numberline {A.2}Mecánicas}{140}{section.Alph1.2}%
+\contentsline {subsection}{\numberline {A.2.1}Elementos de juego}{140}{subsection.Alph1.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Reglas}{140}{subsection.Alph1.2.2}%
+\contentsline {subsubsection}{Inteligencia artificial}{140}{subsubsection*.169}%
+\contentsline {subsection}{\numberline {A.2.3}Elementos de juego: Mundo}{140}{subsection.Alph1.2.3}%
+\contentsline {subsection}{\numberline {A.2.4}Elementos de registro y progreso}{140}{subsection.Alph1.2.4}%
+\contentsline {section}{\numberline {A.3}Dinámica}{141}{section.Alph1.3}%
+\contentsline {chapter}{\numberline {B}Cuestionarios}{143}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Plantilla}{143}{section.Alph2.1}%
+\contentsline {paragraph}{1.}{143}{paragraph*.171}%
+\contentsline {paragraph}{2.}{143}{paragraph*.173}%
+\contentsline {paragraph}{3.}{143}{paragraph*.175}%
+\contentsline {paragraph}{4.}{144}{paragraph*.177}%
+\contentsline {paragraph}{5.}{144}{paragraph*.179}%
+\contentsline {paragraph}{6.}{144}{paragraph*.181}%
+\contentsline {paragraph}{7.}{144}{paragraph*.183}%
+\contentsline {paragraph}{8.}{144}{paragraph*.185}%
+\contentsline {paragraph}{9.}{144}{paragraph*.187}%
+\contentsline {paragraph}{10.}{144}{paragraph*.189}%
+\contentsline {section}{\numberline {B.2}Resultados usabilidad}{145}{section.Alph2.2}%
+\contentsfinish 
