@@ -62,7 +62,11 @@ Finalmente, para que un objeto del juego pueda interactuar con el jugador, neces
 \end{itemize}
 
 
-Tras estos pasos, la migración queda terminada y podemos comenzar a utilizar Meta Quest 2 y su seguimiento de manos en el proyecto.
+Tras estos pasos, la migración queda terminada y podemos comenzar a utilizar Meta Quest 2 y su seguimiento de manos en el proyecto. Aunque aún es necesario cambiar el funcionamiento de varias pruebas debido a cambios en las nuevas bibliotecas.
+
+
+En concreto es necesario actualizar las zonas de \textit{snap} utilizadas en las pruebas de asociación, donde el jugador debe coger y colocar en plataformas distintos objetos, agrupándolos por categorías. Lo que se ha decidido hacer es reemplazar este sistema por otro más sencillo en el que un \textit{trigger} sobre la plataforma detecta los objetos que se introducen en él, comprobando si tienen o no la categoría deseada. El funcionamiento es muy similar al método anterior pero simplificado y eliminando el uso de la anterior biblioteca.
+
 
 
 
