@@ -28,7 +28,7 @@ namespace OculusSampleFramework
     /// <summary>
     /// A button interactable used by the train scene.
     /// </summary>
-    public class ButtonController
+    public class ButtonController : Interactable
     {
         private const float ENTRY_DOT_THRESHOLD = 0.8f;
         private const float PERP_DOT_THRESHOLD = 0.5f;
