@@ -28,7 +28,7 @@ namespace OculusSampleFramework
     /// <summary>
     /// A button interactable used by the train scene.
     /// </summary>
-    public class ButtonController : Interactable
+    public class ButtonController
     {
         private const float ENTRY_DOT_THRESHOLD = 0.8f;
         private const float PERP_DOT_THRESHOLD = 0.5f;
@@ -58,8 +58,7 @@ namespace OculusSampleFramework
         [SerializeField]
         private bool _allowMultipleNearFieldInteraction = false;
 
-        public override int ValidToolTagsMask
-        {
+        public override int ValidToolTagsMask {
             get { return _toolTagsMask; }
         }
 
@@ -69,8 +68,7 @@ namespace OculusSampleFramework
             BackwardsPress // filter out presses coming backwards?
         }
 
-        public Vector3 LocalButtonDirection
-        {
+        public Vector3 LocalButtonDirection {
             get { return _localButtonDirection; }
         }
 

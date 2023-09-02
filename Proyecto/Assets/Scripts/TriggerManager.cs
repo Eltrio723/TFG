@@ -151,8 +151,8 @@ public class TriggerManager : MonoBehaviour
         GameObject[] triggers = GameObject.FindGameObjectsWithTag("Trigger");
         for (int i = 0; i < triggers.Length; i++)
         {
-            correcto = correcto && triggers[i].GetComponent<scriptTrigger>().controllerInside;
-            Debug.Log("Inside: " + triggers[i].GetComponent<scriptTrigger>().controllerInside);
+            correcto = correcto && triggers[i].GetComponent<TriggerControl>().controllerInside;
+            Debug.Log("Inside: " + triggers[i].GetComponent<TriggerControl>().controllerInside);
         }
         Debug.Log(triggers.Length + " - " + correcto);
         return correcto;

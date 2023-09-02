@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Ascensor">
+    <Position X="23.5" Y="7.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AASQAgAAgCCAAAAAAAAAAAAAoQAAASgAAAAAAAAEMAA=</HashCode>
+      <FileName>Assets\Scripts\Ascensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DetectManager">
+    <Position X="23.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAACAAAAAAAAAAAAABIAAAjAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DetectManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DetectZone">
+    <Position X="23.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAACAAAAAACAAAIAAAAAAAAIBAYARgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DetectZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EscenarioManager">
+    <Position X="13.25" Y="0.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>wAQABAAAmiAQAAARCAEiCQAEAiCQJBAQAAAwAgEAAVA=</HashCode>
+      <FileName>Assets\Scripts\EscenarioManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="0.5" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAQXBBACACAQACAAABAAIQECgCAB0AAACAAAIgAAAIA=</HashCode>
+      <FileName>Assets\Scripts\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IndicacionesArray">
+    <Position X="18.5" Y="10.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAICAAAIAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\IndicacionesArray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIManager">
+    <Position X="4.5" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AaAwIGAKaCBUAFAiAkIYARggAQAEAGATCgDCUKQCBgA=</HashCode>
+      <FileName>Assets\Scripts\Menu\UIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Prueba">
+    <Position X="9.5" Y="6.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAABBEAAACAAQAAAAUAACAAAEAgABAgQCAYAABAIAQo=</HashCode>
+      <FileName>Assets\Scripts\Prueba.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PruebaAsociacion">
+    <Position X="0.5" Y="14.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAIAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Pruebas\pruebaAsociacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PruebaBaile">
+    <Position X="3.25" Y="14.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Pruebas\pruebaBaile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PruebaCancion">
+    <Position X="5.5" Y="14.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Pruebas\pruebaCancion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PruebaLocalizacionSonidos">
+    <Position X="7.75" Y="14.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Pruebas\pruebaLocalizacionSonidos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PruebaPosiciones">
+    <Position X="10.25" Y="14.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Pruebas\pruebaPosiciones.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PruebaSituaciones">
+    <Position X="12.5" Y="14.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Pruebas\pruebaSituaciones.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PruebaSonidos">
+    <Position X="14.75" Y="14.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAIAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Pruebas\pruebaSonidos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PruebaTurismo">
+    <Position X="17.5" Y="14.75" Width="2" />
+    <InheritanceLine Type="Prueba" FixedFromPoint="true">
+      <Path>
+        <Point X="10.875" Y="11.781" />
+        <Point X="10.875" Y="14.375" />
+        <Point X="18.5" Y="14.375" />
+        <Point X="18.5" Y="14.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Pruebas\pruebaTurismo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PruebasManager">
+    <Position X="9.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AKQBAAAACCAQABAAAAQACQAAhIAAUAQQQAAAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\PruebasManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerControl">
+    <Position X="18.5" Y="7" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAUAACAAACAAACAAAAAAAAAAAAEAAKAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\TriggerControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerManager">
+    <Position X="18.5" Y="0.5" Width="4.5" />
+    <NestedTypes>
+      <Class Name="TriggerManager.Part" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\TriggerManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="TriggerManager.Level" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\TriggerManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABQAAAAEACIAAAAAAAAAQAAEAAAAIAAAAQgAAAEAAgA=</HashCode>
+      <FileName>Assets\Scripts\TriggerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerSpanwArray">
+    <Position X="18.5" Y="4.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAICAAAAABAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TriggerSpanwArray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TipoPrueba">
+    <Position X="12.5" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAFIAAAAEAQAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EstadoJuego">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAEAAABBAAAAAAAAAAAgAADAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -64,102 +64,110 @@
 \contentsline {chapter}{\numberline {5}Metodología a usar}{53}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Desarrollo y Metodología Ágil}{53}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Game Design Document}{55}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Evaluación}{55}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Plan de entregas}{57}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Entregas}{57}{section.6.1}%
-\contentsline {part}{III\hspace {1em}Desarrollo}{59}{part.3}%
-\contentsline {xpart}{Desarrollo}{61}{part.3}%
-\contentsline {chapter}{\numberline {7}Desarrollo del proyecto}{61}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Entrega 1}{62}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Objetivo}{62}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Iteración 1}{62}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}Iteración 2}{65}{subsection.7.1.3}%
-\contentsline {subsection}{\numberline {7.1.4}Conclusiones de la entrega}{69}{subsection.7.1.4}%
-\contentsline {section}{\numberline {7.2}Entrega 2}{71}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Objetivo}{71}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Iteración 1}{71}{subsection.7.2.2}%
-\contentsline {subsubsection}{Pruebas de posición}{71}{subsubsection*.83}%
-\contentsline {subsubsection}{Pruebas de interacción}{75}{subsubsection*.89}%
-\contentsline {subsubsection}{Pruebas de entorno}{77}{subsubsection*.93}%
-\contentsline {subsection}{\numberline {7.2.3}Iteración 2}{77}{subsection.7.2.3}%
-\contentsline {subsubsection}{Pruebas de posición}{78}{subsubsection*.94}%
-\contentsline {subsubsection}{Pruebas de interacción}{82}{subsubsection*.100}%
-\contentsline {subsection}{\numberline {7.2.4}Iteración 3}{85}{subsection.7.2.4}%
-\contentsline {subsection}{\numberline {7.2.5}Conclusiones de la entrega}{88}{subsection.7.2.5}%
-\contentsline {section}{\numberline {7.3}Entrega 3}{89}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Objetivo}{89}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Iteración 1}{89}{subsection.7.3.2}%
-\contentsline {subsubsection}{Pruebas de pantalla}{92}{subsubsection*.112}%
-\contentsline {subsubsection}{Pruebas de escenario}{94}{subsubsection*.116}%
-\contentsline {subsection}{\numberline {7.3.3}Iteración 2}{95}{subsection.7.3.3}%
-\contentsline {subsubsection}{Escenario principal}{95}{subsubsection*.121}%
-\contentsline {subsubsection}{Escenarios secundarios}{99}{subsubsection*.126}%
-\contentsline {subsection}{\numberline {7.3.4}Iteración 3}{101}{subsection.7.3.4}%
-\contentsline {subsection}{\numberline {7.3.5}Conclusiones de la entrega}{102}{subsection.7.3.5}%
-\contentsline {section}{\numberline {7.4}Entrega 4}{103}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Objetivo}{103}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Iteración 1}{103}{subsection.7.4.2}%
-\contentsline {subsubsection}{Pruebas de motricidad}{103}{subsubsection*.133}%
-\contentsline {subsubsection}{Pruebas de memoria}{105}{subsubsection*.134}%
-\contentsline {subsubsection}{Prueba de lenguaje}{106}{subsubsection*.136}%
-\contentsline {subsubsection}{Pruebas de razonamiento}{107}{subsubsection*.138}%
-\contentsline {subsubsection}{Pruebas de comprensión espacial}{108}{subsubsection*.139}%
-\contentsline {subsection}{\numberline {7.4.3}Iteración 2}{108}{subsection.7.4.3}%
-\contentsline {subsubsection}{Pruebas de motricidad}{109}{subsubsection*.142}%
-\contentsline {subsubsection}{Pruebas de memoria}{112}{subsubsection*.144}%
-\contentsline {subsubsection}{Prueba de lenguaje}{113}{subsubsection*.147}%
-\contentsline {subsubsection}{Pruebas de razonamiento}{113}{subsubsection*.148}%
-\contentsline {subsubsection}{Pruebas de comprensión espacial}{114}{subsubsection*.153}%
-\contentsline {subsection}{\numberline {7.4.4}Iteración 3}{116}{subsection.7.4.4}%
-\contentsline {subsection}{\numberline {7.4.5}Conclusiones de la entrega}{117}{subsection.7.4.5}%
-\contentsline {section}{\numberline {7.5}Entrega 5}{117}{section.7.5}%
-\contentsline {subsection}{\numberline {7.5.1}Objetivo}{117}{subsection.7.5.1}%
-\contentsline {subsection}{\numberline {7.5.2}Iteración 1}{117}{subsection.7.5.2}%
-\contentsline {subsubsection}{Migración dispositivo VR}{118}{subsubsection*.155}%
-\contentsline {subsection}{\numberline {7.5.3}Iteración 2}{120}{subsection.7.5.3}%
-\contentsline {subsection}{\numberline {7.5.4}Iteración 3}{120}{subsection.7.5.4}%
-\contentsline {subsection}{\numberline {7.5.5}Conclusiones de la entrega}{120}{subsection.7.5.5}%
-\contentsline {part}{IV\hspace {1em}Conclusiones}{123}{part.4}%
-\contentsline {xpart}{Conclusiones}{125}{part.4}%
-\contentsline {starchapter}{Conclusiones y líneas futuras}{125}{chapter*.160}%
-\contentsline {part}{V\hspace {1em}Bibliografía}{127}{part.5}%
-\contentsline {xpart}{Bibliografía}{129}{part.5}%
-\contentsline {chapter}{Bibliografía}{134}{chapter*.162}%
-\contentsline {part}{VI\hspace {1em}Apéndices}{135}{part.6}%
-\contentsline {xpart}{Apéndices}{137}{part.6}%
-\contentsline {chapter}{\numberline {A}Game Desing Document}{137}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Información general}{137}{section.Alph1.1}%
-\contentsline {subsection}{\numberline {A.1.1}Resumen del juego}{137}{subsection.Alph1.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}Objetivos a alcanzar por el juego}{138}{subsection.Alph1.1.2}%
-\contentsline {subsection}{\numberline {A.1.3}Justificación del juego}{138}{subsection.Alph1.1.3}%
-\contentsline {subsection}{\numberline {A.1.4}Core gameplay}{138}{subsection.Alph1.1.4}%
-\contentsline {subsection}{\numberline {A.1.5}Características del juego}{138}{subsection.Alph1.1.5}%
-\contentsline {subsubsection}{Género}{138}{subsubsection*.163}%
-\contentsline {subsubsection}{Número de jugadores}{139}{subsubsection*.164}%
-\contentsline {subsubsection}{Público objetivo}{139}{subsubsection*.165}%
-\contentsline {subsubsection}{Plataformas de destino}{139}{subsubsection*.166}%
-\contentsline {subsubsection}{Estética y arte del juego. Estilo visual}{139}{subsubsection*.167}%
-\contentsline {subsubsection}{Resumen de historia}{139}{subsubsection*.168}%
-\contentsline {subsection}{\numberline {A.1.6}Características del jugador}{139}{subsection.Alph1.1.6}%
-\contentsline {subsection}{\numberline {A.1.7}Recursos iniciales}{139}{subsection.Alph1.1.7}%
-\contentsline {section}{\numberline {A.2}Mecánicas}{140}{section.Alph1.2}%
-\contentsline {subsection}{\numberline {A.2.1}Elementos de juego}{140}{subsection.Alph1.2.1}%
-\contentsline {subsection}{\numberline {A.2.2}Reglas}{140}{subsection.Alph1.2.2}%
-\contentsline {subsubsection}{Inteligencia artificial}{140}{subsubsection*.169}%
-\contentsline {subsection}{\numberline {A.2.3}Elementos de juego: Mundo}{140}{subsection.Alph1.2.3}%
-\contentsline {subsection}{\numberline {A.2.4}Elementos de registro y progreso}{140}{subsection.Alph1.2.4}%
-\contentsline {section}{\numberline {A.3}Dinámica}{141}{section.Alph1.3}%
-\contentsline {chapter}{\numberline {B}Cuestionarios}{143}{appendix.Alph2}%
-\contentsline {section}{\numberline {B.1}Plantilla}{143}{section.Alph2.1}%
-\contentsline {paragraph}{1.}{143}{paragraph*.171}%
-\contentsline {paragraph}{2.}{143}{paragraph*.173}%
-\contentsline {paragraph}{3.}{143}{paragraph*.175}%
-\contentsline {paragraph}{4.}{144}{paragraph*.177}%
-\contentsline {paragraph}{5.}{144}{paragraph*.179}%
-\contentsline {paragraph}{6.}{144}{paragraph*.181}%
-\contentsline {paragraph}{7.}{144}{paragraph*.183}%
-\contentsline {paragraph}{8.}{144}{paragraph*.185}%
-\contentsline {paragraph}{9.}{144}{paragraph*.187}%
-\contentsline {paragraph}{10.}{144}{paragraph*.189}%
-\contentsline {section}{\numberline {B.2}Resultados usabilidad}{145}{section.Alph2.2}%
+\contentsline {section}{\numberline {5.3}Evaluación}{56}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Plan de entregas}{59}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Entregas}{59}{section.6.1}%
+\contentsline {part}{III\hspace {1em}Desarrollo}{61}{part.3}%
+\contentsline {xpart}{Desarrollo}{63}{part.3}%
+\contentsline {chapter}{\numberline {7}Desarrollo del proyecto}{63}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Entrega 1}{64}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Objetivo}{64}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Iteración 1}{64}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Iteración 2}{67}{subsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.1.4}Conclusiones de la entrega}{71}{subsection.7.1.4}%
+\contentsline {section}{\numberline {7.2}Entrega 2}{73}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Objetivo}{73}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Iteración 1}{73}{subsection.7.2.2}%
+\contentsline {subsubsection}{Pruebas de posición}{73}{subsubsection*.84}%
+\contentsline {subsubsection}{Pruebas de interacción}{77}{subsubsection*.90}%
+\contentsline {subsubsection}{Pruebas de entorno}{79}{subsubsection*.94}%
+\contentsline {subsection}{\numberline {7.2.3}Iteración 2}{79}{subsection.7.2.3}%
+\contentsline {subsubsection}{Pruebas de posición}{80}{subsubsection*.95}%
+\contentsline {subsubsection}{Pruebas de interacción}{84}{subsubsection*.101}%
+\contentsline {subsection}{\numberline {7.2.4}Iteración 3}{87}{subsection.7.2.4}%
+\contentsline {subsection}{\numberline {7.2.5}Conclusiones de la entrega}{90}{subsection.7.2.5}%
+\contentsline {section}{\numberline {7.3}Entrega 3}{91}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Objetivo}{91}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Iteración 1}{91}{subsection.7.3.2}%
+\contentsline {subsubsection}{Pruebas de pantalla}{94}{subsubsection*.113}%
+\contentsline {subsubsection}{Pruebas de escenario}{96}{subsubsection*.117}%
+\contentsline {subsection}{\numberline {7.3.3}Iteración 2}{97}{subsection.7.3.3}%
+\contentsline {subsubsection}{Escenario principal}{97}{subsubsection*.122}%
+\contentsline {subsubsection}{Escenarios secundarios}{101}{subsubsection*.127}%
+\contentsline {subsection}{\numberline {7.3.4}Iteración 3}{103}{subsection.7.3.4}%
+\contentsline {subsection}{\numberline {7.3.5}Conclusiones de la entrega}{104}{subsection.7.3.5}%
+\contentsline {section}{\numberline {7.4}Entrega 4}{105}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Objetivo}{105}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Iteración 1}{105}{subsection.7.4.2}%
+\contentsline {subsubsection}{Pruebas de motricidad}{105}{subsubsection*.134}%
+\contentsline {subsubsection}{Pruebas de memoria}{107}{subsubsection*.135}%
+\contentsline {subsubsection}{Prueba de lenguaje}{108}{subsubsection*.137}%
+\contentsline {subsubsection}{Pruebas de razonamiento}{109}{subsubsection*.139}%
+\contentsline {subsubsection}{Pruebas de comprensión espacial}{110}{subsubsection*.140}%
+\contentsline {subsection}{\numberline {7.4.3}Iteración 2}{110}{subsection.7.4.3}%
+\contentsline {subsubsection}{Pruebas de motricidad}{111}{subsubsection*.143}%
+\contentsline {subsubsection}{Pruebas de memoria}{114}{subsubsection*.145}%
+\contentsline {subsubsection}{Prueba de lenguaje}{115}{subsubsection*.148}%
+\contentsline {subsubsection}{Pruebas de razonamiento}{115}{subsubsection*.149}%
+\contentsline {subsubsection}{Pruebas de comprensión espacial}{116}{subsubsection*.154}%
+\contentsline {subsection}{\numberline {7.4.4}Iteración 3}{118}{subsection.7.4.4}%
+\contentsline {subsection}{\numberline {7.4.5}Conclusiones de la entrega}{119}{subsection.7.4.5}%
+\contentsline {section}{\numberline {7.5}Entrega 5}{119}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Objetivo}{119}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}Iteración 1}{119}{subsection.7.5.2}%
+\contentsline {subsubsection}{Migración dispositivo VR}{120}{subsubsection*.156}%
+\contentsline {subsubsection}{Uniendo y completando el proyecto}{124}{subsubsection*.163}%
+\contentsline {paragraph}{Game Manager}{126}{paragraph*.164}%
+\contentsline {paragraph}{UI Manager}{129}{paragraph*.167}%
+\contentsline {paragraph}{Pruebas Manager}{129}{paragraph*.168}%
+\contentsline {paragraph}{Escenario Manager}{129}{paragraph*.169}%
+\contentsline {paragraph}{Trigger Manager}{129}{paragraph*.170}%
+\contentsline {paragraph}{Detect Manager}{129}{paragraph*.171}%
+\contentsline {subsubsection}{Interacciones entre clases}{129}{subsubsection*.172}%
+\contentsline {subsubsection}{Diagrama final de clases}{129}{subsubsection*.173}%
+\contentsline {subsection}{\numberline {7.5.3}Iteración 2}{131}{subsection.7.5.3}%
+\contentsline {subsection}{\numberline {7.5.4}Conclusiones de la entrega}{131}{subsection.7.5.4}%
+\contentsline {part}{IV\hspace {1em}Conclusiones}{133}{part.4}%
+\contentsline {xpart}{Conclusiones}{135}{part.4}%
+\contentsline {starchapter}{Conclusiones y líneas futuras}{135}{chapter*.175}%
+\contentsline {part}{V\hspace {1em}Bibliografía}{137}{part.5}%
+\contentsline {xpart}{Bibliografía}{139}{part.5}%
+\contentsline {chapter}{Bibliografía}{144}{chapter*.177}%
+\contentsline {part}{VI\hspace {1em}Apéndices}{145}{part.6}%
+\contentsline {xpart}{Apéndices}{147}{part.6}%
+\contentsline {chapter}{\numberline {A}Game Desing Document}{147}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Información general}{147}{section.Alph1.1}%
+\contentsline {subsection}{\numberline {A.1.1}Resumen del juego}{147}{subsection.Alph1.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Objetivos a alcanzar por el juego}{148}{subsection.Alph1.1.2}%
+\contentsline {subsection}{\numberline {A.1.3}Justificación del juego}{148}{subsection.Alph1.1.3}%
+\contentsline {subsection}{\numberline {A.1.4}Core gameplay}{148}{subsection.Alph1.1.4}%
+\contentsline {subsection}{\numberline {A.1.5}Características del juego}{148}{subsection.Alph1.1.5}%
+\contentsline {subsubsection}{Género}{148}{subsubsection*.178}%
+\contentsline {subsubsection}{Número de jugadores}{149}{subsubsection*.179}%
+\contentsline {subsubsection}{Público objetivo}{149}{subsubsection*.180}%
+\contentsline {subsubsection}{Plataformas de destino}{149}{subsubsection*.181}%
+\contentsline {subsubsection}{Estética y arte del juego. Estilo visual}{149}{subsubsection*.182}%
+\contentsline {subsubsection}{Resumen de historia}{149}{subsubsection*.183}%
+\contentsline {subsection}{\numberline {A.1.6}Características del jugador}{149}{subsection.Alph1.1.6}%
+\contentsline {subsection}{\numberline {A.1.7}Recursos iniciales}{149}{subsection.Alph1.1.7}%
+\contentsline {section}{\numberline {A.2}Mecánicas}{150}{section.Alph1.2}%
+\contentsline {subsection}{\numberline {A.2.1}Elementos de juego}{150}{subsection.Alph1.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Reglas}{150}{subsection.Alph1.2.2}%
+\contentsline {subsubsection}{Inteligencia artificial}{150}{subsubsection*.184}%
+\contentsline {subsection}{\numberline {A.2.3}Elementos de juego: Mundo}{150}{subsection.Alph1.2.3}%
+\contentsline {subsection}{\numberline {A.2.4}Elementos de registro y progreso}{150}{subsection.Alph1.2.4}%
+\contentsline {section}{\numberline {A.3}Dinámica}{151}{section.Alph1.3}%
+\contentsline {chapter}{\numberline {B}Cuestionarios}{153}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Plantilla}{153}{section.Alph2.1}%
+\contentsline {paragraph}{1.}{153}{paragraph*.186}%
+\contentsline {paragraph}{2.}{153}{paragraph*.188}%
+\contentsline {paragraph}{3.}{153}{paragraph*.190}%
+\contentsline {paragraph}{4.}{154}{paragraph*.192}%
+\contentsline {paragraph}{5.}{154}{paragraph*.194}%
+\contentsline {paragraph}{6.}{154}{paragraph*.196}%
+\contentsline {paragraph}{7.}{154}{paragraph*.198}%
+\contentsline {paragraph}{8.}{154}{paragraph*.200}%
+\contentsline {paragraph}{9.}{154}{paragraph*.202}%
+\contentsline {paragraph}{10.}{154}{paragraph*.204}%
+\contentsline {section}{\numberline {B.2}Resultados usabilidad}{155}{section.Alph2.2}%
 \contentsfinish 

@@ -65,7 +65,83 @@ Finalmente, para que un objeto del juego pueda interactuar con el jugador, neces
 Tras estos pasos, la migración queda terminada y podemos comenzar a utilizar Meta Quest 2 y su seguimiento de manos en el proyecto. Aunque aún es necesario cambiar el funcionamiento de varias pruebas debido a cambios en las nuevas bibliotecas.
 
 
-En concreto es necesario actualizar las zonas de \textit{snap} utilizadas en las pruebas de asociación, donde el jugador debe coger y colocar en plataformas distintos objetos, agrupándolos por categorías. Lo que se ha decidido hacer es reemplazar este sistema por otro más sencillo en el que un \textit{trigger} sobre la plataforma detecta los objetos que se introducen en él, comprobando si tienen o no la categoría deseada. El funcionamiento es muy similar al método anterior pero simplificado y eliminando el uso de la anterior biblioteca.
+En concreto es necesario actualizar las zonas de \textit{snap} utilizadas en las pruebas de asociación, donde el jugador debe coger y colocar en plataformas distintos objetos, agrupándolos por categorías. Lo que se ha decidido hacer es reemplazar este sistema por otro más sencillo en el que un \textit{trigger} sobre la plataforma detecta los objetos que se introducen en él (figura \ref{fig:detectZone}), comprobando si tienen o no la categoría deseada. 
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/07.detect_zone.png}
+	\caption{Zona de detección formada por un \textit{trigger} sobre una plataforma.}
+	\label{fig:detectZone}
+\end{figure}
+
+Puesto que se usa el mismo método de detección para las dos posibles categorías, es necesario tener en cuenta de qué categoría es el objeto y si las dos zonas de detección contienen el mismo tipo de objeto. Esto se hace por medio de los métodos \textit{OnTriggerEnter} y \textit{OnTriggerExit}. También es necesario llevar la cuenta de cuantos objetos hay dentro del \textit{trigger}. Todo esto se hace como se muestra en la figura \ref{fig:detectZoneCodigo}. El funcionamiento es muy similar al método anterior pero simplificado y eliminando el uso de la anterior biblioteca.
+
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/08.detect_zone_codigo.png}
+	\caption{Código de la clase DetectZone que gestiona cada zona de detección.}
+	\label{fig:detectZoneCodigo}
+\end{figure}
+
+
+
+
+De esta manera termina la migración desde HTC Vive y VRTK a Meta Quest 2 y su SDK de interacción. Este cambio se ha hecho para favorecer la facilidad de uso del juego gracias a eliminar la necesidad de cables y al uso de la tecnología de seguimiento de manos de Meta, así como la modernización y actualización de software y dispositivos con mayor soporte y vida útil en el futuro.
+
+
+\subsubsection{Uniendo y completando el proyecto}
+
+En este apartado se va a detallar el trabajo realizado para unir todas las pruebas desarrolladas anteriormente creando un flujo de juego completo y repetible. En las anteriores entregas se han ido desarrollando funcionalidades según las necesidades puntuales para alcanzar el objetivo de cada una de ellas, pero llegado este punto es necesario adquirir una visión completa del proyecto y plantear un buen diseño de clases que permitan una buena funcionalidad sin crear problemas o incompatibilidades en el futuro. 
+
+Se ha creado un diseño basado en dividir responsabilidades y asignar cada una su respectiva clase manager, por ejemplo, la clase UIManger se encarga de todo lo relacionado con la interfaz de usuario (UI, User Interface en inglés). A su vez, todas estas clases manager se comunican con la clase GameManager, que es la que controla todo el flujo y realiza las llamadas al resto de managers. También existe la clase Prueba, creada para agrupar las funciones comunes y de la que heredan las clases concretas para cada prueba. A parte de estas clases, también existen clases más especificas para controlar aspectos concreto como el movimiento de los ascensores o la interacción de los objetos en las zonas de detección.
+
+\paragraph{Game Manager}
+
+Esta es la clase principal que controla el flujo del juego. Cuando la aplicación arranca, busca y guarda las instancias del resto de managers y da la señal al UIManager de que muestre los mensajes de tutorial y bienvenida. Más adelante se encargará también de hacer que el PruebasManager comience la prueba en el momento adecuado, llevar la cuenta del numero de pruebas realizadas o coordinar la interfaz de usuario con el gestor de las pruebas. 
+
+Contiene métodos para comenzar y terminar las pruebas (llamando también a los otros managers), saltar pruebas, elegir las posibilidades que se le mostrarán al usuario (véase figura \ref{fig:gmDiagrama}) y también se encarga de controlar en todo momento el estado en el que se encuentra el juego. De esta forma puede llevar a cabo diferentes acciones dependiento del estado actual. Estos estados cambian según el grafo de la figura \ref{fig:grafoEstados}, se definen en un enumerable llamado EstadoJuego, y son los siguientes:
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/11.game_manager_diagrama.png}
+	\caption{Diagrama de la clase GameManager.}
+	\label{fig:gmDiagrama}
+\end{figure}
+
+
+\begin{itemize}
+	\item {\textbf{Arrancado}. Mientras el juego está preparando todo lo necesario después de iniciarlo.}
+	\item {\textbf{Tutorial}. El juego está mostrando su tutorial al jugador.}
+	\item {\textbf{Listo}. Estado base del juego, se muestra la pantalla principal en el escenario.}
+	\item {\textbf{EleccionPrueba}. El jugador está eligiendo qué prueba realizar.}
+	\item {\textbf{Prueba}. La prueba está en curso.}
+	\item {\textbf{FinPrueba}. El jugador ha superado la prueba y puede continuar el juego.}
+	\item {\textbf{Final}. Tras superar todas las pruebas, el juego ha terminado. El jugador puede reiniciar si así lo desea.}
+\end{itemize}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/10.grafo_estados.png}
+	\caption{Grafo dirigido de los posibles cambios de estado durante el juego.}
+	\label{fig:grafoEstados}
+\end{figure}
+
+
+
+
+\paragraph{UI Manager}
+Esta clase se encarga de gestionar todo lo relacionado con la interfaz de usuario. En este caso, la UI se muestra siempre en la pantalla gigante del escenario y el usuario puede interactuar con los botones de ella mediante rayos. Cuando comienza el juego, muestra el tutorial y se mantiene a la espera de que el usuario pulse el botón de continuar, en ese momento, actualiza la pantalla para mostrar la pantalla principal. En la fase de elección de pruebas, muestra los botones para que el usuario elija, y durante la fase de prueba puede mostrar un mensaje personalizado para cada una.
+
+\paragraph{Pruebas Manager}
+
+\paragraph{Escenario Manager}
+
+\paragraph{Trigger Manager}
+
+\paragraph{Detect Manager}
 
 
 
@@ -74,6 +150,19 @@ En concreto es necesario actualizar las zonas de \textit{snap} utilizadas en las
 
 
 
+
+\subsubsection{Interacciones entre clases}
+
+\subsubsection{Diagrama final de clases}
+
+A continuación, en la figura \ref{fig:diagramaClases} se muestra el diagrama de clases completo desarrollado para este proyecto.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.5\textwidth, angle=-90]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/09.diagrama_clases.png}
+	\caption{Diagrama de las clases desarrolladas para este proyecto.}
+	\label{fig:diagramaClases}
+\end{figure}
 
 
 

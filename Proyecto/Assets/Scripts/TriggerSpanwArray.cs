@@ -42,7 +42,7 @@ public class TriggerSpanwArray : MonoBehaviour
         {
 
             this.transform.GetChild(i).gameObject.SetActive(positions[i]);
-            this.transform.GetChild(i).gameObject.GetComponent<scriptTrigger>().Reiniciar();
+            this.transform.GetChild(i).gameObject.GetComponent<TriggerControl>().Reiniciar();
         }
     }
 
