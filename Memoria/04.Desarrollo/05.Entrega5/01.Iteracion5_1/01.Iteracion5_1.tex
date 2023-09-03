@@ -96,13 +96,13 @@ De esta manera termina la migración desde HTC Vive y VRTK a Meta Quest 2 y su S
 
 En este apartado se va a detallar el trabajo realizado para unir todas las pruebas desarrolladas anteriormente creando un flujo de juego completo y repetible. En las anteriores entregas se han ido desarrollando funcionalidades según las necesidades puntuales para alcanzar el objetivo de cada una de ellas, pero llegado este punto es necesario adquirir una visión completa del proyecto y plantear un buen diseño de clases que permitan una buena funcionalidad sin crear problemas o incompatibilidades en el futuro. 
 
-Se ha creado un diseño basado en dividir responsabilidades y asignar cada una su respectiva clase manager, por ejemplo, la clase UIManger se encarga de todo lo relacionado con la interfaz de usuario (UI, User Interface en inglés). A su vez, todas estas clases manager se comunican con la clase GameManager, que es la que controla todo el flujo y realiza las llamadas al resto de managers. También existe la clase Prueba, creada para agrupar las funciones comunes y de la que heredan las clases concretas para cada prueba. A parte de estas clases, también existen clases más especificas para controlar aspectos concreto como el movimiento de los ascensores o la interacción de los objetos en las zonas de detección.
+Se ha creado un diseño basado en dividir responsabilidades y asignar cada una su respectiva clase manager, por ejemplo, la clase UIManager se encarga de todo lo relacionado con la interfaz de usuario (UI, User Interface en inglés). A su vez, todas estas clases manager se comunican con la clase GameManager, que es la que controla todo el flujo y realiza las llamadas al resto de managers. También existe la clase Prueba, creada para agrupar las funciones comunes y de la que heredan las clases concretas para cada prueba. A parte de estas clases, también existen clases más especificas para controlar aspectos concreto como el movimiento de los ascensores o la interacción de los objetos en las zonas de detección.
 
 \paragraph{Game Manager}
 
 Esta es la clase principal que controla el flujo del juego. Cuando la aplicación arranca, busca y guarda las instancias del resto de managers y da la señal al UIManager de que muestre los mensajes de tutorial y bienvenida. Más adelante se encargará también de hacer que el PruebasManager comience la prueba en el momento adecuado, llevar la cuenta del numero de pruebas realizadas o coordinar la interfaz de usuario con el gestor de las pruebas. 
 
-Contiene métodos para comenzar y terminar las pruebas (llamando también a los otros managers), saltar pruebas, elegir las posibilidades que se le mostrarán al usuario (véase figura \ref{fig:gmDiagrama}) y también se encarga de controlar en todo momento el estado en el que se encuentra el juego. De esta forma puede llevar a cabo diferentes acciones dependiento del estado actual. Estos estados cambian según el grafo de la figura \ref{fig:grafoEstados}, se definen en un enumerable llamado EstadoJuego, y son los siguientes:
+Contiene métodos para comenzar y terminar las pruebas (llamando también a los otros managers), saltar pruebas, elegir las posibilidades que se le mostrarán al usuario (véase figura \ref{fig:gmDiagrama}) y también se encarga de controlar en todo momento el estado en el que se encuentra el juego. De esta forma puede llevar a cabo diferentes acciones dependiendo del estado actual. Estos estados cambian según el grafo de la figura \ref{fig:grafoEstados}, se definen en un enumerable llamado EstadoJuego, y son los siguientes:
 
 \begin{figure}
 	\centering
@@ -167,7 +167,7 @@ Este controlador se encarga de gestionar todo lo referente a las pruebas que se 
 
 
 \paragraph{Escenario Manager}
-Esta clase se encarga de realizar los cambios de escenario durante el juego. Estos cambios son principalmente bajar el ascensor que haya en el momento, crear uno nuevo adecuado a la prueba que se vaya a realizar, incluyendo todos los objetos necesarios para ella, y elevarlo de nuevo a la posición superior frente al jugador. Además, como se puede ver en el diagrama de la figura \ref{fig:diagramaEscenarioManager}, también se encarga de instanciar, mostrar y destuir las imaágenes y sonidos utilizados en algunas pruebas, y especialmente se comunica con el TriggerManager y el DetectManager ya que estas funciones de las pruebas forman parte del escenario.
+Esta clase se encarga de realizar los cambios de escenario durante el juego. Estos cambios son principalmente bajar el ascensor que haya en el momento, crear uno nuevo adecuado a la prueba que se vaya a realizar, incluyendo todos los objetos necesarios para ella, y elevarlo de nuevo a la posición superior frente al jugador. Además, como se puede ver en el diagrama de la figura \ref{fig:diagramaEscenarioManager}, también se encarga de instanciar, mostrar y destruir las imágenes y sonidos utilizados en algunas pruebas, y especialmente se comunica con el TriggerManager y el DetectManager ya que estas funciones de las pruebas forman parte del escenario.
 
 \begin{figure}
 	\centering
@@ -189,7 +189,40 @@ Esta clase se utiliza en las pruebas de baile y de posiciones. En estas pruebas,
 
 
 \paragraph{Detect Manager}
+Este manager gestiona todas las zonas de detección del juego, las cuales se encuentran en las pruebas de asociación y la de sonidos. La función de estas zonas es detectar si los objetos que entran en contacto con ellas tienen una etiqueta determinada o no. Cuando comienza una prueba este manager localiza las zonas que hay y las asocia a dos categorías A y B (véase \_zonasCatA y \_zonasCatB en la figura \ref{fig:diagramaDetectManager}), ya que los objetos en la prueba de asociación deben dividirse en dos grupos. 
 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/21.diagrama_detect_manager.png}
+	\caption{Diagrama de clases de DetectManager y DetectZone.}
+	\label{fig:diagramaDetectManager}
+\end{figure}
+
+
+A su vez, cada zona de detección (DetectZone) tiene dos categorías asignadas, una como principal y otra como secundaria. Cada vez que un objeto entra en la zona se comprueba si pertenece a una de estas categorías y si es así, se marca la zona como correcta para dicha categoría y se lleva la cuenta del numero de objetos que hay dentro de la zona (véase figura \ref{fig:detectZoneTriggers}). 
+
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/22.detect_zone_triggers.png}
+	\caption{Métodos de la clase DetectZone para comprobar si los objetos que entran y salen son de la categoría adecuada.}
+	\label{fig:detectZoneTriggers}
+\end{figure}
+
+
+En la prueba existen dos grupos de zonas de detección, pero el jugador puede elegir qué categoría agrupar a cada lado, por lo que es imprescindible que se pueda tener en cuenta todas las posibles situaciones en las que se puede completar la prueba, de eso se encarga el método ComprobarCorrecto() de la clase DetectManager como se muestra en la figura \ref{fig:detectCorrecto}.
+
+
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/20.detect_correcto.png}
+	\caption{Método de la clase DetectManager para comprobar si las zonas de detección contienen los objetos correctos.}
+	\label{fig:detectCorrecto}
+\end{figure}
 
 
 
@@ -213,7 +246,7 @@ Para evitar este problema se utiliza el valor interno de Unity llamado 'Time.del
 \paragraph{Prueba}
 Esta clase contiene todos los elementos necesarios para los distintos tipos de pruebas. Se ha elegido crear una estructura de herencia, donde cada tipo de prueba tiene su propia clase que hereda de esta. Esto es porque cada prueba tiene sus propias características, como las imágenes a mostrar, los sonidos a reproducir, los objetos que mostrar y especialmente cada una tiene su propia condición de victoria. Por esto, cada clase hija sobrescribe los métodos PrepararDatos() y CheckCorrecto() (véase figura \ref{fig:diagramaPruebas}).
 
-En la figura \ref{fig:checkCorrecto} se muestra el método sobreescrito con el que la clase PruebaAsociacion utiliza el manager de detección para comprobar si los objetos han sido colocados en el lugar correcto (figura \ref{fig:detectCorrecto}).
+En la figura \ref{fig:checkCorrecto} se muestra el método sobrescrito con el que la clase PruebaAsociacion utiliza el manager de detección para comprobar si los objetos han sido colocados en el lugar correcto (figura \ref{fig:detectCorrecto}).
 
 
 \begin{figure}
@@ -230,23 +263,13 @@ En la figura \ref{fig:checkCorrecto} se muestra el método sobreescrito con el q
 	\label{fig:checkCorrecto}
 \end{figure}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/20.detect_correcto.png}
-	\caption{Método de la clase DetectManager para comprobar si las zonas de detección contienen los objetos correctos.}
-	\label{fig:detectCorrecto}
-\end{figure}
 
 
 
-
-
-
-\subsubsection{Interacciones entre clases}
 
 \subsubsection{Diagrama final de clases}
 
-A continuación, en la figura \ref{fig:diagramaClases} se muestra el diagrama de clases completo desarrollado para este proyecto. Este diagrama ha sido generado de forma automática mediante Visual Studio 2022. En este diagrama no aparecen las líneas de unión entre clases, ya que a pesar de que existen referencias entre ellas, debido al funcionamiento de Unity, las referencias no son directas entre clases, si no que son con objetos de tipo GameObject, que a su vez contiene dicha clase como uno de sus componentes. En Unity todos los elementos del juego son GameObjects, con distintos componenetes que serían las clases. A pesar de esto, los nombres que se usan son claros para evitar confusiones respecto al tipo de clase que contienen.
+A continuación, en la figura \ref{fig:diagramaClases} se muestra el diagrama de clases completo desarrollado para este proyecto. Este diagrama ha sido generado de forma automática mediante Visual Studio 2022. En este diagrama no aparecen las líneas de unión entre clases, ya que a pesar de que existen referencias entre ellas, debido al funcionamiento de Unity, las referencias no son directas entre clases, si no que son con objetos de tipo GameObject, que a su vez contiene dicha clase como uno de sus componentes. En Unity todos los elementos del juego son GameObjects, con distintos componentes que serían las clases. A pesar de esto, los nombres que se usan son claros para evitar confusiones respecto al tipo de clase que contienen.
 
 \begin{figure}[H]
 	\centering
@@ -254,6 +277,26 @@ A continuación, en la figura \ref{fig:diagramaClases} se muestra el diagrama de
 	\caption{Diagrama de las clases desarrolladas para este proyecto.}
 	\label{fig:diagramaClases}
 \end{figure}
+
+
+
+
+\subsubsection{Secuencia del juego}
+
+Para ilustrar el flujo y la secuencia de eventos que suceden durante una partida normal del juego, se ha creado un diagrama de secuencia (figura \ref{fig:diagramaSecuencia}) en el que aparecen el usuario y las principales clases manager, mostrando las interacciones que realizan en el tiempo.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.1\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/23.diagrama_secuencia.png}
+	\caption{Diagrama de secuencia de una partida del juego.}
+	\label{fig:diagramaSecuencia}
+\end{figure}
+
+
+
+
+
 
 
 

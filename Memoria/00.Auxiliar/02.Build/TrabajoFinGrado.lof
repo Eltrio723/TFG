@@ -146,17 +146,20 @@
 \contentsline {figure}{\numberline {7.83}{\ignorespaces Diagrama de clase para PruebasManager.\relax }}{132}{figure.caption.171}%
 \contentsline {figure}{\numberline {7.84}{\ignorespaces Diagrama de clase para EscenarioManager.\relax }}{133}{figure.caption.173}%
 \contentsline {figure}{\numberline {7.85}{\ignorespaces Diagrama de clase para TriggerManager.\relax }}{134}{figure.caption.175}%
-\contentsline {figure}{\numberline {7.86}{\ignorespaces Método asíncrono que baja el ascensor en cada fotograma.\relax }}{135}{figure.caption.178}%
-\contentsline {figure}{\numberline {7.87}{\ignorespaces Diagrama de la clase Prueba y sus clases herederas.\relax }}{136}{figure.caption.180}%
-\contentsline {figure}{\numberline {7.88}{\ignorespaces Método sobrescrito para comprobar si la prueba de asociaciones es correcta.\relax }}{136}{figure.caption.181}%
-\contentsline {figure}{\numberline {7.89}{\ignorespaces Método de la clase DetectManager para comprobar si las zonas de detección contienen los objetos correctos.\relax }}{137}{figure.caption.182}%
-\contentsline {figure}{\numberline {7.90}{\ignorespaces Diagrama de las clases desarrolladas para este proyecto.\relax }}{138}{figure.caption.185}%
-\contentsline {xpart}{Conclusiones}{143}{part.4}%
-\contentsline {xpart}{Bibliografía}{147}{part.5}%
-\contentsline {xpart}{Apéndices}{155}{part.6}%
+\contentsline {figure}{\numberline {7.86}{\ignorespaces Diagrama de clases de DetectManager y DetectZone.\relax }}{135}{figure.caption.177}%
+\contentsline {figure}{\numberline {7.87}{\ignorespaces Métodos de la clase DetectZone para comprobar si los objetos que entran y salen son de la categoría adecuada.\relax }}{136}{figure.caption.178}%
+\contentsline {figure}{\numberline {7.88}{\ignorespaces Método de la clase DetectManager para comprobar si las zonas de detección contienen los objetos correctos.\relax }}{137}{figure.caption.179}%
+\contentsline {figure}{\numberline {7.89}{\ignorespaces Método asíncrono que baja el ascensor en cada fotograma.\relax }}{137}{figure.caption.181}%
+\contentsline {figure}{\numberline {7.90}{\ignorespaces Diagrama de la clase Prueba y sus clases herederas.\relax }}{138}{figure.caption.183}%
+\contentsline {figure}{\numberline {7.91}{\ignorespaces Método sobrescrito para comprobar si la prueba de asociaciones es correcta.\relax }}{138}{figure.caption.184}%
+\contentsline {figure}{\numberline {7.92}{\ignorespaces Diagrama de las clases desarrolladas para este proyecto.\relax }}{140}{figure.caption.186}%
+\contentsline {figure}{\numberline {7.93}{\ignorespaces Diagrama de secuencia de una partida del juego.\relax }}{142}{figure.caption.188}%
+\contentsline {xpart}{Conclusiones}{147}{part.4}%
+\contentsline {xpart}{Bibliografía}{151}{part.5}%
+\contentsline {xpart}{Apéndices}{159}{part.6}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Game Desing Document}{155}{appendix.Alph1}%
+\contentsline {xchapter}{Game Desing Document}{159}{appendix.Alph1}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Cuestionarios}{161}{appendix.Alph2}%
+\contentsline {xchapter}{Cuestionarios}{165}{appendix.Alph2}%
 \contentsfinish 
 \contentsfinish 
