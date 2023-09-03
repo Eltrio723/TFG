@@ -133,18 +133,109 @@ Contiene métodos para comenzar y terminar las pruebas (llamando también a los 
 
 
 \paragraph{UI Manager}
-Esta clase se encarga de gestionar todo lo relacionado con la interfaz de usuario. En este caso, la UI se muestra siempre en la pantalla gigante del escenario y el usuario puede interactuar con los botones de ella mediante rayos. Cuando comienza el juego, muestra el tutorial y se mantiene a la espera de que el usuario pulse el botón de continuar, en ese momento, actualiza la pantalla para mostrar la pantalla principal. En la fase de elección de pruebas, muestra los botones para que el usuario elija, y durante la fase de prueba puede mostrar un mensaje personalizado para cada una.
+Esta clase se encarga de gestionar todo lo relacionado con la interfaz de usuario. En este caso, la UI se muestra siempre en la pantalla gigante del escenario y el usuario puede interactuar con los botones de ella mediante rayos. Cuando comienza el juego, muestra el tutorial y se mantiene a la espera de que el usuario pulse el botón de continuar, en ese momento, actualiza la pantalla para mostrar la pantalla principal. En la fase de elección de pruebas, muestra los botones para que el usuario elija (figura \ref{fig:uiManagerCodigo}), y durante la fase de prueba puede mostrar un mensaje personalizado para cada una. Esta clase controla todos los botones que aparecen en el juego, y al pulsarlos realiza las acciones necesarias, como llamar al GameManager para avanzar de fase, o al PruebasManager para comprobar si una respuesta es correcta. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/12.ui_manager_mostrar_botones.png}
+	\caption{Código de la clase UIManager. Método para terminar el tutorial pulsando el botón de 'Entendido' y método para cargar los botones de elección de pruebas.}
+	\label{fig:uiManagerCodigo}
+\end{figure}
+
+
+En el diagrama de clase de la figura \ref{fig:diagramaUI} se muestra como esta clase contiene una referencia a todos los elementos de la interfaz de usuario y los métodos para cambiar la pantalla dependiendo de la fase de juego actual, como PantallaEleccion() o PantallaFinPrueba().
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.4\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/13.diagrama_ui.png}
+	\caption{Diagrama de clase para UIManager.}
+	\label{fig:diagramaUI}
+\end{figure}
+
+
 
 \paragraph{Pruebas Manager}
+Este controlador se encarga de gestionar todo lo referente a las pruebas que se realizan en el juego. Contiene una referencia a una instancia de cada tipo de prueba (atributos con prefijo 'Prefab' en la figura \ref{fig:diagramaPruebasManager}), y se comunica con el GameManager para crear, comenzar y terminar las pruebas, así como con el EscenarioManager que dependiendo del tipo de prueba deberá adecuar el escenario como se verá a continuación. En todo momento, este manager contiene una referencia a la prueba que se está realizando y puede comprobar periódicamente si la prueba ha sido completada correctamente con el método CheckPruebaCorrecta().
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.4\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/14.diagrama_pruebas_manager.png}
+	\caption{Diagrama de clase para PruebasManager.}
+	\label{fig:diagramaPruebasManager}
+\end{figure}
+
+
 
 \paragraph{Escenario Manager}
+Esta clase se encarga de realizar los cambios de escenario durante el juego. Estos cambios son principalmente bajar el ascensor que haya en el momento, crear uno nuevo adecuado a la prueba que se vaya a realizar, incluyendo todos los objetos necesarios para ella, y elevarlo de nuevo a la posición superior frente al jugador. Además, como se puede ver en el diagrama de la figura \ref{fig:diagramaEscenarioManager}, también se encarga de instanciar, mostrar y destuir las imaágenes y sonidos utilizados en algunas pruebas, y especialmente se comunica con el TriggerManager y el DetectManager ya que estas funciones de las pruebas forman parte del escenario.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.4\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/15.diagrama_escenario.png}
+	\caption{Diagrama de clase para EscenarioManager.}
+	\label{fig:diagramaEscenarioManager}
+\end{figure}
+
 
 \paragraph{Trigger Manager}
+Esta clase se utiliza en las pruebas de baile y de posiciones. En estas pruebas, el jugador debe seguir unas indicaciones y colocar los brazos en varias posiciones. Este funcionamiento se explica en más profundidad en la Iteración 2 de la entrega 2 (sección \ref{E2_triggers}).
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.4\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/16.diagrama_trigger_manager.png}
+	\caption{Diagrama de clase para TriggerManager.}
+	\label{fig:diagramaTriggerManager}
+\end{figure}
+
 
 \paragraph{Detect Manager}
 
 
 
+
+
+\paragraph{Ascensor}
+Esta clase la tienen cada uno de los distintos ascensores que hay en el juego, uno por cada prueba. Su cometido es indicar si el ascensor se encuentra en su posición baja o elevada y hacer que transicione de una a otra de forma suave. 
+
+Para hacer dicho movimiento se utiliza un método asíncrono que en Unity se denominan \textit{Coroutines} para hacer que en cada fotograma del juego avance ligeramente hacia su nueva posición. Cualquier movimiento asociado a la velocidad de fotogramas puede cambiar completamente cuando el juego se ejecuta a otra velocidad de la prevista, por ejemplo si el dispositivo de juego es más potente de lo esperado, o todo lo contrario, si el dispositivo no puede mantener una velocidad estable. 
+
+Para evitar este problema se utiliza el valor interno de Unity llamado 'Time.deltaTime' que contiene para cada fotograma el tiempo en milisegundos que ha pasado desde el anterior fotograma, multiplicando la velocidad de movimiento por este valor como se muestra en la figura \ref{fig:ascensorBajar} se puede conseguir que este movimiento sea independiente. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/17.ascensor_bajar.png}
+	\caption{Método asíncrono que baja el ascensor en cada fotograma.}
+	\label{fig:ascensorBajar}
+\end{figure}
+
+
+
+\paragraph{Prueba}
+Esta clase contiene todos los elementos necesarios para los distintos tipos de pruebas. Se ha elegido crear una estructura de herencia, donde cada tipo de prueba tiene su propia clase que hereda de esta. Esto es porque cada prueba tiene sus propias características, como las imágenes a mostrar, los sonidos a reproducir, los objetos que mostrar y especialmente cada una tiene su propia condición de victoria. Por esto, cada clase hija sobrescribe los métodos PrepararDatos() y CheckCorrecto() (véase figura \ref{fig:diagramaPruebas}).
+
+En la figura \ref{fig:checkCorrecto} se muestra el método sobreescrito con el que la clase PruebaAsociacion utiliza el manager de detección para comprobar si los objetos han sido colocados en el lugar correcto (figura \ref{fig:detectCorrecto}).
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/18.diagrama_pruebas.png}
+	\caption{Diagrama de la clase Prueba y sus clases herederas.}
+	\label{fig:diagramaPruebas}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/19.check_correcto.png}
+	\caption{Método sobrescrito para comprobar si la prueba de asociaciones es correcta.}
+	\label{fig:checkCorrecto}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{04.Desarrollo/05.Entrega5/01.Iteracion5_1/00.Figuras/20.detect_correcto.png}
+	\caption{Método de la clase DetectManager para comprobar si las zonas de detección contienen los objetos correctos.}
+	\label{fig:detectCorrecto}
+\end{figure}
 
 
 
@@ -155,7 +246,7 @@ Esta clase se encarga de gestionar todo lo relacionado con la interfaz de usuari
 
 \subsubsection{Diagrama final de clases}
 
-A continuación, en la figura \ref{fig:diagramaClases} se muestra el diagrama de clases completo desarrollado para este proyecto.
+A continuación, en la figura \ref{fig:diagramaClases} se muestra el diagrama de clases completo desarrollado para este proyecto. Este diagrama ha sido generado de forma automática mediante Visual Studio 2022. En este diagrama no aparecen las líneas de unión entre clases, ya que a pesar de que existen referencias entre ellas, debido al funcionamiento de Unity, las referencias no son directas entre clases, si no que son con objetos de tipo GameObject, que a su vez contiene dicha clase como uno de sus componentes. En Unity todos los elementos del juego son GameObjects, con distintos componenetes que serían las clases. A pesar de esto, los nombres que se usan son claros para evitar confusiones respecto al tipo de clase que contienen.
 
 \begin{figure}[H]
 	\centering

@@ -141,13 +141,22 @@
 \contentsline {figure}{\numberline {7.78}{\ignorespaces Código de la clase DetectZone que gestiona cada zona de detección.\relax }}{125}{figure.caption.162}%
 \contentsline {figure}{\numberline {7.79}{\ignorespaces Diagrama de la clase GameManager.\relax }}{127}{figure.caption.165}%
 \contentsline {figure}{\numberline {7.80}{\ignorespaces Grafo dirigido de los posibles cambios de estado durante el juego.\relax }}{128}{figure.caption.166}%
-\contentsline {figure}{\numberline {7.81}{\ignorespaces Diagrama de las clases desarrolladas para este proyecto.\relax }}{130}{figure.caption.174}%
-\contentsline {xpart}{Conclusiones}{135}{part.4}%
-\contentsline {xpart}{Bibliografía}{139}{part.5}%
-\contentsline {xpart}{Apéndices}{147}{part.6}%
+\contentsline {figure}{\numberline {7.81}{\ignorespaces Código de la clase UIManager. Método para terminar el tutorial pulsando el botón de 'Entendido' y método para cargar los botones de elección de pruebas.\relax }}{130}{figure.caption.168}%
+\contentsline {figure}{\numberline {7.82}{\ignorespaces Diagrama de clase para UIManager.\relax }}{131}{figure.caption.169}%
+\contentsline {figure}{\numberline {7.83}{\ignorespaces Diagrama de clase para PruebasManager.\relax }}{132}{figure.caption.171}%
+\contentsline {figure}{\numberline {7.84}{\ignorespaces Diagrama de clase para EscenarioManager.\relax }}{133}{figure.caption.173}%
+\contentsline {figure}{\numberline {7.85}{\ignorespaces Diagrama de clase para TriggerManager.\relax }}{134}{figure.caption.175}%
+\contentsline {figure}{\numberline {7.86}{\ignorespaces Método asíncrono que baja el ascensor en cada fotograma.\relax }}{135}{figure.caption.178}%
+\contentsline {figure}{\numberline {7.87}{\ignorespaces Diagrama de la clase Prueba y sus clases herederas.\relax }}{136}{figure.caption.180}%
+\contentsline {figure}{\numberline {7.88}{\ignorespaces Método sobrescrito para comprobar si la prueba de asociaciones es correcta.\relax }}{136}{figure.caption.181}%
+\contentsline {figure}{\numberline {7.89}{\ignorespaces Método de la clase DetectManager para comprobar si las zonas de detección contienen los objetos correctos.\relax }}{137}{figure.caption.182}%
+\contentsline {figure}{\numberline {7.90}{\ignorespaces Diagrama de las clases desarrolladas para este proyecto.\relax }}{138}{figure.caption.185}%
+\contentsline {xpart}{Conclusiones}{143}{part.4}%
+\contentsline {xpart}{Bibliografía}{147}{part.5}%
+\contentsline {xpart}{Apéndices}{155}{part.6}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Game Desing Document}{147}{appendix.Alph1}%
+\contentsline {xchapter}{Game Desing Document}{155}{appendix.Alph1}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Cuestionarios}{153}{appendix.Alph2}%
+\contentsline {xchapter}{Cuestionarios}{161}{appendix.Alph2}%
 \contentsfinish 
 \contentsfinish 

@@ -133,10 +133,7 @@ public class UIManager : MonoBehaviour
         PantallaFinJuego();
     }
 
-    public void btnEntendido()
-    {
-        _gameManager.TerminarTutorial();
-    }
+
 
     public void btnComenzar()
     {
@@ -159,6 +156,10 @@ public class UIManager : MonoBehaviour
         _gameManager.ReiniciarJuego();
     }
 
+    public void btnEntendido()
+    {
+        _gameManager.TerminarTutorial();
+    }
 
     public void MostrarBotonesPruebas(List<TipoPrueba> pruebasAMostrar)
     {
@@ -196,8 +197,6 @@ public class UIManager : MonoBehaviour
                     break;
             }
         }
-
-
 
     }
 

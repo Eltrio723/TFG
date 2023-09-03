@@ -119,55 +119,57 @@
 \contentsline {subsubsection}{Uniendo y completando el proyecto}{124}{subsubsection*.163}%
 \contentsline {paragraph}{Game Manager}{126}{paragraph*.164}%
 \contentsline {paragraph}{UI Manager}{129}{paragraph*.167}%
-\contentsline {paragraph}{Pruebas Manager}{129}{paragraph*.168}%
-\contentsline {paragraph}{Escenario Manager}{129}{paragraph*.169}%
-\contentsline {paragraph}{Trigger Manager}{129}{paragraph*.170}%
-\contentsline {paragraph}{Detect Manager}{129}{paragraph*.171}%
-\contentsline {subsubsection}{Interacciones entre clases}{129}{subsubsection*.172}%
-\contentsline {subsubsection}{Diagrama final de clases}{129}{subsubsection*.173}%
-\contentsline {subsection}{\numberline {7.5.3}Iteración 2}{131}{subsection.7.5.3}%
-\contentsline {subsection}{\numberline {7.5.4}Conclusiones de la entrega}{131}{subsection.7.5.4}%
-\contentsline {part}{IV\hspace {1em}Conclusiones}{133}{part.4}%
-\contentsline {xpart}{Conclusiones}{135}{part.4}%
-\contentsline {starchapter}{Conclusiones y líneas futuras}{135}{chapter*.175}%
-\contentsline {part}{V\hspace {1em}Bibliografía}{137}{part.5}%
-\contentsline {xpart}{Bibliografía}{139}{part.5}%
-\contentsline {chapter}{Bibliografía}{144}{chapter*.177}%
-\contentsline {part}{VI\hspace {1em}Apéndices}{145}{part.6}%
-\contentsline {xpart}{Apéndices}{147}{part.6}%
-\contentsline {chapter}{\numberline {A}Game Desing Document}{147}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Información general}{147}{section.Alph1.1}%
-\contentsline {subsection}{\numberline {A.1.1}Resumen del juego}{147}{subsection.Alph1.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}Objetivos a alcanzar por el juego}{148}{subsection.Alph1.1.2}%
-\contentsline {subsection}{\numberline {A.1.3}Justificación del juego}{148}{subsection.Alph1.1.3}%
-\contentsline {subsection}{\numberline {A.1.4}Core gameplay}{148}{subsection.Alph1.1.4}%
-\contentsline {subsection}{\numberline {A.1.5}Características del juego}{148}{subsection.Alph1.1.5}%
-\contentsline {subsubsection}{Género}{148}{subsubsection*.178}%
-\contentsline {subsubsection}{Número de jugadores}{149}{subsubsection*.179}%
-\contentsline {subsubsection}{Público objetivo}{149}{subsubsection*.180}%
-\contentsline {subsubsection}{Plataformas de destino}{149}{subsubsection*.181}%
-\contentsline {subsubsection}{Estética y arte del juego. Estilo visual}{149}{subsubsection*.182}%
-\contentsline {subsubsection}{Resumen de historia}{149}{subsubsection*.183}%
-\contentsline {subsection}{\numberline {A.1.6}Características del jugador}{149}{subsection.Alph1.1.6}%
-\contentsline {subsection}{\numberline {A.1.7}Recursos iniciales}{149}{subsection.Alph1.1.7}%
-\contentsline {section}{\numberline {A.2}Mecánicas}{150}{section.Alph1.2}%
-\contentsline {subsection}{\numberline {A.2.1}Elementos de juego}{150}{subsection.Alph1.2.1}%
-\contentsline {subsection}{\numberline {A.2.2}Reglas}{150}{subsection.Alph1.2.2}%
-\contentsline {subsubsection}{Inteligencia artificial}{150}{subsubsection*.184}%
-\contentsline {subsection}{\numberline {A.2.3}Elementos de juego: Mundo}{150}{subsection.Alph1.2.3}%
-\contentsline {subsection}{\numberline {A.2.4}Elementos de registro y progreso}{150}{subsection.Alph1.2.4}%
-\contentsline {section}{\numberline {A.3}Dinámica}{151}{section.Alph1.3}%
-\contentsline {chapter}{\numberline {B}Cuestionarios}{153}{appendix.Alph2}%
-\contentsline {section}{\numberline {B.1}Plantilla}{153}{section.Alph2.1}%
-\contentsline {paragraph}{1.}{153}{paragraph*.186}%
-\contentsline {paragraph}{2.}{153}{paragraph*.188}%
-\contentsline {paragraph}{3.}{153}{paragraph*.190}%
-\contentsline {paragraph}{4.}{154}{paragraph*.192}%
-\contentsline {paragraph}{5.}{154}{paragraph*.194}%
-\contentsline {paragraph}{6.}{154}{paragraph*.196}%
-\contentsline {paragraph}{7.}{154}{paragraph*.198}%
-\contentsline {paragraph}{8.}{154}{paragraph*.200}%
-\contentsline {paragraph}{9.}{154}{paragraph*.202}%
-\contentsline {paragraph}{10.}{154}{paragraph*.204}%
-\contentsline {section}{\numberline {B.2}Resultados usabilidad}{155}{section.Alph2.2}%
+\contentsline {paragraph}{Pruebas Manager}{129}{paragraph*.170}%
+\contentsline {paragraph}{Escenario Manager}{129}{paragraph*.172}%
+\contentsline {paragraph}{Trigger Manager}{129}{paragraph*.174}%
+\contentsline {paragraph}{Detect Manager}{134}{paragraph*.176}%
+\contentsline {paragraph}{Ascensor}{134}{paragraph*.177}%
+\contentsline {paragraph}{Prueba}{135}{paragraph*.179}%
+\contentsline {subsubsection}{Interacciones entre clases}{135}{subsubsection*.183}%
+\contentsline {subsubsection}{Diagrama final de clases}{135}{subsubsection*.184}%
+\contentsline {subsection}{\numberline {7.5.3}Iteración 2}{139}{subsection.7.5.3}%
+\contentsline {subsection}{\numberline {7.5.4}Conclusiones de la entrega}{139}{subsection.7.5.4}%
+\contentsline {part}{IV\hspace {1em}Conclusiones}{141}{part.4}%
+\contentsline {xpart}{Conclusiones}{143}{part.4}%
+\contentsline {starchapter}{Conclusiones y líneas futuras}{143}{chapter*.186}%
+\contentsline {part}{V\hspace {1em}Bibliografía}{145}{part.5}%
+\contentsline {xpart}{Bibliografía}{147}{part.5}%
+\contentsline {chapter}{Bibliografía}{152}{chapter*.188}%
+\contentsline {part}{VI\hspace {1em}Apéndices}{153}{part.6}%
+\contentsline {xpart}{Apéndices}{155}{part.6}%
+\contentsline {chapter}{\numberline {A}Game Desing Document}{155}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Información general}{155}{section.Alph1.1}%
+\contentsline {subsection}{\numberline {A.1.1}Resumen del juego}{155}{subsection.Alph1.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Objetivos a alcanzar por el juego}{156}{subsection.Alph1.1.2}%
+\contentsline {subsection}{\numberline {A.1.3}Justificación del juego}{156}{subsection.Alph1.1.3}%
+\contentsline {subsection}{\numberline {A.1.4}Core gameplay}{156}{subsection.Alph1.1.4}%
+\contentsline {subsection}{\numberline {A.1.5}Características del juego}{156}{subsection.Alph1.1.5}%
+\contentsline {subsubsection}{Género}{156}{subsubsection*.189}%
+\contentsline {subsubsection}{Número de jugadores}{157}{subsubsection*.190}%
+\contentsline {subsubsection}{Público objetivo}{157}{subsubsection*.191}%
+\contentsline {subsubsection}{Plataformas de destino}{157}{subsubsection*.192}%
+\contentsline {subsubsection}{Estética y arte del juego. Estilo visual}{157}{subsubsection*.193}%
+\contentsline {subsubsection}{Resumen de historia}{157}{subsubsection*.194}%
+\contentsline {subsection}{\numberline {A.1.6}Características del jugador}{157}{subsection.Alph1.1.6}%
+\contentsline {subsection}{\numberline {A.1.7}Recursos iniciales}{157}{subsection.Alph1.1.7}%
+\contentsline {section}{\numberline {A.2}Mecánicas}{158}{section.Alph1.2}%
+\contentsline {subsection}{\numberline {A.2.1}Elementos de juego}{158}{subsection.Alph1.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Reglas}{158}{subsection.Alph1.2.2}%
+\contentsline {subsubsection}{Inteligencia artificial}{158}{subsubsection*.195}%
+\contentsline {subsection}{\numberline {A.2.3}Elementos de juego: Mundo}{158}{subsection.Alph1.2.3}%
+\contentsline {subsection}{\numberline {A.2.4}Elementos de registro y progreso}{158}{subsection.Alph1.2.4}%
+\contentsline {section}{\numberline {A.3}Dinámica}{159}{section.Alph1.3}%
+\contentsline {chapter}{\numberline {B}Cuestionarios}{161}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Plantilla}{161}{section.Alph2.1}%
+\contentsline {paragraph}{1.}{161}{paragraph*.197}%
+\contentsline {paragraph}{2.}{161}{paragraph*.199}%
+\contentsline {paragraph}{3.}{161}{paragraph*.201}%
+\contentsline {paragraph}{4.}{162}{paragraph*.203}%
+\contentsline {paragraph}{5.}{162}{paragraph*.205}%
+\contentsline {paragraph}{6.}{162}{paragraph*.207}%
+\contentsline {paragraph}{7.}{162}{paragraph*.209}%
+\contentsline {paragraph}{8.}{162}{paragraph*.211}%
+\contentsline {paragraph}{9.}{162}{paragraph*.213}%
+\contentsline {paragraph}{10.}{162}{paragraph*.215}%
+\contentsline {section}{\numberline {B.2}Resultados usabilidad}{163}{section.Alph2.2}%
 \contentsfinish 
