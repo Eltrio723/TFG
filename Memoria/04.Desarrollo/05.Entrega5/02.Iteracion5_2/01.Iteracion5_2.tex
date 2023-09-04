@@ -73,20 +73,83 @@ En el repositorio de Github en el que se encuentra este proyecto (\url{https://g
 
 
 \subsubsection{Resultados}
+\label{sec:e5i2:res}
+
+Tras realizar las pruebas, contabilizar los cuestionarios y analizar toda la información proporcionada por los usuarios se llega a varias conclusiones y datos notables que se van a detallar a continuación.
+
+En primer lugar se muestra una tabla (tabla \ref{tab:resultados_usabilidad__entrega}) con los resultados obtenidos en los cuestionarios realizados, donde aparecen por cada fila todas las respuestas de cada usuario y en las tres últimas columnas aparecen los cálculos habituales de los cuestionarios SUS, incluyendo en la columna final, la puntuación total de usabilidad que ese usuario otorga al sistema.
 
 
 
+\begin{table}[H]
+	\centering
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+			\hline
+			Encuestado & Preg. 1 & Preg. 2 & Preg. 3 & Preg. 4 & Preg. 5 & Preg. 6 & Preg. 7 & Preg. 8 & Preg. 9 & Preg. 10 & Suma impares & Suma pares & Total SUS \\ \hline
+			A & 4 & 3 & 4 & 4 & 4 & 2 & 4 & 2 & 2 & 3 & 18 & 14 & 60 \\ \hline
+			B & 5 & 1 & 5 & 4 & 5 & 2 & 5 & 1 & 5 & 2 & 25 & 10 & 87.5 \\ \hline
+			C & 4 & 1 & 4 & 3 & 4 & 2 & 4 & 2 & 3 & 2 & 19 & 10 & 72.5 \\ \hline
+			D & 4 & 1 & 5 & 2 & 4 & 2 & 4 & 2 & 4 & 1 & 21 & 8 & 82.5 \\ \hline
+			E & 4 & 2 & 4 & 1 & 4 & 2 & 5 & 2 & 4 & 1 & 21 & 8 & 82.5 \\ \hline
+			F & 4 & 1 & 5 & 3 & 5 & 1 & 4 & 1 & 5 & 1 & 23 & 7 & 90 \\ \hline
+		\end{tabular}%
+	}
+	\caption{Resultados de usabilidad obtenidos tras las pruebas}
+	\label{tab:resultados_usabilidad__entrega}
+\end{table}
 
-\ref{sec:apendice:Custionarios:Resultados}
 
 
+Estudiando esta tabla de resultados se puede ver que la mayoría de las preguntas reciben una puntuación similar entre los usuarios. Las preguntas con más variación son la 4 y la 9.
+
+El enunciado 4 es el siguiente: "Creo que necesitaría el apoyo de otra persona para poder utilizar este juego.". Las personas que están en desacuerdo con esta pregunta son las D y E, ambas en la franja de edad más joven, mientras que las personas más de acuerdo son la A y B, ambas de la franja de edad superior. 
+
+Para la pregunta 9: "Me sentí muy seguro usando el sistema.", las respuestas son dispares pero no necesariamente se pueden clasificar dentro de uno de los grupos. Por ejemplo, de las tres personas de mayor edad, dos están en desacuerdo o neutro, pero la otra está totalmente de acuerdo con el enunciado.
+
+La familiaridad con la realidad virtual tampoco parece ser un factor decisivo, sin embargo, la edad vuelve a crear una distinción en la pregunta 10, dónde las personas más jóvenes piensan que no necesitan aprender nada antes de comenzar a jugar, en lugar de las personas mayores, que están menos de acuerdo, aunque no por una gran diferencia.
+
+En el grupo de personas para este estudio, el grado de conocimientos tecnológicos tiene correlación con la edad, esto es algo bastante habitual hoy en día, pero puede estar enmascarando algunos resultados atribuidos inicialmente al factor de edad.
+
+Todas las personas tras la prueba afirman que la realidad virtual les ha gustado y en ningún caso se han sentido mareados o desorientados. Tras probar experiencias de RV externas a este proyecto y con más movimiento, dos de las personas se sintieron mareadas, aunque no sucedió lo mismo con el resto, que siguieron cómodas en la RV. 
+
+De esto se puede deducir que este juego difícilmente producirá mareos puesto que tiene un ritmo lento y es estático, sin movimientos bruscos. Esto es una gran ventaja para el objetivo que se desea para este proyecto. Por este mismo motivo, es posible que la familiarización con la realidad virtual previa de cada persona no afecte a los resultados obtenidos.
+
+Finalmente, teniendo en cuenta las puntuaciones de los cuestionarios, solo una persona indica una usabilidad  por debajo del valor aceptable de 68 (figura \ref{fig:MU_sus_entrega}), en este caso: 60. Aunque está puntuación sigue estando dentro de la franja marginal. 
+
+Uniendo todos los resultados para calcular una media, se obtiene que la puntuación de usabilidad para este proyecto en esta prueba es de 79 puntos. Esta puntuación está dentro del rango aceptable y nos indica que el sistema creado es percibido por los usuarios como fácil de utilizar y seguro. Por tanto, se puede decir que la realidad virtual es una buena tecnología para utilizar con distintos tipos de personas y que el juego desarrollado en concreto es fácil de entender, coherente y ha gustado a los usuarios.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{03.EstudioProblema/04.MetodologiaAUsar/00.Figuras/03.sus.png}
+	\caption{Representación de los resultados de un SUS. \cite{MU_eval_sus}}
+	\label{fig:MU_sus_entrega}
+\end{figure}
 
 
-
+Es necesario recordar en este punto, que no se está pretendiendo medir la eficacia del propio entrenamiento cognitivo, en primer lugar porque es una cuestión en la que aún los estudios no se ponen de acuerdo (como se comenta en la sección \ref{sec:estadoArteEficaciaEntrenamientos}), y en segundo lugar, porque está fuera de mis capacidades, conocimientos y del alcance esperado y definido para este proyecto.
 
 
 
 \subsubsection{Opinión profesional}
+
+
+Una de las personas encuestadas se trata de la psicóloga Carmen Granero Rico, especializada en gerontología y con años de experiencia como directora de residencias de mayores. A parte de su participación en la prueba, también ha ofrecido su opinión como profesional del sector y de la cual se presentan fragmentos a continuación:
+
+
+``La estimulación cognitiva que tú estás haciendo de cara a una persona ya con inicio de deterioro, que ya lo tenemos a partir de una determinada edad, para eso, tu prueba es muy básica. Ahora mismo muy básica porque es lo que tú puedes hacer para tu proyecto, pero si tú ahí te pones con un profesional que sabe de lo que tiene que meter de contenido, puede estar muy bien. Lo que es la parte técnica está, ahora ya hay que meterle los contenidos necesarios para estimular las diferentes áreas y las diferentes habilidades que se necesitan estimular.''
+
+``Podría haber pruebas globales que entrenen todos los aspectos y luego pruebas más especificas.''
+
+``Me ha gustado mucho usar las manos para manejar todo, especialmente el gesto con el pulgar y el índice para seleccionar, porque ese es un movimiento de motricidad fina, y las personas mayores es algo que suelen perder, sobretodo cuando comienzan a tener artritis y artrosis.''
+
+``(la realidad virtual) ... sí que es verdad que es un shock para las personas mayores. También depende de la generación. Por ejemplo, para mi generación es perfectamente soportable y lo puede hacer, pero entiendo que por ejemplo, la generación anterior a la mía no puede. Entre otras cosas porque cuando te pones las gafas pierdes el equilibrio, y ellos de por sí no suelen tener mucho equilibrio.''
+
+``Es una buena base, luego ya es meterle contenido hecho con profesionales de la cognitividad.''
+
+``Esto sirve no solo para personas mayores, también para gente de todas las edades, como los juegos de brain training que teníamos...''
+
+``El estrés, o cualquier tema emocional como la depresión, afectan muchísimo a la memoria, la concentración y la percepción, entonces esto (el juego) puede ser un estímulo en cualquier momento.''
 
 
 
