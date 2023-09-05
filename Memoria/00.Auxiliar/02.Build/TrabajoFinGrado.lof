@@ -133,35 +133,35 @@
 \contentsline {figure}{\numberline {7.70}{\ignorespaces Estructura de objeto para la mesa.\relax }}{117}{figure.caption.150}%
 \contentsline {figure}{\numberline {7.71}{\ignorespaces Ejemplo de prueba de asociación de sonidos.\relax }}{117}{figure.caption.151}%
 \contentsline {figure}{\numberline {7.72}{\ignorespaces Código que asigna la llamada al método para terminar la prueba de forma correcta al botón adecuado.\relax }}{118}{figure.caption.152}%
-\contentsline {figure}{\numberline {7.73}{\ignorespaces Aviso sobre paquetes obsoletos.\relax }}{120}{figure.caption.156}%
-\contentsline {figure}{\numberline {7.74}{\ignorespaces Jerarquía del objeto OculusInteractionSampleRig incluido con el SDK de Meta.\relax }}{121}{figure.caption.157}%
-\contentsline {figure}{\numberline {7.75}{\ignorespaces Manos virtuales captadas usando el seguimiento de Meta Quest 2.\relax }}{122}{figure.caption.158}%
-\contentsline {figure}{\numberline {7.76}{\ignorespaces \textit {Interactors} que permiten coger, pulsar o lanzar rayos.\relax }}{123}{figure.caption.159}%
-\contentsline {figure}{\numberline {7.77}{\ignorespaces Zona de detección formada por un \textit {trigger} sobre una plataforma.\relax }}{124}{figure.caption.160}%
-\contentsline {figure}{\numberline {7.78}{\ignorespaces Código de la clase DetectZone que gestiona cada zona de detección.\relax }}{125}{figure.caption.161}%
-\contentsline {figure}{\numberline {7.79}{\ignorespaces Diagrama de la clase GameManager.\relax }}{127}{figure.caption.164}%
-\contentsline {figure}{\numberline {7.80}{\ignorespaces Grafo dirigido de los posibles cambios de estado durante el juego.\relax }}{128}{figure.caption.165}%
-\contentsline {figure}{\numberline {7.81}{\ignorespaces Código de la clase UIManager. Método para terminar el tutorial pulsando el botón de 'Entendido' y método para cargar los botones de elección de pruebas.\relax }}{130}{figure.caption.167}%
-\contentsline {figure}{\numberline {7.82}{\ignorespaces Diagrama de clase para UIManager.\relax }}{131}{figure.caption.168}%
-\contentsline {figure}{\numberline {7.83}{\ignorespaces Diagrama de clase para PruebasManager.\relax }}{132}{figure.caption.170}%
-\contentsline {figure}{\numberline {7.84}{\ignorespaces Diagrama de clase para EscenarioManager.\relax }}{133}{figure.caption.172}%
-\contentsline {figure}{\numberline {7.85}{\ignorespaces Diagrama de clase para TriggerManager.\relax }}{134}{figure.caption.174}%
-\contentsline {figure}{\numberline {7.86}{\ignorespaces Diagrama de clases de DetectManager y DetectZone.\relax }}{135}{figure.caption.176}%
-\contentsline {figure}{\numberline {7.87}{\ignorespaces Métodos de la clase DetectZone para comprobar si los objetos que entran y salen son de la categoría adecuada.\relax }}{136}{figure.caption.177}%
-\contentsline {figure}{\numberline {7.88}{\ignorespaces Método de la clase DetectManager para comprobar si las zonas de detección contienen los objetos correctos.\relax }}{137}{figure.caption.178}%
-\contentsline {figure}{\numberline {7.89}{\ignorespaces Método asíncrono que baja el ascensor en cada fotograma.\relax }}{137}{figure.caption.180}%
-\contentsline {figure}{\numberline {7.90}{\ignorespaces Diagrama de la clase Prueba y sus clases herederas.\relax }}{138}{figure.caption.182}%
-\contentsline {figure}{\numberline {7.91}{\ignorespaces Método sobrescrito para comprobar si la prueba de asociaciones es correcta.\relax }}{138}{figure.caption.183}%
-\contentsline {figure}{\numberline {7.92}{\ignorespaces Diagrama de las clases desarrolladas para este proyecto.\relax }}{140}{figure.caption.185}%
-\contentsline {figure}{\numberline {7.93}{\ignorespaces Diagrama de secuencia de una partida del juego.\relax }}{142}{figure.caption.187}%
-\contentsline {figure}{\numberline {7.94}{\ignorespaces Personas encuestadas identificadas por letras y divididas por grupos de edad, conocimientos tecnológicos y familiaridad con la RV.\relax }}{145}{figure.caption.190}%
-\contentsline {figure}{\numberline {7.95}{\ignorespaces Representación de los resultados de un SUS. \cite {MU_eval_sus}\relax }}{147}{figure.caption.193}%
-\contentsline {xpart}{Conclusiones}{151}{part.4}%
-\contentsline {xpart}{Bibliografía}{155}{part.5}%
-\contentsline {xpart}{Apéndices}{163}{part.6}%
+\contentsline {figure}{\numberline {7.73}{\ignorespaces Aviso sobre paquetes obsoletos.\relax }}{120}{figure.caption.155}%
+\contentsline {figure}{\numberline {7.74}{\ignorespaces Jerarquía del objeto OculusInteractionSampleRig incluido con el SDK de Meta.\relax }}{121}{figure.caption.156}%
+\contentsline {figure}{\numberline {7.75}{\ignorespaces Manos virtuales captadas usando el seguimiento de Meta Quest 2.\relax }}{122}{figure.caption.157}%
+\contentsline {figure}{\numberline {7.76}{\ignorespaces \textit {Interactors} que permiten coger, pulsar o lanzar rayos.\relax }}{123}{figure.caption.158}%
+\contentsline {figure}{\numberline {7.77}{\ignorespaces Zona de detección formada por un \textit {trigger} sobre una plataforma.\relax }}{124}{figure.caption.159}%
+\contentsline {figure}{\numberline {7.78}{\ignorespaces Código de la clase DetectZone que gestiona cada zona de detección.\relax }}{125}{figure.caption.160}%
+\contentsline {figure}{\numberline {7.79}{\ignorespaces Diagrama de la clase GameManager.\relax }}{127}{figure.caption.163}%
+\contentsline {figure}{\numberline {7.80}{\ignorespaces Grafo dirigido de los posibles cambios de estado durante el juego.\relax }}{128}{figure.caption.164}%
+\contentsline {figure}{\numberline {7.81}{\ignorespaces Código de la clase UIManager. Método para terminar el tutorial pulsando el botón de 'Entendido' y método para cargar los botones de elección de pruebas.\relax }}{130}{figure.caption.166}%
+\contentsline {figure}{\numberline {7.82}{\ignorespaces Diagrama de clase para UIManager.\relax }}{131}{figure.caption.167}%
+\contentsline {figure}{\numberline {7.83}{\ignorespaces Diagrama de clase para PruebasManager.\relax }}{132}{figure.caption.169}%
+\contentsline {figure}{\numberline {7.84}{\ignorespaces Diagrama de clase para EscenarioManager.\relax }}{133}{figure.caption.171}%
+\contentsline {figure}{\numberline {7.85}{\ignorespaces Diagrama de clase para TriggerManager.\relax }}{134}{figure.caption.173}%
+\contentsline {figure}{\numberline {7.86}{\ignorespaces Diagrama de clases de DetectManager y DetectZone.\relax }}{135}{figure.caption.175}%
+\contentsline {figure}{\numberline {7.87}{\ignorespaces Métodos de la clase DetectZone para comprobar si los objetos que entran y salen son de la categoría adecuada.\relax }}{136}{figure.caption.176}%
+\contentsline {figure}{\numberline {7.88}{\ignorespaces Método de la clase DetectManager para comprobar si las zonas de detección contienen los objetos correctos.\relax }}{137}{figure.caption.177}%
+\contentsline {figure}{\numberline {7.89}{\ignorespaces Método asíncrono que baja el ascensor en cada fotograma.\relax }}{137}{figure.caption.179}%
+\contentsline {figure}{\numberline {7.90}{\ignorespaces Diagrama de la clase Prueba y sus clases herederas.\relax }}{138}{figure.caption.181}%
+\contentsline {figure}{\numberline {7.91}{\ignorespaces Método sobrescrito para comprobar si la prueba de asociaciones es correcta.\relax }}{138}{figure.caption.182}%
+\contentsline {figure}{\numberline {7.92}{\ignorespaces Diagrama de las clases desarrolladas para este proyecto.\relax }}{140}{figure.caption.184}%
+\contentsline {figure}{\numberline {7.93}{\ignorespaces Diagrama de secuencia de una partida del juego.\relax }}{142}{figure.caption.186}%
+\contentsline {figure}{\numberline {7.94}{\ignorespaces Personas encuestadas identificadas por letras y divididas por grupos de edad, conocimientos tecnológicos y familiaridad con la RV.\relax }}{145}{figure.caption.189}%
+\contentsline {figure}{\numberline {7.95}{\ignorespaces Representación de los resultados de un SUS. \cite {MU_eval_sus}\relax }}{147}{figure.caption.192}%
+\contentsline {xpart}{Conclusiones}{153}{part.4}%
+\contentsline {xpart}{Bibliografía}{157}{part.5}%
+\contentsline {xpart}{Apéndices}{165}{part.6}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Game Desing Document}{163}{appendix.Alph1}%
+\contentsline {xchapter}{Game Desing Document}{165}{appendix.Alph1}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Cuestionarios}{169}{appendix.Alph2}%
+\contentsline {xchapter}{Cuestionarios}{171}{appendix.Alph2}%
 \contentsfinish 
 \contentsfinish 
